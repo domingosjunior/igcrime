@@ -1,0 +1,38 @@
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+html,
+body,
+main { height:100%; }
+
+a{
+  color: inherit;
+  &:hover,
+  &:active,
+  &:focus,
+  &:focus:hover { transition-duration: 0.1s; }
+  &:hover { text-decoration: inherit; }
+}
+
+img, iframe, object, video {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+form {
+  &:after,
+  &:before {
+    display: table;
+    content: " ";
+  }
+  &:after { clear: both; }
+}
+
+textarea {
+  max-width: 100%;
+  width: 100%;
+}
+
+b { font-family: 'robotobold'; }

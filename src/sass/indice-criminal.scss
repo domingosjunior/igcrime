@@ -1,0 +1,25 @@
+// Css raiz do projeto
+
+/*!
+ * Indice criminal do estado do rio de janeiro.
+ * Desenvolvido por Ministério Público do Estado do Rio de Janeiro em: 03/07/2017
+ */
+
+// Libs
+@import "../sassLibs/fontawesome/font-awesome.scss";
+// @import "../sassLibs/_bootstrap.scss";
+
+// Config
+@import "../sass/config/_variaveis.scss";
+
+// Tipografia
+@import "../sass/_tipografia.scss";
+
+// Geral
+@import "../sass/geral/_reset.scss";
+
+// Componentes
+// @import "../sass/componentes/_btns.scss";
+
+// Paginas
+@import "../sass/layout/_index.scss";
