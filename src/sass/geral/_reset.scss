@@ -8,11 +8,14 @@ main { height:100%; }
 
 a{
   color: inherit;
+
   &:hover,
   &:active,
   &:focus,
   &:focus:hover { transition-duration: 0.1s; }
+
   &:hover { text-decoration: inherit; }
+
 }
 
 img, iframe, object, video {
@@ -22,12 +25,15 @@ img, iframe, object, video {
 }
 
 form {
+
   &:after,
   &:before {
     display: table;
     content: " ";
   }
+
   &:after { clear: both; }
+
 }
 
 textarea {
