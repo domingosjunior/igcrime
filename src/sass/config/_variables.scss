@@ -3,9 +3,9 @@ $path-img: '../img/';
 
 //fonts
 
-$fallback-font: Arial, Verdana, Sans-serif;
+$fallback-font:', Arial, Verdana, Sans-serif';
 
-$font-montreg: "montserrat_regular, $fallback-font";
-$font-montbol: "montserrat_bold, $fallback-font";
-$font-montita: "montserrat_italic, $fallback-font";
-$font-montlight: "montserrat_light, $fallback-font";
+$font-montreg: "montserrat_regular"#{$fallback-font};
+$font-montbol: "montserrat_bold"#{$fallback-font};
+$font-montita: "montserrat_italic"#{$fallback-font};
+$font-montlight: "montserrat_light"#{$fallback-font};

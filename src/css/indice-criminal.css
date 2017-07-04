@@ -13137,7 +13137,7 @@ body {
   z-index: 2;
   padding-top: 100px;
   font-size: 20px;
-  font-family: "montserrat_light, $fallback-font";
+  font-family: "montserrat_light", Arial, Verdana, Sans-serif;
   color: #ffffff;
 }
 
