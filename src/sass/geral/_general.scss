@@ -1,7 +1,9 @@
 // CSS general
 
 body {
-  font-family: 'montserrat_regular';
+  @include font-family('regular');
   background-color: #ffffff;
 }
 
+b { @include font-family('bold'); }
+strong { @include font-family('extrabold') }

@@ -60,3 +60,48 @@
     -moz-osx-font-smoothing: grayscale;
 
 }
+
+@font-face {
+    font-family: 'montserrat_semibolditalic';
+    src: url('../fonts/montserrat-semibolditalic-webfont.eot');
+    src: url('../fonts/montserrat-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-semibolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-semibolditalic-webfont.woff') format('woff'),
+         url('../fonts/montserrat-semibolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-semibolditalic-webfont.svg#montserratsemibolditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+@font-face {
+    font-family: 'montserrat_extrabold';
+    src: url('../fonts/montserrat-extrabold-webfont.eot');
+    src: url('../fonts/montserrat-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-extrabold-webfont.woff') format('woff'),
+         url('../fonts/montserrat-extrabold-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-extrabold-webfont.svg#montserratextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+@font-face {
+    font-family: 'montserrat_extrabolditalic';
+    src: url('../fonts/montserrat-extrabolditalic-webfont.eot');
+    src: url('../fonts/montserrat-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-extrabolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-extrabolditalic-webfont.woff') format('woff'),
+         url('../fonts/montserrat-extrabolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-extrabolditalic-webfont.svg#montserratextrabolditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}

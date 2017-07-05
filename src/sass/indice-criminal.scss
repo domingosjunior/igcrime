@@ -11,6 +11,7 @@
 
 // Config
 @import "../sass/config/_variables.scss";
+@import "../sass/config/_mixins.scss";
 
 // Font-face
 @import "../sass/_fonts.scss";
@@ -22,6 +23,8 @@
 @import "../sass/geral/_general.scss";
 
 // Layout
+@import "../sass/layout/_sections.scss";
 @import "../sass/layout/_topfixed.scss";
 @import "../sass/layout/_section-intro.scss";
+@import "../sass/layout/_section-como-analizado.scss";
 

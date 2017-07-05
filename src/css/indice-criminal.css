@@ -12992,6 +12992,36 @@ button.close {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'montserrat_semibolditalic';
+  src: url("../fonts/montserrat-semibolditalic-webfont.eot");
+  src: url("../fonts/montserrat-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-semibolditalic-webfont.woff2") format("woff2"), url("../fonts/montserrat-semibolditalic-webfont.woff") format("woff"), url("../fonts/montserrat-semibolditalic-webfont.ttf") format("truetype"), url("../fonts/montserrat-semibolditalic-webfont.svg#montserratsemibolditalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'montserrat_extrabold';
+  src: url("../fonts/montserrat-extrabold-webfont.eot");
+  src: url("../fonts/montserrat-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-extrabold-webfont.woff2") format("woff2"), url("../fonts/montserrat-extrabold-webfont.woff") format("woff"), url("../fonts/montserrat-extrabold-webfont.ttf") format("truetype"), url("../fonts/montserrat-extrabold-webfont.svg#montserratextrabold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'montserrat_extrabolditalic';
+  src: url("../fonts/montserrat-extrabolditalic-webfont.eot");
+  src: url("../fonts/montserrat-extrabolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-extrabolditalic-webfont.woff2") format("woff2"), url("../fonts/montserrat-extrabolditalic-webfont.woff") format("woff"), url("../fonts/montserrat-extrabolditalic-webfont.ttf") format("truetype"), url("../fonts/montserrat-extrabolditalic-webfont.svg#montserratextrabolditalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /* ==========================================================================
    Reset
    ========================================================================== */
@@ -13048,8 +13078,31 @@ b {
 
 /* line 3, src/sass/geral/_general.scss */
 body {
-  font-family: 'montserrat_regular';
+  font-family: "montserrat_regular", Arial, Verdana, Sans-serif;
   background-color: #ffffff;
+}
+
+/* line 8, src/sass/geral/_general.scss */
+b {
+  font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
+}
+
+/* line 9, src/sass/geral/_general.scss */
+strong {
+  font-family: "montserrat_extrabold", Arial, Verdana, Sans-serif;
+}
+
+/* line 6, src/sass/layout/_sections.scss */
+.section-header-title {
+  text-transform: uppercase;
+  font-size: 46px;
+  font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
+  color: #ffffff;
+}
+
+/* line 12, src/sass/layout/_sections.scss */
+.section-header-title span {
+  color: #1d1b1b;
 }
 
 /* line 3, src/sass/layout/_topfixed.scss */
@@ -13060,36 +13113,36 @@ body {
 /* line 7, src/sass/layout/_topfixed.scss */
 .topbar {
   padding-top: 30px;
+  padding-bottom: 30px;
+  color: #ffffff;
+  transition: all .15s;
 }
 
-/* line 10, src/sass/layout/_topfixed.scss */
+/* line 13, src/sass/layout/_topfixed.scss */
 .topbar-logo {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   margin-top: 0;
   margin-bottom: 0;
-  width: 100px;
-  height: 42px;
-  text-indent: -9999px;
-  background: url("../img/img-logo-icg_100w_x42h.png");
+  font-size: 56px;
+  font-family: "montserrat_semibolditalic", Arial, Verdana, Sans-serif;
 }
 
-/* line 21, src/sass/layout/_topfixed.scss */
+/* line 22, src/sass/layout/_topfixed.scss */
 .topbar-menu {
   padding-top: 10px;
   font-size: 16px;
-  color: #ffffff;
 }
 
-/* line 30, src/sass/layout/_topfixed.scss */
-.topbar-menu li a {
+/* line 29, src/sass/layout/_topfixed.scss */
+.topbar-menu a {
   position: relative;
   display: block;
   margin-left: 12px;
 }
 
-/* line 35, src/sass/layout/_topfixed.scss */
-.topbar-menu li a:after {
+/* line 34, src/sass/layout/_topfixed.scss */
+.topbar-menu a:after {
   content: '';
   position: absolute;
   left: 0;
@@ -13098,19 +13151,38 @@ body {
   opacity: 0;
   height: 2px;
   background: #ffffff;
-  transition: all .4s ease-out;
+  transition: all .25s ease-out;
 }
 
-/* line 48, src/sass/layout/_topfixed.scss */
-.topbar-menu li a:hover {
+/* line 46, src/sass/layout/_topfixed.scss */
+.topbar-menu a:hover {
   color: #ffffff;
 }
 
-/* line 51, src/sass/layout/_topfixed.scss */
-.topbar-menu li a:hover:after {
+/* line 49, src/sass/layout/_topfixed.scss */
+.topbar-menu a:hover:after {
   width: 100%;
   opacity: 1;
-  transition: all .35s ease-in;
+  transition: all .3s ease-in;
+}
+
+/* line 62, src/sass/layout/_topfixed.scss */
+.topbar.active {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  transition: all .3s;
+  background-color: #ffffff;
+  color: #99070b;
+}
+
+/* line 69, src/sass/layout/_topfixed.scss */
+.topbar.active .topbar-menu a:hover {
+  color: #99070b;
+}
+
+/* line 71, src/sass/layout/_topfixed.scss */
+.topbar.active .topbar-menu a:hover:after {
+  background: #99070b;
 }
 
 /* line 3, src/sass/layout/_section-intro.scss */
@@ -13119,26 +13191,32 @@ body {
   background-color: #ff0000;
 }
 
-/* line 8, src/sass/layout/_section-intro.scss */
+/* line 7, src/sass/layout/_section-intro.scss */
 .bgcolor-section-intro:after {
   content: '';
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../img/img-prisao_1300w_x_790h.jpg");
+  background: url("../img/img-prisao_1980w_x_1268h.jpg");
   background-size: cover;
-  opacity: .28;
+  opacity: .25;
 }
 
-/* line 22, src/sass/layout/_section-intro.scss */
+/* line 21, src/sass/layout/_section-intro.scss */
 .section-intro {
   position: relative;
   z-index: 2;
-  padding-top: 100px;
+  padding-top: 120px;
   font-size: 20px;
   font-family: "montserrat_light", Arial, Verdana, Sans-serif;
   color: #ffffff;
+}
+
+/* line 30, src/sass/layout/_section-intro.scss */
+.section-intro-subtitle {
+  margin-top: 50px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=indice-criminal.css.map */

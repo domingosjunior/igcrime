@@ -1,0 +1,19 @@
+// General sections
+
+
+.section-header {
+
+  &-title {
+    text-transform: uppercase;
+    font-size: 46px;
+    @include font-family('bold');
+    color: #ffffff;
+
+    span {
+      color: #1d1b1b;
+    }
+
+  }
+
+}
+

@@ -1,0 +1,6 @@
+// Mixins project
+
+// Mixing to fonts
+@mixin font-family($variation) {
+    font-family: "#{$font-family}_#{$variation}",#{$fallback-fonts};
+}

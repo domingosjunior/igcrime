@@ -6,54 +6,50 @@
 
 .topbar {
   padding-top: 30px;
+  padding-bottom: 30px;
+  color: $topbar-text-color;
+  transition: all .15s;
 
   &-logo {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     margin-top: 0;
     margin-bottom: 0;
-    width: 100px;
-    height: 42px;
-    text-indent: -9999px;
-    background: url("#{$path-img}img-logo-icg_100w_x42h.png");
+    font-size: 56px;
+    @include font-family('semibolditalic');
   }
 
   &-menu {
     @extend %inline-blockmenu;
     padding-top: 10px;
     font-size: 16px;
-    color: #ffffff;
 
-    li {
-      @extend %inline-blockmenu;
+    li { @extend %inline-blockmenu; }
 
-      a {
-        position: relative;
-        display: block;
-        margin-left: 12px;
+    a {
+      position: relative;
+      display: block;
+      margin-left: 12px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left:0;
+        bottom: 0;
+        width: 0;
+        opacity: 0;
+        height: 2px;
+        background: $topbar-menu-after-bgcolor;
+        transition: all .25s ease-out;
+      }
+
+      &:hover {
+        color: $topbar-menu-hover-color;
 
         &:after {
-          content: '';
-          position: absolute;
-          left:0;
-          bottom: 0;
-          width: 0;
-          opacity: 0;
-          height: 2px;
-          background: #ffffff;
-          transition: all .4s ease-out;
-        }
-
-
-        &:hover {
-          color: #ffffff;
-
-          &:after {
-            width: 100%;
-            opacity: 1;
-            transition: all .35s ease-in;
-
-          }
+          width: 100%;
+          opacity: 1;
+          transition: all .3s ease-in;
 
         }
 
@@ -61,6 +57,21 @@
 
     }
 
+  }
+
+   &.active {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    transition: all .3s;
+    background-color: $topbar-active-bgcolor;
+    color: $topbar-active-text-color;
+
+    .topbar-menu a:hover {
+        color: $topbar-active-menu-hover-color;
+        &:after {
+          background: #99070b;
+        }
+    }
   }
 
 
