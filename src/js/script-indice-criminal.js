@@ -12,5 +12,9 @@ $(function(){
 
     });
 
-    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip-filtro"]').tooltip({
+        template:'<div class="tooltip tooltip-filtro" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
+
+    });
+    // $('[data-toggle="tooltip-filtro"]').tooltip('show');
 });

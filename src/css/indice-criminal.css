@@ -13102,7 +13102,7 @@ strong {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #ffffff;
-  border-bottom: solid 4px transparent;
+  border-bottom: solid 8px transparent;
   transition: all .15s;
 }
 
@@ -13160,18 +13160,18 @@ strong {
   padding-bottom: 10px;
   transition: all .3s;
   background-color: #ffffff;
-  color: #99070b;
+  color: #000000;
   border-color: #99070b;
 }
 
 /* line 71, src/sass/layout/_topbar.scss */
 .topbar.active .topbar--menu a:hover {
-  color: #99070b;
+  color: #000000;
 }
 
 /* line 73, src/sass/layout/_topbar.scss */
 .topbar.active .topbar--menu a:hover:after {
-  background: #99070b;
+  background: #000000;
 }
 
 /* line 6, src/sass/layout/_sections.scss */
@@ -13222,7 +13222,17 @@ strong {
   text-align: center;
 }
 
-/* line 6, src/sass/layout/_section-como-analizado.scss */
+/* line 5, src/sass/layout/_section-como-analizado.scss */
+.filter-item .svg-filtro--path-topo, .filter-item .svg-filtro--path-body, .filter-item .svg-filtro--txt path {
+  transition: all .15s ease;
+}
+
+/* line 9, src/sass/layout/_section-como-analizado.scss */
+.filter-item:hover .svg-filtro--path-topo, .filter-item:hover .svg-filtro--path-body, .filter-item:hover .svg-filtro--txt path {
+  transition: all .3s ease;
+}
+
+/* line 13, src/sass/layout/_section-como-analizado.scss */
 .bg-section-analizado {
   position: relative;
   background-color: white;
@@ -13233,69 +13243,156 @@ strong {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c34e67',GradientType=0 );
 }
 
-/* line 17, src/sass/layout/_section-como-analizado.scss */
+/* line 24, src/sass/layout/_section-como-analizado.scss */
 .bg-section-analizado:before {
   content: '';
   width: 100%;
-  height: 100vw;
+  height: 100%;
   position: absolute;
   z-index: 1;
-  top: -100px;
+  top: -140px;
   left: 0;
-  background: url("../img/border-trianguile.svg") no-repeat top;
+  background: url("../img/border-triangle.svg") no-repeat top;
 }
 
-/* line 30, src/sass/layout/_section-como-analizado.scss */
+/* line 37, src/sass/layout/_section-como-analizado.scss */
 .section-analizado {
   position: relative;
   z-index: 2;
+  padding-top: 50px;
 }
 
-/* line 34, src/sass/layout/_section-como-analizado.scss */
+/* line 42, src/sass/layout/_section-como-analizado.scss */
+.section-analizado .section-header {
+  margin-bottom: 50px;
+}
+
+/* line 44, src/sass/layout/_section-como-analizado.scss */
 .section-analizado .section-header--title {
   color: #000000;
 }
 
-/* line 37, src/sass/layout/_section-como-analizado.scss */
+/* line 46, src/sass/layout/_section-como-analizado.scss */
 .section-analizado .section-header--title span {
   color: #dc2525;
 }
 
-/* line 43, src/sass/layout/_section-como-analizado.scss */
+/* line 49, src/sass/layout/_section-como-analizado.scss */
 .section-analizado--filter {
   width: 430px;
   text-align: center;
 }
 
-/* line 47, src/sass/layout/_section-como-analizado.scss */
-.section-analizado--filter .filter-item {
-  margin-right: auto;
-  margin-left: auto;
+/* line 57, src/sass/layout/_section-como-analizado.scss */
+.filter-item {
+  position: relative;
+  margin: 0 auto 10px;
+  text-align: left;
+  overflow: hidden;
 }
 
-/* line 52, src/sass/layout/_section-como-analizado.scss */
-.section-analizado--filter .filter-item img {
-  margin: 0;
+/* line 63, src/sass/layout/_section-como-analizado.scss */
+.filter-item:before {
+  content: '\f055';
+  position: absolute;
+  top: 39%;
+  right: 0;
+  font: 30px 'FontAwesome';
+  color: #1b1e20;
 }
 
-/* line 56, src/sass/layout/_section-como-analizado.scss */
-.section-analizado--filter .filter-item.filtrados {
-  width: 330px;
+/* line 73, src/sass/layout/_section-como-analizado.scss */
+.filter-item:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  border: 2px dashed #1b1e20;
 }
 
-/* line 60, src/sass/layout/_section-como-analizado.scss */
-.section-analizado--filter .filter-item.analisados {
-  width: 250px;
+/* line 82, src/sass/layout/_section-como-analizado.scss */
+.filter-item.delitos {
+  width: 740px;
 }
 
-/* line 64, src/sass/layout/_section-como-analizado.scss */
-.section-analizado--filter .filter-item.fatores {
-  width: 178px;
+/* line 84, src/sass/layout/_section-como-analizado.scss */
+.filter-item.delitos:after {
+  width: 36%;
 }
 
-/* line 68, src/sass/layout/_section-como-analizado.scss */
-.section-analizado--filter .filter-item.indice {
-  width: 120px;
+/* line 87, src/sass/layout/_section-como-analizado.scss */
+.filter-item.filtrados {
+  width: 620px;
+  padding-left: 50px;
+}
+
+/* line 90, src/sass/layout/_section-como-analizado.scss */
+.filter-item.filtrados:after {
+  width: 33%;
+}
+
+/* line 93, src/sass/layout/_section-como-analizado.scss */
+.filter-item.analisados {
+  width: 450px;
+  padding-left: 92px;
+}
+
+/* line 96, src/sass/layout/_section-como-analizado.scss */
+.filter-item.analisados:after {
+  width: 17%;
+}
+
+/* line 99, src/sass/layout/_section-como-analizado.scss */
+.filter-item.fatores {
+  width: 355px;
+  padding-left: 92px;
+}
+
+/* line 102, src/sass/layout/_section-como-analizado.scss */
+.filter-item.fatores:after {
+  width: 14%;
+}
+
+/* line 105, src/sass/layout/_section-como-analizado.scss */
+.filter-item.indice {
+  width: 260px;
+  padding-left: 72px;
+}
+
+/* line 108, src/sass/layout/_section-como-analizado.scss */
+.filter-item.indice:after {
+  width: 12%;
+}
+
+/* line 123, src/sass/layout/_section-como-analizado.scss */
+.filter-item:hover .svg-filtro--path-topo {
+  fill: #353535;
+}
+
+/* line 128, src/sass/layout/_section-como-analizado.scss */
+.filter-item:hover .svg-filtro--path-body {
+  fill: #161516;
+}
+
+/* line 133, src/sass/layout/_section-como-analizado.scss */
+.filter-item:hover .svg-filtro--txt path {
+  fill: #ffffff;
+}
+
+/* line 146, src/sass/layout/_section-como-analizado.scss */
+.tooltip-filtro.in {
+  opacity: 1;
+}
+
+/* line 148, src/sass/layout/_section-como-analizado.scss */
+.tooltip-filtro .tooltip-inner {
+  padding: 25px 30px;
+  max-width: none;
+  font-size: 16px;
+  text-align: left;
+  background-color: #1b1e20;
+  border-radius: 30px;
 }
 
 /*# sourceMappingURL=indice-criminal.css.map */
