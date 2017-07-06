@@ -66,12 +66,12 @@
     transition: all .3s;
     background-color: $topbar-active-bgcolor;
     color: $topbar-active-text-color;
-    border-color: #99070b;
+    border-color: $topbar-active-bordercolor;
 
     .topbar--menu a:hover {
         color: $topbar-active-menu-hover-color;
         &:after {
-          background: #99070b;
+          background: $topbar-active-menu-after-hover-bgcolor;
         }
     }
   }
