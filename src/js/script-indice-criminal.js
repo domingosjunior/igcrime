@@ -4,12 +4,13 @@
  */
 
 $(function(){
+
     // Add class in topbar
     $(window).scroll(function(){
-
         var $bar = $('.topbar');
         $bar.offset().top > 0 ? $bar.addClass('active') : $bar.removeClass('active');
 
     });
 
+    $('[data-toggle="tooltip"]').tooltip();
 });

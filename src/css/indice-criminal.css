@@ -13025,101 +13025,89 @@ button.close {
 /* ==========================================================================
    Reset
    ========================================================================== */
-/* line 5, src/sass/geral/_reset.scss */
+/* line 5, src/sass/general/_reset.scss */
 html,
 body,
 main {
   height: 100%;
 }
 
-/* line 9, src/sass/geral/_reset.scss */
+/* line 9, src/sass/general/_reset.scss */
 a {
   color: inherit;
 }
 
-/* line 12, src/sass/geral/_reset.scss */
+/* line 12, src/sass/general/_reset.scss */
 a:hover, a:active, a:focus, a:focus:hover {
   transition-duration: 0.1s;
 }
 
-/* line 17, src/sass/geral/_reset.scss */
+/* line 17, src/sass/general/_reset.scss */
 a:hover {
   text-decoration: inherit;
 }
 
-/* line 21, src/sass/geral/_reset.scss */
+/* line 22, src/sass/general/_reset.scss */
 img, iframe, object, video {
   max-width: 100%;
   width: auto;
   height: auto;
 }
 
-/* line 29, src/sass/geral/_reset.scss */
+/* line 30, src/sass/general/_reset.scss */
 form:after, form:before {
   display: table;
   content: " ";
 }
 
-/* line 35, src/sass/geral/_reset.scss */
+/* line 36, src/sass/general/_reset.scss */
 form:after {
   clear: both;
 }
 
-/* line 39, src/sass/geral/_reset.scss */
+/* line 40, src/sass/general/_reset.scss */
 textarea {
   max-width: 100%;
   width: 100%;
 }
 
-/* line 44, src/sass/geral/_reset.scss */
+/* line 45, src/sass/general/_reset.scss */
 b {
   font-family: 'robotobold';
 }
 
-/* line 3, src/sass/geral/_general.scss */
+/* line 3, src/sass/general/_general.scss */
 body {
   font-family: "montserrat_regular", Arial, Verdana, Sans-serif;
   background-color: #ffffff;
 }
 
-/* line 8, src/sass/geral/_general.scss */
+/* line 8, src/sass/general/_general.scss */
 b {
   font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
 }
 
-/* line 9, src/sass/geral/_general.scss */
+/* line 9, src/sass/general/_general.scss */
 strong {
   font-family: "montserrat_extrabold", Arial, Verdana, Sans-serif;
 }
 
-/* line 6, src/sass/layout/_sections.scss */
-.section-header-title {
-  text-transform: uppercase;
-  font-size: 46px;
-  font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
-  color: #ffffff;
-}
-
-/* line 12, src/sass/layout/_sections.scss */
-.section-header-title span {
-  color: #1d1b1b;
-}
-
-/* line 3, src/sass/layout/_topfixed.scss */
-.topbar-menu, .topbar-menu li {
+/* line 3, src/sass/layout/_topbar.scss */
+.topbar--menu, .topbar--menu li {
   display: inline-block;
 }
 
-/* line 7, src/sass/layout/_topfixed.scss */
+/* line 7, src/sass/layout/_topbar.scss */
 .topbar {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #ffffff;
+  border-bottom: solid 4px transparent;
   transition: all .15s;
 }
 
-/* line 13, src/sass/layout/_topfixed.scss */
-.topbar-logo {
+/* line 14, src/sass/layout/_topbar.scss */
+.topbar--logo {
   display: inline-block;
   vertical-align: middle;
   margin-top: 0;
@@ -13128,21 +13116,21 @@ strong {
   font-family: "montserrat_semibolditalic", Arial, Verdana, Sans-serif;
 }
 
-/* line 22, src/sass/layout/_topfixed.scss */
-.topbar-menu {
+/* line 23, src/sass/layout/_topbar.scss */
+.topbar--menu {
   padding-top: 10px;
   font-size: 16px;
 }
 
-/* line 29, src/sass/layout/_topfixed.scss */
-.topbar-menu a {
+/* line 30, src/sass/layout/_topbar.scss */
+.topbar--menu a {
   position: relative;
   display: block;
   margin-left: 12px;
 }
 
-/* line 34, src/sass/layout/_topfixed.scss */
-.topbar-menu a:after {
+/* line 35, src/sass/layout/_topbar.scss */
+.topbar--menu a:after {
   content: '';
   position: absolute;
   left: 0;
@@ -13154,44 +13142,59 @@ strong {
   transition: all .25s ease-out;
 }
 
-/* line 46, src/sass/layout/_topfixed.scss */
-.topbar-menu a:hover {
+/* line 47, src/sass/layout/_topbar.scss */
+.topbar--menu a:hover {
   color: #ffffff;
 }
 
-/* line 49, src/sass/layout/_topfixed.scss */
-.topbar-menu a:hover:after {
+/* line 50, src/sass/layout/_topbar.scss */
+.topbar--menu a:hover:after {
   width: 100%;
   opacity: 1;
   transition: all .3s ease-in;
 }
 
-/* line 62, src/sass/layout/_topfixed.scss */
+/* line 63, src/sass/layout/_topbar.scss */
 .topbar.active {
   padding-top: 15px;
   padding-bottom: 10px;
   transition: all .3s;
   background-color: #ffffff;
   color: #99070b;
+  border-color: #99070b;
 }
 
-/* line 69, src/sass/layout/_topfixed.scss */
-.topbar.active .topbar-menu a:hover {
+/* line 71, src/sass/layout/_topbar.scss */
+.topbar.active .topbar--menu a:hover {
   color: #99070b;
 }
 
-/* line 71, src/sass/layout/_topfixed.scss */
-.topbar.active .topbar-menu a:hover:after {
+/* line 73, src/sass/layout/_topbar.scss */
+.topbar.active .topbar--menu a:hover:after {
   background: #99070b;
+}
+
+/* line 6, src/sass/layout/_sections.scss */
+.section-header--title {
+  text-transform: uppercase;
+  font-size: 46px;
+  font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
+  color: #ffffff;
+}
+
+/* line 12, src/sass/layout/_sections.scss */
+.section-header--title span {
+  color: #1d1b1b;
 }
 
 /* line 3, src/sass/layout/_section-intro.scss */
 .bgcolor-section-intro {
   position: relative;
   background-color: #ff0000;
+  padding-bottom: 160px;
 }
 
-/* line 7, src/sass/layout/_section-intro.scss */
+/* line 8, src/sass/layout/_section-intro.scss */
 .bgcolor-section-intro:after {
   content: '';
   position: absolute;
@@ -13203,7 +13206,7 @@ strong {
   opacity: .25;
 }
 
-/* line 21, src/sass/layout/_section-intro.scss */
+/* line 22, src/sass/layout/_section-intro.scss */
 .section-intro {
   position: relative;
   z-index: 2;
@@ -13214,9 +13217,85 @@ strong {
 }
 
 /* line 30, src/sass/layout/_section-intro.scss */
-.section-intro-subtitle {
+.section-intro--subtitle {
   margin-top: 50px;
   text-align: center;
+}
+
+/* line 6, src/sass/layout/_section-como-analizado.scss */
+.bg-section-analizado {
+  position: relative;
+  background-color: white;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 50%, #c34e67 50%, #c34e67 100%);
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 50%, #c34e67 50%, #c34e67 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #c34e67 50%, #c34e67 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c34e67',GradientType=0 );
+}
+
+/* line 17, src/sass/layout/_section-como-analizado.scss */
+.bg-section-analizado:before {
+  content: '';
+  width: 100%;
+  height: 100vw;
+  position: absolute;
+  z-index: 1;
+  top: -100px;
+  left: 0;
+  background: url("../img/border-trianguile.svg") no-repeat top;
+}
+
+/* line 30, src/sass/layout/_section-como-analizado.scss */
+.section-analizado {
+  position: relative;
+  z-index: 2;
+}
+
+/* line 34, src/sass/layout/_section-como-analizado.scss */
+.section-analizado .section-header--title {
+  color: #000000;
+}
+
+/* line 37, src/sass/layout/_section-como-analizado.scss */
+.section-analizado .section-header--title span {
+  color: #dc2525;
+}
+
+/* line 43, src/sass/layout/_section-como-analizado.scss */
+.section-analizado--filter {
+  width: 430px;
+  text-align: center;
+}
+
+/* line 47, src/sass/layout/_section-como-analizado.scss */
+.section-analizado--filter .filter-item {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 52, src/sass/layout/_section-como-analizado.scss */
+.section-analizado--filter .filter-item img {
+  margin: 0;
+}
+
+/* line 56, src/sass/layout/_section-como-analizado.scss */
+.section-analizado--filter .filter-item.filtrados {
+  width: 330px;
+}
+
+/* line 60, src/sass/layout/_section-como-analizado.scss */
+.section-analizado--filter .filter-item.analisados {
+  width: 250px;
+}
+
+/* line 64, src/sass/layout/_section-como-analizado.scss */
+.section-analizado--filter .filter-item.fatores {
+  width: 178px;
+}
+
+/* line 68, src/sass/layout/_section-como-analizado.scss */
+.section-analizado--filter .filter-item.indice {
+  width: 120px;
 }
 
 /*# sourceMappingURL=indice-criminal.css.map */

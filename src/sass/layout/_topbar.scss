@@ -8,9 +8,10 @@
   padding-top: 30px;
   padding-bottom: 30px;
   color: $topbar-text-color;
+  border-bottom: solid 4px transparent;
   transition: all .15s;
 
-  &-logo {
+  &--logo {
     display: inline-block;
     vertical-align: middle;
     margin-top: 0;
@@ -19,7 +20,7 @@
     @include font-family('semibolditalic');
   }
 
-  &-menu {
+  &--menu {
     @extend %inline-blockmenu;
     padding-top: 10px;
     font-size: 16px;
@@ -65,8 +66,9 @@
     transition: all .3s;
     background-color: $topbar-active-bgcolor;
     color: $topbar-active-text-color;
+    border-color: #99070b;
 
-    .topbar-menu a:hover {
+    .topbar--menu a:hover {
         color: $topbar-active-menu-hover-color;
         &:after {
           background: #99070b;

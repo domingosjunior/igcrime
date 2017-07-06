@@ -3,6 +3,7 @@
 .bgcolor-section-intro {
   position: relative;
   background-color: #ff0000;
+  padding-bottom: 160px;
 
   &:after {
     content: '';
@@ -24,10 +25,9 @@
   padding-top: 120px;
   font-size: 20px;
   @include font-family('light');
-  // font-family: $font-montlight;
   color: #ffffff;
 
-  &-subtitle {
+  &--subtitle {
     margin-top: 50px;
     text-align: center;
   }
