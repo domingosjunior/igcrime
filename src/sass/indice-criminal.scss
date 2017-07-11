@@ -10,13 +10,14 @@
 @import "../sassLibs/_bootstrap.scss";
 
 // Config
-@import "../sass/config/_variables.scss";
+@import "../sass/config/_settings.scss";
 @import "../sass/config/_mixins.scss";
 
 // Font-face
 @import "../sass/_fonts.scss";
 
-// Components
+// Plugins
+@import "../sass/plugins/_anchor-scroll.scss";
 
 // General
 @import "../sass/general/_reset.scss";

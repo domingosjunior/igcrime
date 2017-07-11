@@ -27,8 +27,8 @@
         <div class="container">
             <h3 class="topbar--logo">ICG</h3>
             <ul class="topbar--menu">
-                <li><a href="#">INDÍCE</a></li>
-                <li><a href="#">ANÁLISE</a></li>
+                <li><a href="#area-inicio">INDÍCE</a></li>
+                <li><a href="#area-analise">ANÁLISE</a></li>
                 <li><a href="#">MAIS VIOLENTAS</a></li>
                 <li><a href="#">MAIS SEGURAS</a></li>
                 <li><a href="#">RANKING</a></li>
@@ -42,6 +42,7 @@
         <!-- section intro -->
         <div class="bgcolor-section-intro">
             <section class="container section-intro">
+                <span id="area-inicio" class="anchor-scroll">inicio</span>
                 <header class="section-header">
                     <h1 class="section-header--title">O Indíce geral de <br><span>criminalidade</span></h1>
                 </header>
@@ -54,10 +55,10 @@
 
         <div class="bg-section-analizado">
             <section class="container section-analizado">
+                <span id="area-analise" class="anchor-scroll">analise</span>
                 <header class="section-header">
                     <h1 class="section-header--title">COMO FOI<br><span>ANALIZADO</span></h1>
                 </header>
-
                 <div class="section-analizado--filter">
                     <figure class="filter-item delitos" data-toggle="tooltip-filtro" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea expedita maxime nihil eum voluptatibus, dolor ducimus reiciendis, veniam ut! Sequi laudantium eveniet quos, soluta veritatis voluptate reiciendis incidunt optio pariatur.">
                         <svg class="svg-filtro" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="439.4px" height="121.4px" viewBox="0 0 439.4 121.4" enable-background="new 0 0 439.4 121.4" xml:space="preserve">
@@ -410,7 +411,7 @@
 
      <!-- build:js js/script-indice-criminal-footer.js -->
      <script src="js/jquery.js"></script>
-     <script src="js/velocity.min"></script>
+     <script src="js/velocity.min.js"></script>
      <script src="js/bootstrap.js"></script>
      <script src="js/script-indice-criminal.js"></script>
      <!-- endbuild -->

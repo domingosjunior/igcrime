@@ -13022,6 +13022,12 @@ button.close {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* line 1, src/sass/plugins/_anchor-scroll.scss */
+.anchor-scroll {
+  position: absolute;
+  top: 0;
+}
+
 /* ==========================================================================
    Reset
    ========================================================================== */
@@ -13090,6 +13096,11 @@ b {
 /* line 9, src/sass/general/_general.scss */
 strong {
   font-family: "montserrat_extrabold", Arial, Verdana, Sans-serif;
+}
+
+/* line 10, src/sass/general/_general.scss */
+.container {
+  position: relative;
 }
 
 /* line 3, src/sass/layout/_topbar.scss */
