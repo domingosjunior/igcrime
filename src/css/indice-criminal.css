@@ -13025,7 +13025,9 @@ button.close {
 /* line 1, src/sass/plugins/_anchor-scroll.scss */
 .anchor-scroll {
   position: absolute;
-  top: 0;
+  top: -50px;
+  visibility: hidden;
+  font-size: 0;
 }
 
 /* ==========================================================================
