@@ -7,3 +7,4 @@ body {
 
 b { @include font-family('bold'); }
 strong { @include font-family('extrabold') }
+.container { position: relative; }
