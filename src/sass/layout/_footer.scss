@@ -1,0 +1,30 @@
+// Footer
+
+.footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #ffffff;
+
+  &-logo {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 90px;
+    height: 45px;
+    text-indent: -9999px;
+    background: url('#{$path-img}img-logo-mpemmapas_86w_x45h.png') no-repeat;
+
+    a {
+      display: block;
+      width: inherit;
+      height: inherit;
+    }
+  }
+
+  address {
+    float: right;
+    margin-bottom: 0;
+    width: 470px;
+    text-align: right;
+  }
+}

@@ -13419,4 +13419,37 @@ strong {
   border-radius: 30px;
 }
 
+/* line 3, src/sass/layout/_footer.scss */
+.footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
+
+/* line 8, src/sass/layout/_footer.scss */
+.footer-logo {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 90px;
+  height: 45px;
+  text-indent: -9999px;
+  background: url("../img/img-logo-mpemmapas_86w_x45h.png") no-repeat;
+}
+
+/* line 17, src/sass/layout/_footer.scss */
+.footer-logo a {
+  display: block;
+  width: inherit;
+  height: inherit;
+}
+
+/* line 24, src/sass/layout/_footer.scss */
+.footer address {
+  float: right;
+  margin-bottom: 0;
+  width: 470px;
+  text-align: right;
+}
+
 /*# sourceMappingURL=indice-criminal.css.map */
