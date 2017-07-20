@@ -13179,7 +13179,7 @@ strong {
   transition: all .3s;
   background-color: #ffffff;
   color: #000000;
-  border-color: #99070b;
+  border-color: #000000;
 }
 
 /* line 71, src/sass/layout/_topbar.scss */
@@ -13417,6 +13417,11 @@ strong {
   text-align: left;
   background-color: #1b1e20;
   border-radius: 30px;
+}
+
+/* line 3, src/sass/layout/_section-icgmuni.scss */
+.bg-section-icgmuni {
+  background-color: #303134;
 }
 
 /* line 3, src/sass/layout/_footer.scss */
