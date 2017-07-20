@@ -39,11 +39,17 @@
   z-index: 2;
   padding-top: 50px;
 
-  .section-header { margin-bottom: 50px; }
+  .section-header {
+    margin-bottom: 50px;
+    text-align: left;
+  }
 
   .section-header--title {
     color: $analizado-header-title;
-    span { color: $analizado-header-title-span; }
+    span {
+      font-size: 60px;
+      color: $analizado-header-title-span;
+    }
   }
 
   &--filter {

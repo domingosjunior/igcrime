@@ -2,9 +2,10 @@
 
 body {
   @include font-family('regular');
-  background-color: #ffffff;
+  background-color: $body-color;
 }
 
+main { height: auto; }
 b { @include font-family('bold'); }
 strong { @include font-family('extrabold') }
 .container { position: relative; }
