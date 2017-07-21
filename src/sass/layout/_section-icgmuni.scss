@@ -1,5 +1,35 @@
 // Section icg município
 
 .bg-section-icgmuni {
-  background-color: #303134;
+  background-color: #111214;
+}
+
+.section-icgmuni {
+    padding-top: 80px;
+
+    .section-header {
+      text-align: left;
+      color: #ffffff;
+
+      &--title {
+        text-transform: initial;
+      }
+
+    }
+}
+
+.maprio {
+
+  polygon {
+    transition: fill .3s ease-in-out .1s;
+    fill: #ffffff;
+
+    &:hover {
+      cursor: pointer;
+      fill: #c33056;
+      transition: fill .12s ease-in-out .1s;
+    }
+
+  }
+
 }

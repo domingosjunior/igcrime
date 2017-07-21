@@ -8,12 +8,16 @@
     font-size: 46px;
     @include font-family('bold');
     text-transform: uppercase;
-    color: #ffffff;
+    color: $section-header-title-color;
 
     span {
-      color: #1d1b1b;
+      color: $section-header-title-span-color;
     }
 
+  }
+
+  &--text {
+    font-size: 20px;
   }
 
 }

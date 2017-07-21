@@ -1,4 +1,7 @@
 
+$color-white: #ffffff;
+$color-black: #000000;
+
 // General
 $body-color: #272932;
 
@@ -10,22 +13,32 @@ $fallback-fonts:'Arial, Verdana, Sans-serif';
 $font-family: 'montserrat';
 
 //Top bar'
-$topbar-text-color: #ffffff;
-$topbar-menu-after-bgcolor: #ffffff;
-$topbar-menu-hover-color: #ffffff;
+$topbar-text-color: $color-white;
+$topbar-menu-after-bgcolor: $color-white;
+$topbar-menu-hover-color: $color-white;
 
-$topbar-active-bgcolor: #ffffff;
-$topbar-active-bordercolor: #000000;
-$topbar-active-text-color: #000000;
-$topbar-active-menu-hover-color: #000000;
-$topbar-active-menu-after-hover-bgcolor: #000000;
+$topbar-active-bgcolor: $color-white;
+$topbar-active-bordercolor: $color-black;
+$topbar-active-text-color: $color-black;
+$topbar-active-menu-hover-color: $color-black;
+$topbar-active-menu-after-hover-bgcolor: $color-black;
+
+// Sections
+$section-header-title-color: $color-white;
+$section-header-title-span-color: #bd2c4c;
+
+// Section intro
+$bgcolor-section-intro: #ff0000;
+$sec-intro-header-title-span-color: $color-black;
+$sec-intro-text-color: $color-white;
+
 
 // Como analizados
-$analizado-header-title: #000000;
+$analizado-header-title: $color-black;
 $analizado-header-title-span: #bd2c4c;
 $filter-item-before-color: #1b1e20;
 $filter-item-after-color: #1b1e20;
 $filter-item-svg-pahtop-color: #353535;
 $filter-item-svg-pahbody-color: #161516;
-$filter-item-svg-text-color: #ffffff;
+$filter-item-svg-text-color: $color-white;
 $filter-tooltip-bgcolor: #1b1e20;
