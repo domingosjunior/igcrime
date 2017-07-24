@@ -9,3 +9,10 @@ main { height: auto; }
 b { @include font-family('bold'); }
 strong { @include font-family('extrabold') }
 .container { position: relative; }
+
+
+
+// .fp-xuxa {
+//   .fp-section,
+//   .fp-tableCell { height: auto !important; }
+// }

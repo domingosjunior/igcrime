@@ -6,7 +6,7 @@
 $(function(){
     // Fullpage
     $('#fullpage').fullpage({
-        verticalCentered: true,
+        // verticalCentered: true,
         anchors: ['anchor1', 'anchor2', 'anchor3'],
         menu: '#menu',
         scrollOverflow: true

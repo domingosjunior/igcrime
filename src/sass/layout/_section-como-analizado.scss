@@ -116,6 +116,10 @@
     &:after { width: 12%; }
   }
 
+  &:hover {
+    cursor: help;
+  }
+
   //Style svg
 
   .svg-filtro {

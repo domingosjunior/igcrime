@@ -6,8 +6,12 @@
 
 .section-icgmuni {
     padding-top: 80px;
+    padding-bottom: 80px;
 
     .section-header {
+      position: relative;
+      top: 80px;
+      z-index: 1;
       text-align: left;
       color: #ffffff;
 
@@ -19,6 +23,8 @@
 }
 
 .maprio {
+  position: relative;
+  z-index: 2;
   width: 1000px;
 
   polygon {
