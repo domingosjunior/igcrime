@@ -5,11 +5,12 @@
 }
 
 .topbar {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
   color: $topbar-text-color;
   border-bottom: solid 8px transparent;
   transition: all .15s;
+  background-color: white;
+  color: #000000;
 
   &--logo {
     display: inline-block;

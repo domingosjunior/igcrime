@@ -7,7 +7,8 @@
 
 // Libs
 // @import "../sassLibs/fontawesome/font-awesome.scss";
-// @import "../sassLibs/_bootstrap.scss";
+
+@import "../sassLibs/_bootstrap.scss";
 
 // Config
 @import "../sass/config/_settings.scss";
@@ -17,7 +18,7 @@
 @import "../sass/_fonts.scss";
 
 // Plugins
-@import "../sass/plugins/_anchor-scroll.scss";
+// @import "../sass/plugins/_anchor-scroll.scss"; remover não precisa mais por conta do fullPage
 
 // General
 @import "../sass/general/_reset.scss";

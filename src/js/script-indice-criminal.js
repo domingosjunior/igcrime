@@ -6,9 +6,11 @@
 $(function(){
     // Fullpage
     $('#fullpage').fullpage({
-        anchors: ['firstPage', 'secondPage', 'thirdPage'],
-        menu: '#menuIndice',
-        scrollOverflowReset: true
+        verticalCentered: true,
+        anchors: ['anchor1', 'anchor2', 'anchor3'],
+        menu: '#menu',
+        scrollOverflow: true
+        // scrollOverflowReset: true
     });
 
     // // Add class in topbar
