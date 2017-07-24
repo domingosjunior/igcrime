@@ -6,11 +6,12 @@
 
 .topbar {
   padding-top: 15px;
+  padding-bottom: 5px;
   color: $topbar-text-color;
-  border-bottom: solid 8px transparent;
+  border-bottom: solid 6px #000;
   transition: all .15s;
-  background-color: white;
-  color: #000000;
+  background-color: $topbar-bg-color;
+  color: $topbar-text-color;
 
   &--logo {
     display: inline-block;
@@ -52,7 +53,7 @@
           width: 100%;
           opacity: 1;
           transition: all .3s ease-in;
-
+          background: $topbar-menu-hover-after-bgcolor;
         }
 
       }
@@ -61,21 +62,21 @@
 
   }
 
-   &.active {
-    padding-top: 15px;
-    padding-bottom: 10px;
-    transition: all .3s;
-    background-color: $topbar-active-bgcolor;
-    color: $topbar-active-text-color;
-    border-color: $topbar-active-bordercolor;
+  //  &.active {
+  //   padding-top: 15px;
+  //   padding-bottom: 10px;
+  //   transition: all .3s;
+  //   background-color: $topbar-active-bgcolor;
+  //   color: $topbar-active-text-color;
+  //   border-color: $topbar-active-bordercolor;
 
-    .topbar--menu a:hover {
-        color: $topbar-active-menu-hover-color;
-        &:after {
-          background: $topbar-active-menu-after-hover-bgcolor;
-        }
-    }
-  }
+  //   .topbar--menu a:hover {
+  //       color: $topbar-active-menu-hover-color;
+  //       &:after {
+  //         background: $topbar-active-menu-after-hover-bgcolor;
+  //       }
+  //   }
+  // }
 
 
 }

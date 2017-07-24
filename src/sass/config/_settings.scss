@@ -13,15 +13,12 @@ $fallback-fonts:'Arial, Verdana, Sans-serif';
 $font-family: 'montserrat';
 
 //Top bar'
-$topbar-text-color: $color-white;
+$topbar-text-color: $color-black;
+$topbar-bg-color: $color-white;
+$topbar-bg-bordercolor: $color-white;
 $topbar-menu-after-bgcolor: $color-white;
-$topbar-menu-hover-color: $color-white;
-
-$topbar-active-bgcolor: $color-white;
-$topbar-active-bordercolor: $color-black;
-$topbar-active-text-color: $color-black;
-$topbar-active-menu-hover-color: $color-black;
-$topbar-active-menu-after-hover-bgcolor: $color-black;
+$topbar-menu-hover-color: $color-black;
+$topbar-menu-hover-after-bgcolor: $color-black;
 
 // Sections
 $section-header-title-color: $color-white;

@@ -9352,14 +9352,15 @@ strong {
 /* line 7, src/sass/layout/_topbar.scss */
 .topbar {
   padding-top: 15px;
-  color: #ffffff;
-  border-bottom: solid 8px transparent;
+  padding-bottom: 5px;
+  color: #000000;
+  border-bottom: solid 6px #000;
   transition: all .15s;
-  background-color: white;
+  background-color: #ffffff;
   color: #000000;
 }
 
-/* line 15, src/sass/layout/_topbar.scss */
+/* line 16, src/sass/layout/_topbar.scss */
 .topbar--logo {
   display: inline-block;
   vertical-align: middle;
@@ -9369,20 +9370,20 @@ strong {
   font-family: "montserrat_semibolditalic", Arial, Verdana, Sans-serif;
 }
 
-/* line 24, src/sass/layout/_topbar.scss */
+/* line 25, src/sass/layout/_topbar.scss */
 .topbar--menu {
   padding-top: 10px;
   font-size: 16px;
 }
 
-/* line 31, src/sass/layout/_topbar.scss */
+/* line 32, src/sass/layout/_topbar.scss */
 .topbar--menu a {
   position: relative;
   display: block;
   margin-left: 12px;
 }
 
-/* line 36, src/sass/layout/_topbar.scss */
+/* line 37, src/sass/layout/_topbar.scss */
 .topbar--menu a:after {
   content: '';
   position: absolute;
@@ -9395,35 +9396,16 @@ strong {
   transition: all .25s ease-out;
 }
 
-/* line 48, src/sass/layout/_topbar.scss */
+/* line 49, src/sass/layout/_topbar.scss */
 .topbar--menu a:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
-/* line 51, src/sass/layout/_topbar.scss */
+/* line 52, src/sass/layout/_topbar.scss */
 .topbar--menu a:hover:after {
   width: 100%;
   opacity: 1;
   transition: all .3s ease-in;
-}
-
-/* line 64, src/sass/layout/_topbar.scss */
-.topbar.active {
-  padding-top: 15px;
-  padding-bottom: 10px;
-  transition: all .3s;
-  background-color: #ffffff;
-  color: #000000;
-  border-color: #000000;
-}
-
-/* line 72, src/sass/layout/_topbar.scss */
-.topbar.active .topbar--menu a:hover {
-  color: #000000;
-}
-
-/* line 74, src/sass/layout/_topbar.scss */
-.topbar.active .topbar--menu a:hover:after {
   background: #000000;
 }
 
@@ -9502,6 +9484,7 @@ strong {
 /* line 13, src/sass/layout/_section-como-analizado.scss */
 .bg-section-analizado {
   position: relative;
+  padding-top: 100px;
   background-color: white;
   background: #ffffff;
   background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 50%, #c34e67 50%, #c34e67 100%);
@@ -9510,7 +9493,7 @@ strong {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c34e67',GradientType=0 );
 }
 
-/* line 24, src/sass/layout/_section-como-analizado.scss */
+/* line 25, src/sass/layout/_section-como-analizado.scss */
 .bg-section-analizado:before {
   content: '';
   width: 100%;
@@ -9522,7 +9505,7 @@ strong {
   background: url("../img/border-triangle.svg") no-repeat top;
 }
 
-/* line 37, src/sass/layout/_section-como-analizado.scss */
+/* line 38, src/sass/layout/_section-como-analizado.scss */
 .section-analizado {
   position: relative;
   z-index: 2;
@@ -9530,30 +9513,30 @@ strong {
   padding-bottom: 50px;
 }
 
-/* line 43, src/sass/layout/_section-como-analizado.scss */
+/* line 44, src/sass/layout/_section-como-analizado.scss */
 .section-analizado .section-header {
   margin-bottom: 50px;
   text-align: left;
 }
 
-/* line 48, src/sass/layout/_section-como-analizado.scss */
+/* line 49, src/sass/layout/_section-como-analizado.scss */
 .section-analizado .section-header--title {
   color: #000000;
 }
 
-/* line 50, src/sass/layout/_section-como-analizado.scss */
+/* line 51, src/sass/layout/_section-como-analizado.scss */
 .section-analizado .section-header--title span {
   font-size: 60px;
   color: #bd2c4c;
 }
 
-/* line 56, src/sass/layout/_section-como-analizado.scss */
+/* line 57, src/sass/layout/_section-como-analizado.scss */
 .section-analizado--filter {
   width: 430px;
   text-align: center;
 }
 
-/* line 64, src/sass/layout/_section-como-analizado.scss */
+/* line 65, src/sass/layout/_section-como-analizado.scss */
 .filter-item {
   position: relative;
   margin: 0 auto 10px;
@@ -9561,7 +9544,7 @@ strong {
   overflow: hidden;
 }
 
-/* line 70, src/sass/layout/_section-como-analizado.scss */
+/* line 71, src/sass/layout/_section-como-analizado.scss */
 .filter-item:before {
   content: '\f055';
   position: absolute;
@@ -9571,7 +9554,7 @@ strong {
   color: #1b1e20;
 }
 
-/* line 80, src/sass/layout/_section-como-analizado.scss */
+/* line 81, src/sass/layout/_section-como-analizado.scss */
 .filter-item:after {
   content: '';
   position: absolute;
@@ -9581,81 +9564,81 @@ strong {
   border: 2px dashed #1b1e20;
 }
 
-/* line 89, src/sass/layout/_section-como-analizado.scss */
+/* line 90, src/sass/layout/_section-como-analizado.scss */
 .filter-item.delitos {
   width: 740px;
 }
 
-/* line 91, src/sass/layout/_section-como-analizado.scss */
+/* line 92, src/sass/layout/_section-como-analizado.scss */
 .filter-item.delitos:after {
   width: 36%;
 }
 
-/* line 94, src/sass/layout/_section-como-analizado.scss */
+/* line 95, src/sass/layout/_section-como-analizado.scss */
 .filter-item.filtrados {
   width: 620px;
   padding-left: 50px;
 }
 
-/* line 97, src/sass/layout/_section-como-analizado.scss */
+/* line 98, src/sass/layout/_section-como-analizado.scss */
 .filter-item.filtrados:after {
   width: 33%;
 }
 
-/* line 100, src/sass/layout/_section-como-analizado.scss */
+/* line 101, src/sass/layout/_section-como-analizado.scss */
 .filter-item.analisados {
   width: 450px;
   padding-left: 92px;
 }
 
-/* line 103, src/sass/layout/_section-como-analizado.scss */
+/* line 104, src/sass/layout/_section-como-analizado.scss */
 .filter-item.analisados:after {
   width: 17%;
 }
 
-/* line 106, src/sass/layout/_section-como-analizado.scss */
+/* line 107, src/sass/layout/_section-como-analizado.scss */
 .filter-item.fatores {
   width: 355px;
   padding-left: 92px;
 }
 
-/* line 109, src/sass/layout/_section-como-analizado.scss */
+/* line 110, src/sass/layout/_section-como-analizado.scss */
 .filter-item.fatores:after {
   width: 14%;
 }
 
-/* line 112, src/sass/layout/_section-como-analizado.scss */
+/* line 113, src/sass/layout/_section-como-analizado.scss */
 .filter-item.indice {
   width: 260px;
   padding-left: 72px;
 }
 
-/* line 115, src/sass/layout/_section-como-analizado.scss */
+/* line 116, src/sass/layout/_section-como-analizado.scss */
 .filter-item.indice:after {
   width: 12%;
 }
 
-/* line 130, src/sass/layout/_section-como-analizado.scss */
+/* line 131, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--path-topo {
   fill: #353535;
 }
 
-/* line 135, src/sass/layout/_section-como-analizado.scss */
+/* line 136, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--path-body {
   fill: #161516;
 }
 
-/* line 140, src/sass/layout/_section-como-analizado.scss */
+/* line 141, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--txt path {
   fill: #ffffff;
 }
 
-/* line 153, src/sass/layout/_section-como-analizado.scss */
+/* line 154, src/sass/layout/_section-como-analizado.scss */
 .tooltip-filtro.in {
   opacity: 1;
 }
 
-/* line 155, src/sass/layout/_section-como-analizado.scss */
+/* line 156, src/sass/layout/_section-como-analizado.scss */
 .tooltip-filtro .tooltip-inner {
   padding: 25px 30px;
   max-width: none;
@@ -9686,13 +9669,18 @@ strong {
   text-transform: initial;
 }
 
-/* line 23, src/sass/layout/_section-icgmuni.scss */
+/* line 21, src/sass/layout/_section-icgmuni.scss */
+.maprio {
+  width: 1000px;
+}
+
+/* line 24, src/sass/layout/_section-icgmuni.scss */
 .maprio polygon {
   transition: fill .3s ease-in-out .1s;
   fill: #ffffff;
 }
 
-/* line 27, src/sass/layout/_section-icgmuni.scss */
+/* line 28, src/sass/layout/_section-icgmuni.scss */
 .maprio polygon:hover {
   cursor: pointer;
   fill: #c33056;
