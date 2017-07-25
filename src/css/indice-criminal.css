@@ -13553,9 +13553,10 @@ strong {
 .section-icgmuni {
   padding-top: 80px;
   padding-bottom: 80px;
+  text-align: center;
 }
 
-/* line 11, src/sass/layout/_section-icgmuni.scss */
+/* line 12, src/sass/layout/_section-icgmuni.scss */
 .section-icgmuni .section-header {
   position: relative;
   top: 80px;
@@ -13564,25 +13565,33 @@ strong {
   color: #ffffff;
 }
 
-/* line 18, src/sass/layout/_section-icgmuni.scss */
+/* line 19, src/sass/layout/_section-icgmuni.scss */
 .section-icgmuni .section-header--title {
   text-transform: initial;
 }
 
-/* line 25, src/sass/layout/_section-icgmuni.scss */
+/* line 26, src/sass/layout/_section-icgmuni.scss */
 .maprio {
   position: relative;
   z-index: 2;
-  width: 1000px;
+  width: 800px;
 }
 
-/* line 30, src/sass/layout/_section-icgmuni.scss */
+@media (min-width: 1400px) {
+  /* line 26, src/sass/layout/_section-icgmuni.scss */
+  .maprio {
+    top: -60px;
+    width: 1000px;
+  }
+}
+
+/* line 36, src/sass/layout/_section-icgmuni.scss */
 .maprio polygon {
   transition: fill .3s ease-in-out .1s;
   fill: #ffffff;
 }
 
-/* line 34, src/sass/layout/_section-icgmuni.scss */
+/* line 40, src/sass/layout/_section-icgmuni.scss */
 .maprio polygon:hover {
   cursor: pointer;
   fill: #c33056;

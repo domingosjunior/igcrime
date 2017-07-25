@@ -7,6 +7,7 @@
 .section-icgmuni {
     padding-top: 80px;
     padding-bottom: 80px;
+    text-align: center;
 
     .section-header {
       position: relative;
@@ -25,7 +26,12 @@
 .maprio {
   position: relative;
   z-index: 2;
-  width: 1000px;
+  width: 800px;
+
+  @include mediamin(1400px){
+    top: -60px;
+    width: 1000px;
+  }
 
   polygon {
     transition: fill .3s ease-in-out .1s;
