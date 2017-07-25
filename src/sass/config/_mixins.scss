@@ -4,3 +4,10 @@
 @mixin font-family($variation) {
     font-family: "#{$font-family}_#{$variation}",#{$fallback-fonts};
 }
+
+
+@mixin mediamin($size) {
+ @media (min-width: $size){
+   @content;
+ }
+}
