@@ -14,7 +14,7 @@
 .section-wrap-analisado {
   z-index: 5;
   .fp-tableCell {
-      background-color: #c34e67;
+      background-color: $analizado-bgcolor-wrap;
   }
 }
 
@@ -61,11 +61,6 @@
   }
 
 }
-
-%teste {
-  color: red;
-}
-
 
 // Svg filter
 .filter-item {
