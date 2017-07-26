@@ -10,26 +10,7 @@ $(function(){
         anchors: ['anchor1', 'anchor2', 'anchor3'],
         menu: '#menu',
         scrollOverflow: true
-        // scrollOverflowReset: true
     });
-
-    // // Add class in topbar
-    // $(window).scroll(function(){
-    //     var $bar = $('.topbar');
-    //     $bar.offset().top > 0 ? $bar.addClass('active') : $bar.removeClass('active');
-    // });
-
-    // //Anchor smooth scrolling
-    //  $('a[href*="#"]').on('click', function (e) {
-    //     e.preventDefault();
-    //     e.stopPropagation();
-    //     var target = $(this).attr('href');
-    //     $(target).velocity('scroll', {
-    //         duration: 500,
-    //         offset: -40,
-    //         easing: 'ease-in-out'
-    //     });
-    // });
 
     //Tooltip funnel
     $('[data-toggle="tooltip-filtro"]').tooltip({
