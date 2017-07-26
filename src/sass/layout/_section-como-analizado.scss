@@ -1,35 +1,27 @@
 // Section como analizado
 
-
-// Config hover svg
-%filtro-svg-trsn {
-  transition: all .15s ease;
-}
-
-%filtro-hover-svg-trsn {
-  transition: all .3s ease;
-}
-
-
-.section-wrap-analisado {
-  z-index: 5;
-  .fp-tableCell {
-      background-color: $analizado-bgcolor-wrap;
-  }
-}
-
-.bg-section-analizado {
-  position: relative;
-  padding-top: 100px;
-  background-color: rgba(255,255,255,1);
-
+%bggradient-analisado {
   // Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+50,c34e67+50,c34e67+100
+  background-color: rgba(255,255,255,1);
   background: #ffffff;
   background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 50%, #c34e67 50%, #c34e67 100%);
   background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 50%,#c34e67 50%,#c34e67 100%);
   background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 50%,#c34e67 50%,#c34e67 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c34e67',GradientType=0 );
+}
 
+.section-wrap-analisado {
+  z-index: 5;
+  .fp-tableCell {
+      // background-color: $analizado-bgcolor-wrap;
+      @extend %bggradient-analisado;
+
+  }
+}
+
+.bg-section-analizado {
+  position: relative;
+  @extend %bggradient-analisado;
 }
 
 .section-analizado {
@@ -62,7 +54,17 @@
 
 }
 
+
 // Svg filter
+
+%filtro-svg-trsn {
+  transition: all .15s ease;
+}
+
+%filtro-hover-svg-trsn {
+  transition: all .3s ease;
+}
+
 .filter-item {
   position: relative;
   margin: 0 auto 10px;
@@ -99,21 +101,6 @@
     }
 
   }
-
-  &.filtrados,
-  &.analisados,
-  &.fatores,
-  &.indice {
-    @include mediamin(1400px){
-      top: 0;
-      left: 0;
-      width: 740px;
-      svg {
-          width: auto;
-      }
-    }
-  }
-
 
   &.filtrados {
     top: -36px;
@@ -172,6 +159,20 @@
     }
   }
 
+  &.filtrados,
+  &.analisados,
+  &.fatores,
+  &.indice {
+    @include mediamin(1400px){
+      top: 0;
+      left: 0;
+      width: 740px;
+      svg {
+          width: auto;
+      }
+    }
+  }
+
   &:hover {
     cursor: help;
   }
@@ -210,9 +211,7 @@
 }
 
 .tooltip-filtro {
-
   &.in { opacity: 1; }
-
   .tooltip-inner {
     padding: 25px 30px;
     max-width: none;

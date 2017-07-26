@@ -1,0 +1,131 @@
+// Range Slider
+
+
+.rangeicg {
+  padding-top: 20px;
+
+  &-title {
+    font-size: 24px;
+    @include font-family('light');
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  &-ranking {
+    margin-top: 50px;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-card {
+    display: inline-block;
+    padding-bottom: 15px;
+    width: 218px;
+    text-align: center;
+    color: #303034;
+    background-color: #fff;
+    border-radius: 5px;
+
+    &-title {
+      font-size: 20px;
+      strong {
+        display: block;
+        font-size: 22px;
+      }
+      span { color: #bd2c4c; }
+    }
+
+    img { margin-bottom: 15px; }
+
+    figcaption {
+      margin-bottom: 10px;
+      @include font-family('extrabold');
+      font-size: 12px;
+    }
+
+    &-btn {
+      padding: 5px 15px;
+      font-size: 12px;
+      line-height: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      border-radius: 20px;
+      border: solid 1px transparent;
+      background-color: #c33056;
+      transition-duration: 0.3s;
+    }
+
+    > a {
+      color: inherit;
+      &:hover {
+        .rangeicg-card-btn {
+          transition-duration: 0.15s;
+          background-color: #111214;
+        }
+      }
+      &:active {
+        .rangeicg-card-btn {
+          transition-duration: 0.15s;
+          color: #960c30;
+          background-color: transparent;
+          border-color: #c33056;
+        }
+      }
+    }
+
+  }
+
+}
+
+
+
+
+
+
+
+.rangeslider {
+
+  // Slider
+
+  .slider {
+    %slider-bgcolor {
+      background: $range-bgcolor;
+      box-shadow: none;
+    }
+
+    &.slider-horizontal { width: 100%; }
+
+    &-track {
+      background: $range-track-bgcolor;
+    }
+
+    &-selection{
+      @extend %slider-bgcolor;
+    }
+
+    &-handle {
+      @extend %slider-bgcolor;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+  }
+
+  // lista numeros
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    list-style: none;
+    li {
+      font-size: 20px;
+      @include font-family('bold');
+    }
+  }
+
+}
+

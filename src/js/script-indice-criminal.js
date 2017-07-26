@@ -7,7 +7,7 @@ $(function(){
     // Fullpage
     $('#fullpage').fullpage({
         // verticalCentered: true,
-        anchors: ['anchor1', 'anchor2', 'anchor3'],
+        anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5'],
         menu: '#menu',
         scrollOverflow: true
     });
@@ -15,6 +15,13 @@ $(function(){
     //Tooltip funnel
     $('[data-toggle="tooltip-filtro"]').tooltip({
         template:'<div class="tooltip tooltip-filtro" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
+    });
+
+    // Range
+    $('#sliderMaisViolentas').slider({
+        formatter: function(value) {
+            return 'Current value: ' + value;
+        }
     });
 
 });

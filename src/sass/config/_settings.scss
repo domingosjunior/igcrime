@@ -12,7 +12,7 @@ $path-img: '../img/';
 $fallback-fonts:'Arial, Verdana, Sans-serif';
 $font-family: 'montserrat';
 
-//Top bar'
+// Top bar
 $topbar-text-color: $color-black;
 $topbar-bg-color: $color-white;
 $topbar-bg-bordercolor: $color-white;
@@ -29,7 +29,6 @@ $bgcolor-section-intro: #ff0000;
 $sec-intro-header-title-span-color: $color-black;
 $sec-intro-text-color: $color-white;
 
-
 // Como analizados
 $analizado-bgcolor-wrap: #c34e67;
 $analizado-header-title: $color-black;
@@ -40,3 +39,15 @@ $filter-item-svg-pahtop-color: #353535;
 $filter-item-svg-pahbody-color: #161516;
 $filter-item-svg-text-color: $color-white;
 $filter-tooltip-bgcolor: #1b1e20;
+
+// Icg Município
+$icgmuni-bgcolor: #111214;
+$icgmuni-color-text: $color-white;
+$icgmuni-map-polygon-fill: $color-white;
+$icgmuni-map-polygon-fill-hover: #c33056;
+
+// Plugins
+
+// Rangeslider
+$range-track-bgcolor: #ffffff;
+$range-bgcolor: #bd2c4c;
