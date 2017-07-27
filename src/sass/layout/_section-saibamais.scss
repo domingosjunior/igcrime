@@ -10,6 +10,11 @@
   &-title {
     @include font-family('bold');
   }
+  div[class^="col-"] {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
 }
 
 .btn-download {
