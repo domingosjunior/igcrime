@@ -1,4 +1,84 @@
-// Range Slider
+// Range ICG
+
+
+.rangeslider {
+
+  // Slider
+
+  .slider {
+    %slider-bgcolor {
+      background: $range-bgcolor;
+      box-shadow: none;
+    }
+
+    z-index: 2;
+
+    &.slider-horizontal { width: 100%; }
+
+    &-track {
+      background: $range-track-bgcolor;
+    }
+
+    &-selection{
+      @extend %slider-bgcolor;
+    }
+
+    &-handle {
+      @extend %slider-bgcolor;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+  }
+
+  // list
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    list-style: none;
+    li {
+      position: relative;
+      font-size: 20px;
+      @include font-family('bold');
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: -2px;
+        width: 5px;
+        height: 20px;
+        background-color: #fff;
+      }
+
+      &:nth-child(2){
+        left: -5px;
+        &:before {
+          left: 18px;
+        }
+      }
+
+      &:nth-child(3){
+        left: 7px;
+        &:before {
+          left: 21px;
+        }
+      }
+
+      &:nth-child(4){
+        &:before {
+          left: 42px;
+        }
+      }
+    }
+  }
+
+}
+
 
 
 .rangeicg {
@@ -77,55 +157,3 @@
   }
 
 }
-
-
-
-
-
-
-
-.rangeslider {
-
-  // Slider
-
-  .slider {
-    %slider-bgcolor {
-      background: $range-bgcolor;
-      box-shadow: none;
-    }
-
-    &.slider-horizontal { width: 100%; }
-
-    &-track {
-      background: $range-track-bgcolor;
-    }
-
-    &-selection{
-      @extend %slider-bgcolor;
-    }
-
-    &-handle {
-      @extend %slider-bgcolor;
-    }
-
-    &:hover {
-      cursor: pointer;
-    }
-
-  }
-
-  // lista numeros
-
-  &-list {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 0;
-    list-style: none;
-    li {
-      font-size: 20px;
-      @include font-family('bold');
-    }
-  }
-
-}
-

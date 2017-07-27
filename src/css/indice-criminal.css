@@ -13645,12 +13645,89 @@ strong {
   text-align: right;
 }
 
-/* line 4, src/sass/plugins/_range-slider.scss */
+/* line 8, src/sass/plugins/_range-slider.scss */
+.rangeslider .slider {
+  z-index: 2;
+}
+
+/* line 9, src/sass/plugins/_range-slider.scss */
+.rangeslider .slider .slider-selection, .rangeslider .slider .slider-handle {
+  background: #bd2c4c;
+  box-shadow: none;
+}
+
+/* line 16, src/sass/plugins/_range-slider.scss */
+.rangeslider .slider.slider-horizontal {
+  width: 100%;
+}
+
+/* line 18, src/sass/plugins/_range-slider.scss */
+.rangeslider .slider-track {
+  background: #ffffff;
+}
+
+/* line 30, src/sass/plugins/_range-slider.scss */
+.rangeslider .slider:hover {
+  cursor: pointer;
+}
+
+/* line 38, src/sass/plugins/_range-slider.scss */
+.rangeslider-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* line 43, src/sass/plugins/_range-slider.scss */
+.rangeslider-list li {
+  position: relative;
+  font-size: 20px;
+  font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
+}
+
+/* line 48, src/sass/plugins/_range-slider.scss */
+.rangeslider-list li:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -2px;
+  width: 5px;
+  height: 20px;
+  background-color: #fff;
+}
+
+/* line 58, src/sass/plugins/_range-slider.scss */
+.rangeslider-list li:nth-child(2) {
+  left: -5px;
+}
+
+/* line 60, src/sass/plugins/_range-slider.scss */
+.rangeslider-list li:nth-child(2):before {
+  left: 18px;
+}
+
+/* line 65, src/sass/plugins/_range-slider.scss */
+.rangeslider-list li:nth-child(3) {
+  left: 7px;
+}
+
+/* line 67, src/sass/plugins/_range-slider.scss */
+.rangeslider-list li:nth-child(3):before {
+  left: 21px;
+}
+
+/* line 73, src/sass/plugins/_range-slider.scss */
+.rangeslider-list li:nth-child(4):before {
+  left: 42px;
+}
+
+/* line 84, src/sass/plugins/_range-slider.scss */
 .rangeicg {
   padding-top: 20px;
 }
 
-/* line 7, src/sass/plugins/_range-slider.scss */
+/* line 87, src/sass/plugins/_range-slider.scss */
 .rangeicg-title {
   font-size: 24px;
   font-family: "montserrat_light", Arial, Verdana, Sans-serif;
@@ -13658,7 +13735,7 @@ strong {
   text-align: center;
 }
 
-/* line 14, src/sass/plugins/_range-slider.scss */
+/* line 94, src/sass/plugins/_range-slider.scss */
 .rangeicg-ranking {
   margin-top: 50px;
   padding-left: 0;
@@ -13666,7 +13743,7 @@ strong {
   justify-content: space-between;
 }
 
-/* line 21, src/sass/plugins/_range-slider.scss */
+/* line 101, src/sass/plugins/_range-slider.scss */
 .rangeicg-card {
   display: inline-block;
   padding-bottom: 15px;
@@ -13677,35 +13754,35 @@ strong {
   border-radius: 5px;
 }
 
-/* line 30, src/sass/plugins/_range-slider.scss */
+/* line 110, src/sass/plugins/_range-slider.scss */
 .rangeicg-card-title {
   font-size: 20px;
 }
 
-/* line 32, src/sass/plugins/_range-slider.scss */
+/* line 112, src/sass/plugins/_range-slider.scss */
 .rangeicg-card-title strong {
   display: block;
   font-size: 22px;
 }
 
-/* line 36, src/sass/plugins/_range-slider.scss */
+/* line 116, src/sass/plugins/_range-slider.scss */
 .rangeicg-card-title span {
   color: #bd2c4c;
 }
 
-/* line 39, src/sass/plugins/_range-slider.scss */
+/* line 119, src/sass/plugins/_range-slider.scss */
 .rangeicg-card img {
   margin-bottom: 15px;
 }
 
-/* line 41, src/sass/plugins/_range-slider.scss */
+/* line 121, src/sass/plugins/_range-slider.scss */
 .rangeicg-card figcaption {
   margin-bottom: 10px;
   font-family: "montserrat_extrabold", Arial, Verdana, Sans-serif;
   font-size: 12px;
 }
 
-/* line 47, src/sass/plugins/_range-slider.scss */
+/* line 127, src/sass/plugins/_range-slider.scss */
 .rangeicg-card-btn {
   padding: 5px 15px;
   font-size: 12px;
@@ -13718,58 +13795,23 @@ strong {
   transition-duration: 0.3s;
 }
 
-/* line 59, src/sass/plugins/_range-slider.scss */
+/* line 139, src/sass/plugins/_range-slider.scss */
 .rangeicg-card > a {
   color: inherit;
 }
 
-/* line 62, src/sass/plugins/_range-slider.scss */
+/* line 142, src/sass/plugins/_range-slider.scss */
 .rangeicg-card > a:hover .rangeicg-card-btn {
   transition-duration: 0.15s;
   background-color: #111214;
 }
 
-/* line 68, src/sass/plugins/_range-slider.scss */
+/* line 148, src/sass/plugins/_range-slider.scss */
 .rangeicg-card > a:active .rangeicg-card-btn {
   transition-duration: 0.15s;
   color: #960c30;
   background-color: transparent;
   border-color: #c33056;
-}
-
-/* line 92, src/sass/plugins/_range-slider.scss */
-.rangeslider .slider .slider-selection, .rangeslider .slider .slider-handle {
-  background: #bd2c4c;
-  box-shadow: none;
-}
-
-/* line 97, src/sass/plugins/_range-slider.scss */
-.rangeslider .slider.slider-horizontal {
-  width: 100%;
-}
-
-/* line 99, src/sass/plugins/_range-slider.scss */
-.rangeslider .slider-track {
-  background: #ffffff;
-}
-
-/* line 111, src/sass/plugins/_range-slider.scss */
-.rangeslider .slider:hover {
-  cursor: pointer;
-}
-
-/* line 119, src/sass/plugins/_range-slider.scss */
-.rangeslider-list {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 0;
-  list-style: none;
-}
-
-/* line 124, src/sass/plugins/_range-slider.scss */
-.rangeslider-list li {
-  font-size: 20px;
-  font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
 }
 
 /*# sourceMappingURL=indice-criminal.css.map */
