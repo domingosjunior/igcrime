@@ -1,15 +1,51 @@
 // Section saiba mais
 
-.bg-section-violentas {
-  background: #111214;
+.section-saibamais {
+
 }
 
-.section-violentas {
-  padding-top: 50px;
-  color: #ffffff;
+.saibamais-downloads {
+  padding-top: 20px;
+  @include font-family('light');
+  &-title {
+    @include font-family('bold');
+  }
+}
 
-  .section-header {
-    text-align: left;
+.btn-download {
+  border-width: 2px;
+  border-color: #303134;
+  background-color: transparent;
+  transition-duration: .3s;
+  &:hover,
+  &:active {
+    background-color: #303134;
+    border-color: #303134;
+    color: #ffffff;
+    transition-duration: .15s;
+  }
+  &:active,
+  &:focus,
+  &:active:focus {
+    color: #ffffff;
+    background-color: #101113;
   }
 
+}
+
+.btn-dropdown-download.open {
+  >.btn-download {
+    @extend .btn-download:hover;
+    &:active,
+    &:focus,
+    &:active:focus {
+      @extend .btn-download:active;
+    }
+  }
+}
+
+.dropdown-menu-download {
+  > li > a:hover {
+    @extend .btn-download:active;
+  }
 }

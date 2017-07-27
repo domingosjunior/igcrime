@@ -13612,6 +13612,39 @@ strong {
   transition: fill .12s ease-in-out .1s;
 }
 
+/* line 7, src/sass/layout/_section-saibamais.scss */
+.saibamais-downloads {
+  padding-top: 20px;
+  font-family: "montserrat_light", Arial, Verdana, Sans-serif;
+}
+
+/* line 10, src/sass/layout/_section-saibamais.scss */
+.saibamais-downloads-title {
+  font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
+}
+
+/* line 15, src/sass/layout/_section-saibamais.scss */
+.btn-download {
+  border-width: 2px;
+  border-color: #303134;
+  background-color: transparent;
+  transition-duration: .3s;
+}
+
+/* line 20, src/sass/layout/_section-saibamais.scss */
+.btn-download:hover, .btn-dropdown-download.open > .btn-download, .btn-download:active, .btn-dropdown-download.open > .btn-download:active, .btn-dropdown-download.open > .btn-download:focus, .btn-dropdown-download.open > .btn-download:active:focus, .dropdown-menu-download > li > a:hover {
+  background-color: #303134;
+  border-color: #303134;
+  color: #ffffff;
+  transition-duration: .15s;
+}
+
+/* line 27, src/sass/layout/_section-saibamais.scss */
+.btn-download:active, .btn-dropdown-download.open > .btn-download:active, .btn-dropdown-download.open > .btn-download:focus, .btn-dropdown-download.open > .btn-download:active:focus, .dropdown-menu-download > li > a:hover, .btn-download:focus, .btn-download:active:focus, .btn-dropdown-download.open > .btn-download:focus, .dropdown-menu-download > li > a:focus:hover {
+  color: #ffffff;
+  background-color: #101113;
+}
+
 /* line 3, src/sass/layout/_footer.scss */
 .footer {
   padding-top: 15px;
