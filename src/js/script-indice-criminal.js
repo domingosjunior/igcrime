@@ -7,7 +7,7 @@ $(function(){
     // Fullpage
     $('#fullpage').fullpage({
         // verticalCentered: true,
-        anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5'],
+        anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6'],
         menu: '#menu',
         scrollOverflow: true
     });
