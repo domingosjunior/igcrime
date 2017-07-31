@@ -6,12 +6,9 @@
   // Slider
 
   .slider {
-    %slider-bgcolor {
-      background: $range-bgcolor;
-      box-shadow: none;
-    }
-
+    %slider-noboxshadow { box-shadow: none; }
     z-index: 2;
+    // border: solid 1px red;
 
     &.slider-horizontal { width: 100%; }
 
@@ -20,11 +17,13 @@
     }
 
     &-selection{
-      @extend %slider-bgcolor;
+      background-color: #fff;
+      @extend %slider-noboxshadow;
     }
 
     &-handle {
-      @extend %slider-bgcolor;
+      background: #bd2c4c;
+      @extend %slider-noboxshadow;
     }
 
     &:hover {
@@ -49,31 +48,48 @@
         content: '';
         position: absolute;
         top: -20px;
-        left: -2px;
-        width: 5px;
+        left: -10px;
+        width: 20px;
         height: 20px;
-        background-color: #fff;
+        border-radius: 50%;
+        background-color: #ffffff;
+      }
+
+      span {
+        position: absolute;
+        left: -20px;
       }
 
       &:nth-child(2){
-        left: -5px;
+        // left: -5px;
+        span { left: -22px; }
         &:before {
-          left: 18px;
+          left: -10px;
         }
       }
 
       &:nth-child(3){
-        left: 7px;
+        span { left: -23px; }
         &:before {
-          left: 21px;
+          left: -10px;
         }
       }
 
       &:nth-child(4){
+        span {
+          right: -20px;
+        }
         &:before {
-          left: 42px;
+          left: -10px;
         }
       }
+
+      &.xuxa {
+        &:before {
+          background-color: #bd2c4c;
+        }
+      }
+
     }
   }
 
@@ -94,6 +110,7 @@
     padding-left: 0;
     display: flex;
     justify-content: space-between;
+
   }
 
   &-card {

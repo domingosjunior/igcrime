@@ -13691,26 +13691,35 @@ strong {
 
 /* line 9, src/sass/components/_range.scss */
 .rangeslider .slider .slider-selection, .rangeslider .slider .slider-handle {
-  background: #bd2c4c;
   box-shadow: none;
 }
 
-/* line 16, src/sass/components/_range.scss */
+/* line 13, src/sass/components/_range.scss */
 .rangeslider .slider.slider-horizontal {
   width: 100%;
 }
 
-/* line 18, src/sass/components/_range.scss */
+/* line 15, src/sass/components/_range.scss */
 .rangeslider .slider-track {
   background: #ffffff;
 }
 
-/* line 30, src/sass/components/_range.scss */
+/* line 19, src/sass/components/_range.scss */
+.rangeslider .slider-selection {
+  background-color: #fff;
+}
+
+/* line 24, src/sass/components/_range.scss */
+.rangeslider .slider-handle {
+  background: #bd2c4c;
+}
+
+/* line 29, src/sass/components/_range.scss */
 .rangeslider .slider:hover {
   cursor: pointer;
 }
 
-/* line 38, src/sass/components/_range.scss */
+/* line 37, src/sass/components/_range.scss */
 .rangeslider-list {
   display: flex;
   justify-content: space-between;
@@ -13718,55 +13727,72 @@ strong {
   list-style: none;
 }
 
-/* line 43, src/sass/components/_range.scss */
+/* line 42, src/sass/components/_range.scss */
 .rangeslider-list li {
   position: relative;
   font-size: 20px;
   font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
 }
 
-/* line 48, src/sass/components/_range.scss */
+/* line 47, src/sass/components/_range.scss */
 .rangeslider-list li:before {
   content: '';
   position: absolute;
   top: -20px;
-  left: -2px;
-  width: 5px;
+  left: -10px;
+  width: 20px;
   height: 20px;
-  background-color: #fff;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
 
 /* line 58, src/sass/components/_range.scss */
-.rangeslider-list li:nth-child(2) {
-  left: -5px;
-}
-
-/* line 60, src/sass/components/_range.scss */
-.rangeslider-list li:nth-child(2):before {
-  left: 18px;
+.rangeslider-list li span {
+  position: absolute;
+  left: -20px;
 }
 
 /* line 65, src/sass/components/_range.scss */
-.rangeslider-list li:nth-child(3) {
-  left: 7px;
+.rangeslider-list li:nth-child(2) span {
+  left: -22px;
 }
 
-/* line 67, src/sass/components/_range.scss */
-.rangeslider-list li:nth-child(3):before {
-  left: 21px;
+/* line 66, src/sass/components/_range.scss */
+.rangeslider-list li:nth-child(2):before {
+  left: -10px;
+}
+
+/* line 72, src/sass/components/_range.scss */
+.rangeslider-list li:nth-child(3) span {
+  left: -23px;
 }
 
 /* line 73, src/sass/components/_range.scss */
-.rangeslider-list li:nth-child(4):before {
-  left: 42px;
+.rangeslider-list li:nth-child(3):before {
+  left: -10px;
+}
+
+/* line 79, src/sass/components/_range.scss */
+.rangeslider-list li:nth-child(4) span {
+  right: -20px;
 }
 
 /* line 82, src/sass/components/_range.scss */
+.rangeslider-list li:nth-child(4):before {
+  left: -10px;
+}
+
+/* line 88, src/sass/components/_range.scss */
+.rangeslider-list li.xuxa:before {
+  background-color: #bd2c4c;
+}
+
+/* line 98, src/sass/components/_range.scss */
 .rangeicg {
   padding-top: 20px;
 }
 
-/* line 85, src/sass/components/_range.scss */
+/* line 101, src/sass/components/_range.scss */
 .rangeicg-title {
   font-size: 24px;
   font-family: "montserrat_light", Arial, Verdana, Sans-serif;
@@ -13774,7 +13800,7 @@ strong {
   text-align: center;
 }
 
-/* line 92, src/sass/components/_range.scss */
+/* line 108, src/sass/components/_range.scss */
 .rangeicg-ranking {
   margin-top: 50px;
   padding-left: 0;
@@ -13782,7 +13808,7 @@ strong {
   justify-content: space-between;
 }
 
-/* line 99, src/sass/components/_range.scss */
+/* line 116, src/sass/components/_range.scss */
 .rangeicg-card {
   display: inline-block;
   padding-bottom: 15px;
@@ -13793,35 +13819,35 @@ strong {
   border-radius: 5px;
 }
 
-/* line 108, src/sass/components/_range.scss */
+/* line 125, src/sass/components/_range.scss */
 .rangeicg-card-title {
   font-size: 20px;
 }
 
-/* line 110, src/sass/components/_range.scss */
+/* line 127, src/sass/components/_range.scss */
 .rangeicg-card-title strong {
   display: block;
   font-size: 22px;
 }
 
-/* line 114, src/sass/components/_range.scss */
+/* line 131, src/sass/components/_range.scss */
 .rangeicg-card-title span {
   color: #bd2c4c;
 }
 
-/* line 117, src/sass/components/_range.scss */
+/* line 134, src/sass/components/_range.scss */
 .rangeicg-card img {
   margin-bottom: 15px;
 }
 
-/* line 119, src/sass/components/_range.scss */
+/* line 136, src/sass/components/_range.scss */
 .rangeicg-card figcaption {
   margin-bottom: 10px;
   font-family: "montserrat_extrabold", Arial, Verdana, Sans-serif;
   font-size: 12px;
 }
 
-/* line 125, src/sass/components/_range.scss */
+/* line 142, src/sass/components/_range.scss */
 .rangeicg-card-btn {
   padding: 5px 15px;
   font-size: 12px;
@@ -13834,18 +13860,18 @@ strong {
   transition-duration: 0.3s;
 }
 
-/* line 137, src/sass/components/_range.scss */
+/* line 154, src/sass/components/_range.scss */
 .rangeicg-card > a {
   color: inherit;
 }
 
-/* line 140, src/sass/components/_range.scss */
+/* line 157, src/sass/components/_range.scss */
 .rangeicg-card > a:hover .rangeicg-card-btn {
   transition-duration: 0.15s;
   background-color: #111214;
 }
 
-/* line 146, src/sass/components/_range.scss */
+/* line 163, src/sass/components/_range.scss */
 .rangeicg-card > a:active .rangeicg-card-btn {
   transition-duration: 0.15s;
   color: #960c30;
