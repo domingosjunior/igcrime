@@ -5,31 +5,31 @@ var dataIndice = {
                 nameMunicipio: "Duque de Caxias",
                 rank: "1º Colocado",
                 icg: "0,586",
-                imgMunicipio: "../data/2012/img/mais-violentas/dq-caxias.png",
-                linkBtn: "linkAqui"
+                imgMunicipio: "../data/2012/img/mais-violentas/duque-de-caxias.png",
+                linkBtn: "linkAqui1"
             },
             {
                 nameMunicipio: "Nilópolis",
                 rank: "2º Colocado",
                 icg: "0,000",
                 imgMunicipio: "../data/2012/img/mais-violentas/nilopolis.png",
-                linkBtn: "linkAquiNilopolis"
+                linkBtn: "linkAqui2"
             }
         ],
         maisSeguras: [
             {
-                nameMunicipio: "Menos violenta Duque de Caxias",
+                nameMunicipio: "Cambuci",
                 rank: "1º Colocado",
                 icg: "0,586",
-                imgMunicipio: "../data/2012/img/mais-violentas/dq-caxias.png",
-                linkBtn: "linkAqui"
+                imgMunicipio: "../data/2012/img/mais-seguras/cambuci.png",
+                linkBtn: "linkAqui1"
             },
             {
-                nameMunicipio: "Menos violenta Nilópolis",
+                nameMunicipio: "Santo Antônio de Padua e Aperibe",
                 rank: "2º Colocado",
                 icg: "0,000",
-                imgMunicipio: "../data/2012/img/mais-violentas/nilopolis.png",
-                linkBtn: "linkAquiNilopolis"
+                imgMunicipio: "../data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                linkBtn: "linkAqui2"
             }
         ]
 
