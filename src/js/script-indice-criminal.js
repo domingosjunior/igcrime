@@ -36,10 +36,9 @@ $(function(){
 
         // Get Year info
         function getYearIndiceCriminal(year) {
-            var setYear = year;
             for (var key in dataIndice) {
-                if (dataIndice.hasOwnProperty(setYear)) {
-                    return dataIndice[setYear];
+                if (dataIndice.hasOwnProperty(year)) {
+                    return dataIndice[year];
                 } else {
                     return dataIndice['2013'];
 
