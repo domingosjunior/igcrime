@@ -16,22 +16,68 @@ $(function(){
         template:'<div class="tooltip tooltip-filtro" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
     });
 
-    // Range
-    $('#sliderMaisViolentas').slider({
+    // Range hide tooltip
+    $('#sliderMaisViolentas, #sliderMaisSeguras').slider({
         tooltip: 'hide'
     });
 
-    // Range add class
-    var $qtdItens = $('#maisViolentas').data('count');
-    var $liRange = $('#maisViolentas li');
-    var $posSlider;
-    var $countPreviousSlider = 0;
+    // Show cards
+    function showCards(config) {
 
-    $('#sliderMaisViolentas').on('change', function(){
-        $posSlider = $('#sliderMaisViolentas').attr('value') - 1;
-        $liRange.removeClass('active');
-        $($liRange[$posSlider]).addClass('active');
+        var element = {
+            valueInput: config.valueInput - 1,
+            listRange: config.listRange,
+            scripCard: $(config.scripCard).html(),
+        }
 
+        var rangeDates = $(element.listRange).map(function (index, item) {
+            return $(item).data('rangeyear');
+        })
+
+        // Get Year info
+        function getYearIndiceCriminal(year) {
+            var setYear = year;
+            for (var key in dataIndice) {
+                if (dataIndice.hasOwnProperty(setYear)) {
+                    return dataIndice[setYear];
+                } else {
+                    return dataIndice['2013'];
+
+                }
+            }
+        }
+
+        // Render template
+        var templateCard = Handlebars.compile(element.scripCard);
+
+        return templateCard(
+                    getYearIndiceCriminal( rangeDates[element.valueInput] )
+               )
+
+    }
+
+    $('#sliderMaisViolentas').on('change', function(value){
+        $('#cardsMaisViolentas').html(
+            showCards({
+                valueInput: this.value,
+                listRange: '#maisViolentas li',
+                scripCard: '#card-template'
+            })
+        );
     });
+
+    $('#sliderMaisSeguras').on('change', function (value) {
+        $('#cardsMaisSeguras').html(
+            showCards({
+                valueInput: this.value,
+                listRange: '#maisSeguras li',
+                scripCard: '#card-template-seguras'
+            })
+        );
+    });
+
+
+    $('#sliderMaisViolentas, #sliderMaisSeguras').trigger('change');
+
 });
 
