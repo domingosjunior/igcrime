@@ -1,0 +1,48 @@
+// Section mais seguras
+
+.bg-section-seguras {
+  background: #ffffff;
+}
+
+.section-seguras {
+  @extend %sectionsicg;
+  color: #303134;
+
+  .section-header--title {
+    color: #bd2c4c;
+
+    span {
+      color: #303134;
+    }
+
+  }
+
+  .rangeslider {
+
+    .slider-track,
+    .slider-selection {
+      background: #303134;
+    }
+
+    &-list {
+      li:before {
+        background-color: #303134;
+      }
+    }
+
+  }
+
+  .rangeicg-card {
+    background-color: #303134;
+
+    &-title,
+    figcaption {
+      color: #ffffff;
+    }
+
+  }
+}
+
+
+
+

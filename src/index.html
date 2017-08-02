@@ -420,8 +420,8 @@
                             <ul class="rangeicg-ranking">
                                 {{#maisViolentas}}
                                 <li class="rangeicg-card">
-                                    <a href={{linkBtn}}>
-                                        <h3 class="rangeicg-card-title">{{rank}}<strong>ICG <span>{{icg}}</span></strong></h3>
+                                    <a data-toggle="modal" data-target="#modalIgc" data-iframeCard={{linkIframeCard}}>
+                                        <h3 class="rangeicg-card-title">{{rank}}&nbsp;{{year}}<strong>ICG <span>{{icg}}</span></strong></h3>
                                         <figure>
                                             <img src={{imgMunicipio}} alt="Silueta do município {{nameMunicipio}}">
                                             <figcaption>{{nameMunicipio}}</figcaption>
@@ -440,11 +440,10 @@
             </div>
         </div>
         <!-- / mais violentas  -->
-
         <!-- mais seguras  -->
-        <div class="section bg-section-violentas" id="section4">
-            <div class="bg-section-violentas">
-                <section class="container section-violentas">
+        <div class="section bg-section-seguras" id="section4">
+            <div class="bg-section-seguras">
+                <section class="container section-seguras">
                     <header class="section-header">
                         <h1 class="section-header--title">OS <span>05</span> MAIS <span>SEGUROS</span></h1>
                     </header>
@@ -470,8 +469,8 @@
                             <ul class="rangeicg-ranking">
                                 {{#maisSeguras}}
                                 <li class="rangeicg-card">
-                                    <a href={{linkBtn}}>
-                                        <h3 class="rangeicg-card-title">{{rank}}<strong>ICG <span>{{icg}}</span></strong></h3>
+                                    <a data-toggle="modal" data-target="#modalIgc" data-iframeCard={{linkIframeCard}}>
+                                        <h3 class="rangeicg-card-title">{{rank}}&nbsp;{{year}}<strong>ICG <span>{{icg}}</span></strong></h3>
                                         <figure>
                                             <img src={{imgMunicipio}} alt="Silueta do município {{nameMunicipio}}">
                                             <figcaption>{{nameMunicipio}}</figcaption>
@@ -490,7 +489,6 @@
             </div>
         </div>
         <!-- / mais seguras  -->
-
         <!-- icg municipios -->
         <div class="section" id="section5">
             <div class="bg-section-icgmuni">
@@ -508,7 +506,6 @@
             </div>
         </div>
         <!-- / icg municipios -->
-
         <!-- saiba mais  -->
         <div class="section" id="section6">
             <section class="container section-saibamais">
@@ -544,27 +541,6 @@
             </section>
         </div>
         <!-- / saiba mais  -->
-
-        <!-- <div class="section fp-auto-height" id="section1">
-            <div class="slide" id="slide1">
-                <div class="myContent">
-
-                </div>
-            </div>
-            <div class="slide" id="slide2">
-                <h1>Section 2.2</h1>
-            </div>
-        </div> -->
-<!--
-        <div class="section fp-auto-height" id="section2">
-            <div class="myContent">
-                <h1>Section 3</h1>
-
-
-            </div>
-        </div>
-    -->
-
     </div>
 
     <!-- build:js js/script-indice-criminal-footer.js -->
@@ -580,5 +556,22 @@
     <!--[if lt IE 9]>
         <script type="text/javascript" src="http://sawpf.com/1.0.js"></script>
     <![endif]-->
+    <div class="modal modal-igc fade" id="modalIgc" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Detalhando o ICG</h4>
+                    <p>Comarca Santo Antônio de Pádua e Aperibé</p>
+                </div>
+                <div class="modal-body">
+                    <p>One fine body&hellip;</p>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 </body>
 </html>

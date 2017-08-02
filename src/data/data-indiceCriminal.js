@@ -7,7 +7,7 @@ var dataIndice = {
                 icg: "0,586",
                 imgMunicipio: "../data/2012/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
-                linkBtn: "linkAqui1"
+                linkIframeCard: "linkAqui1"
             },
             {
                 rank: "2º Colocado",
@@ -15,7 +15,7 @@ var dataIndice = {
                 icg: "0,000",
                 imgMunicipio: "../data/2012/img/mais-violentas/nilopolis.png",
                 nameMunicipio: "Nilópolis",
-                linkBtn: "linkAqui2"
+                linkIframeCard: "linkAqui2"
             }
         ],
         maisSeguras: [
@@ -25,7 +25,7 @@ var dataIndice = {
                 icg: "0,586",
                 imgMunicipio: "../data/2012/img/mais-seguras/cambuci.png",
                 nameMunicipio: "Cambuci",
-                linkBtn: "linkAqui1"
+                linkIframeCard: "linkAqui1"
             },
             {
                 rank: "2º Colocado",
@@ -33,7 +33,7 @@ var dataIndice = {
                 icg: "0,000",
                 imgMunicipio: "../data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Santo Antônio de Padua e Aperibe",
-                linkBtn: "linkAqui2"
+                linkIframeCard: "linkAqui2"
             }
         ]
 
@@ -46,7 +46,7 @@ var dataIndice = {
                 icg: "0,586",
                 imgMunicipio: "../data/2012/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
-                linkBtn: "linkAqui1"
+                linkIframeCard: "linkAqui1"
             },
             {
                 rank: "2º Colocado",
@@ -54,7 +54,7 @@ var dataIndice = {
                 icg: "0,000",
                 imgMunicipio: "../data/2012/img/mais-violentas/nilopolis.png",
                 nameMunicipio: "Nilópolis",
-                linkBtn: "linkAqui2"
+                linkIframeCard: "linkAqui2"
             }
         ],
         maisSeguras: [
@@ -64,7 +64,7 @@ var dataIndice = {
                 icg: "0,586",
                 imgMunicipio: "../data/2012/img/mais-seguras/cambuci.png",
                 nameMunicipio: "Cambuci",
-                linkBtn: "linkAqui1"
+                linkIframeCard: "linkAqui1"
             },
             {
                 rank: "2º Colocado",
@@ -72,7 +72,7 @@ var dataIndice = {
                 icg: "0,000",
                 imgMunicipio: "../data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Santo Antônio de Padua e Aperibe",
-                linkBtn: "linkAqui2"
+                linkIframeCard: "linkAqui2"
             }
         ]
     },
@@ -84,7 +84,7 @@ var dataIndice = {
                 icg: "0,586",
                 imgMunicipio: "../data/2012/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
-                linkBtn: "linkAqui1"
+                linkIframeCard: "linkAqui1"
             },
             {
                 rank: "2º Colocado",
@@ -92,7 +92,7 @@ var dataIndice = {
                 icg: "0,000",
                 imgMunicipio: "../data/2012/img/mais-violentas/nilopolis.png",
                 nameMunicipio: "Nilópolis",
-                linkBtn: "linkAqui2"
+                linkIframeCard: "linkAqui2"
             }
         ],
         maisSeguras: [
@@ -102,7 +102,7 @@ var dataIndice = {
                 icg: "0,586",
                 imgMunicipio: "../data/2012/img/mais-seguras/cambuci.png",
                 nameMunicipio: "Cambuci",
-                linkBtn: "linkAqui1"
+                linkIframeCard: "linkAqui1"
             },
             {
                 rank: "2º Colocado",
@@ -110,7 +110,7 @@ var dataIndice = {
                 icg: "0,000",
                 imgMunicipio: "../data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Santo Antônio de Padua e Aperibe",
-                linkBtn: "linkAqui2"
+                linkIframeCard: "linkAqui2"
             }
         ]
     },

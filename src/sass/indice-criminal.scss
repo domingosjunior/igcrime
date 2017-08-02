@@ -22,12 +22,16 @@
 @import "../sass/general/_reset.scss";
 @import "../sass/general/_general.scss";
 
+// Plugins
+@import "../sass/plugins/_modal.scss";
+
 // Layout
 @import "../sass/layout/_topbar.scss";
 @import "../sass/layout/_sections.scss";
 @import "../sass/layout/_section-intro.scss";
 @import "../sass/layout/_section-como-analizado.scss";
 @import "../sass/layout/_section-mais-violentas.scss";
+@import "../sass/layout/_section-mais-seguras.scss";
 @import "../sass/layout/_section-icgmuni.scss";
 @import "../sass/layout/_section-saibamais.scss";
 @import "../sass/layout/_footer.scss";

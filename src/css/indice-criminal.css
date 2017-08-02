@@ -12952,6 +12952,17 @@ button.close {
   }
 }
 
+/* line 2, src/sass/config/_palceholders.scss */
+.section-violentas, .section-seguras {
+  padding-top: 50px;
+  color: #ffffff;
+}
+
+/* line 6, src/sass/config/_palceholders.scss */
+.section-violentas .section-header, .section-seguras .section-header {
+  text-align: left;
+}
+
 @font-face {
   font-family: 'montserrat_regular';
   src: url("../fonts/montserrat-regular-webfont.eot");
@@ -13100,6 +13111,11 @@ strong {
 /* line 11, src/sass/general/_general.scss */
 .container {
   position: relative;
+}
+
+/* line 4, src/sass/plugins/_modal.scss */
+.modal-igc .modal-dialog {
+  width: 1100px;
 }
 
 /* line 3, src/sass/layout/_topbar.scss */
@@ -13547,15 +13563,46 @@ strong {
   background: #111214;
 }
 
-/* line 7, src/sass/layout/_section-mais-violentas.scss */
-.section-violentas {
-  padding-top: 50px;
-  color: #ffffff;
+/* line 3, src/sass/layout/_section-mais-seguras.scss */
+.bg-section-seguras {
+  background: #ffffff;
 }
 
-/* line 11, src/sass/layout/_section-mais-violentas.scss */
-.section-violentas .section-header {
-  text-align: left;
+/* line 7, src/sass/layout/_section-mais-seguras.scss */
+.section-seguras {
+  color: #303134;
+}
+
+/* line 11, src/sass/layout/_section-mais-seguras.scss */
+.section-seguras .section-header--title {
+  color: #bd2c4c;
+}
+
+/* line 14, src/sass/layout/_section-mais-seguras.scss */
+.section-seguras .section-header--title span {
+  color: #303134;
+}
+
+/* line 22, src/sass/layout/_section-mais-seguras.scss */
+.section-seguras .rangeslider .slider-track,
+.section-seguras .rangeslider .slider-selection {
+  background: #303134;
+}
+
+/* line 28, src/sass/layout/_section-mais-seguras.scss */
+.section-seguras .rangeslider-list li:before {
+  background-color: #303134;
+}
+
+/* line 35, src/sass/layout/_section-mais-seguras.scss */
+.section-seguras .rangeicg-card {
+  background-color: #303134;
+}
+
+/* line 38, src/sass/layout/_section-mais-seguras.scss */
+.section-seguras .rangeicg-card-title,
+.section-seguras .rangeicg-card figcaption {
+  color: #ffffff;
 }
 
 /* line 3, src/sass/layout/_section-icgmuni.scss */
@@ -13684,42 +13731,42 @@ strong {
   text-align: right;
 }
 
-/* line 8, src/sass/components/_range.scss */
+/* line 7, src/sass/components/_range.scss */
 .rangeslider .slider {
   z-index: 2;
 }
 
-/* line 9, src/sass/components/_range.scss */
+/* line 8, src/sass/components/_range.scss */
 .rangeslider .slider .slider-selection, .rangeslider .slider .slider-handle {
   box-shadow: none;
 }
 
-/* line 12, src/sass/components/_range.scss */
+/* line 11, src/sass/components/_range.scss */
 .rangeslider .slider.slider-horizontal {
   width: 100%;
 }
 
-/* line 17, src/sass/components/_range.scss */
+/* line 16, src/sass/components/_range.scss */
 .rangeslider .slider-track {
   background: #ffffff;
 }
 
-/* line 21, src/sass/components/_range.scss */
+/* line 20, src/sass/components/_range.scss */
 .rangeslider .slider-selection {
   background-color: #fff;
 }
 
-/* line 26, src/sass/components/_range.scss */
+/* line 25, src/sass/components/_range.scss */
 .rangeslider .slider-handle {
   background: #bd2c4c;
 }
 
-/* line 31, src/sass/components/_range.scss */
+/* line 30, src/sass/components/_range.scss */
 .rangeslider .slider:hover {
   cursor: pointer;
 }
 
-/* line 39, src/sass/components/_range.scss */
+/* line 38, src/sass/components/_range.scss */
 .rangeslider-list {
   display: flex;
   justify-content: space-between;
@@ -13727,14 +13774,14 @@ strong {
   list-style: none;
 }
 
-/* line 44, src/sass/components/_range.scss */
+/* line 43, src/sass/components/_range.scss */
 .rangeslider-list li {
   position: relative;
   font-size: 20px;
   font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
 }
 
-/* line 49, src/sass/components/_range.scss */
+/* line 48, src/sass/components/_range.scss */
 .rangeslider-list li:before {
   content: '';
   position: absolute;
@@ -13746,18 +13793,18 @@ strong {
   background-color: #ffffff;
 }
 
-/* line 60, src/sass/components/_range.scss */
+/* line 59, src/sass/components/_range.scss */
 .rangeslider-list li span {
   position: absolute;
   left: -24px;
 }
 
-/* line 69, src/sass/components/_range.scss */
+/* line 68, src/sass/components/_range.scss */
 .rangeicg {
   padding-top: 20px;
 }
 
-/* line 72, src/sass/components/_range.scss */
+/* line 71, src/sass/components/_range.scss */
 .rangeicg-title {
   font-size: 24px;
   font-family: "montserrat_light", Arial, Verdana, Sans-serif;
@@ -13765,7 +13812,7 @@ strong {
   text-align: center;
 }
 
-/* line 79, src/sass/components/_range.scss */
+/* line 78, src/sass/components/_range.scss */
 .rangeicg-ranking {
   margin-top: 50px;
   padding-left: 0;
@@ -13773,7 +13820,7 @@ strong {
   justify-content: space-between;
 }
 
-/* line 87, src/sass/components/_range.scss */
+/* line 86, src/sass/components/_range.scss */
 .rangeicg-card {
   display: inline-block;
   padding-left: 5px;
@@ -13786,35 +13833,35 @@ strong {
   border-radius: 5px;
 }
 
-/* line 98, src/sass/components/_range.scss */
+/* line 97, src/sass/components/_range.scss */
 .rangeicg-card-title {
   font-size: 20px;
 }
 
-/* line 100, src/sass/components/_range.scss */
+/* line 99, src/sass/components/_range.scss */
 .rangeicg-card-title strong {
   display: block;
   font-size: 22px;
 }
 
-/* line 104, src/sass/components/_range.scss */
+/* line 103, src/sass/components/_range.scss */
 .rangeicg-card-title span {
   color: #bd2c4c;
 }
 
-/* line 107, src/sass/components/_range.scss */
+/* line 106, src/sass/components/_range.scss */
 .rangeicg-card img {
   margin-bottom: 15px;
 }
 
-/* line 109, src/sass/components/_range.scss */
+/* line 108, src/sass/components/_range.scss */
 .rangeicg-card figcaption {
   margin-bottom: 10px;
   font-family: "montserrat_extrabold", Arial, Verdana, Sans-serif;
   font-size: 12px;
 }
 
-/* line 115, src/sass/components/_range.scss */
+/* line 114, src/sass/components/_range.scss */
 .rangeicg-card-btn {
   padding: 5px 15px;
   font-size: 12px;
@@ -13827,18 +13874,18 @@ strong {
   transition-duration: 0.3s;
 }
 
-/* line 127, src/sass/components/_range.scss */
+/* line 126, src/sass/components/_range.scss */
 .rangeicg-card > a {
   color: inherit;
 }
 
-/* line 130, src/sass/components/_range.scss */
+/* line 129, src/sass/components/_range.scss */
 .rangeicg-card > a:hover .rangeicg-card-btn {
   transition-duration: 0.15s;
   background-color: #111214;
 }
 
-/* line 136, src/sass/components/_range.scss */
+/* line 135, src/sass/components/_range.scss */
 .rangeicg-card > a:active .rangeicg-card-btn {
   transition-duration: 0.15s;
   color: #960c30;
