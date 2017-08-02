@@ -40,7 +40,7 @@ $(function(){
                 if (dataIndice.hasOwnProperty(year)) {
                     return dataIndice[year];
                 } else {
-                    return dataIndice['2013'];
+                    return dataIndice['2012'];
 
                 }
             }
