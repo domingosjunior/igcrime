@@ -75,16 +75,15 @@ $(function(){
         );
     });
 
-
     $('#sliderMaisViolentas, #sliderMaisSeguras').trigger('change');
 
     // Modal load  dynamic iframe
     $('#modalIcg').modal('hide');
     $('#modalIcg').on('show.bs.modal', function(item){
-        var pathIframe = $(item.relatedTarget).data('iframecard');
-        var iframeModalSrc = $(this).find('.iframe-icg').data('iframe-src');
-
-        $(this).find('.iframe-icg').attr('src', iframeModalSrc + pathIframe);
+        var linkPattern = "https://www.youtube.com/embed/";
+        var pathIframe = $(item.relatedTarget).data('linkiframe');
+        $(this).find('.iframe-icg').attr('src', '');
+        $(this).find('.iframe-icg').attr('src', linkPattern + pathIframe);
     });
     $('#modalIcg').on('hide.bs.modal', function(){
         $(this).find('.iframe-icg').attr('src', '');
