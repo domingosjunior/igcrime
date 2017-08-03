@@ -81,17 +81,25 @@ $(function(){
     $('#modalIcg').modal('hide');
     $('#modalIcg').on('show.bs.modal', function(item){
 
-        // Variables modal
-        var linkPattern = "https://www.youtube.com/embed/";
-        var pathIframe = $(item.relatedTarget).data('linkiframe');
-        var nameMunicipio = $(item.relatedTarget).find(".rangeicg-card--title-municipio").text();
+        var targetCard = $(item.relatedTarget).closest('li').hasClass('rangeicg-card');
 
-        // Insert name municipio
-        $('.modal-icg--name-municipio b').text(nameMunicipio);
+        if (targetCard) {
+            // Variables modal
+            var linkPattern = "https://www.youtube.com/embed/";
+            var pathIframe = $(item.relatedTarget).data('linkiframe');
+            var nameMunicipio = $(item.relatedTarget).find(".rangeicg-card--title-municipio").text();
 
-        // Insert url in iframe
-        $(this).find('.iframe-icg').attr('src', '');
-        $(this).find('.iframe-icg').attr('src', linkPattern + pathIframe);
+            // Insert name municipio
+            $('.modal-icg--name-municipio b').text(nameMunicipio);
+
+            // Insert url in iframe
+            $(this).find('.iframe-icg').attr('src', '');
+            $(this).find('.iframe-icg').attr('src', linkPattern + pathIframe);
+        } else {
+            console.log('opa');
+        }
+
+
     });
     $('#modalIcg').on('hide.bs.modal', function(){
         // Clean src iframe
