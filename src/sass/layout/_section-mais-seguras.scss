@@ -1,18 +1,18 @@
 // Section mais seguras
 
 .bg-section-seguras {
-  background: #ffffff;
+  background: $bgcolor-section-seguras
 }
 
 .section-seguras {
   @extend %sectionsicg;
-  color: #303134;
+  color: $section-seguras-text-color;
 
   .section-header--title {
-    color: #bd2c4c;
+    color: $section-seguras-header-text-color;
 
     span {
-      color: #303134;
+      color: $section-seguras-header-span-text-color;
     }
 
   }
@@ -21,23 +21,23 @@
 
     .slider-track,
     .slider-selection {
-      background: #303134;
+      background: $section-seguras-rangeslider-bar-bgcolor;
     }
 
     &-list {
       li:before {
-        background-color: #303134;
+        background-color: $section-seguras-rangeslider-bar-bgcolor;
       }
     }
 
   }
 
   .rangeicg-card {
-    background-color: #303134;
+    background-color: $section-seguras-rangecard-bgcolor;
 
     &-title,
     figcaption {
-      color: #ffffff;
+      color: $section-seguras-rangecard-titel-color;
     }
 
   }

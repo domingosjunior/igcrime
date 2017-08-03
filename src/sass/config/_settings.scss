@@ -29,6 +29,18 @@ $bgcolor-section-intro: #ff0000;
 $sec-intro-header-title-span-color: $color-black;
 $sec-intro-text-color: $color-white;
 
+// Section mais violentas
+$bgcolor-section-violentas: #111214;
+
+// Section mais seguras
+$bgcolor-section-seguras: $color-white;
+$section-seguras-text-color: #303134;
+$section-seguras-header-text-color: #bd2c4c;
+$section-seguras-header-span-text-color: #303134;
+$section-seguras-rangeslider-bar-bgcolor: #303134;
+$section-seguras-rangecard-bgcolor: #303134;
+$section-seguras-rangecard-titel-color: $color-white;
+
 // Como analizados
 $analizado-bgcolor-wrap: #c34e67;
 $analizado-header-title: $color-black;
@@ -49,5 +61,17 @@ $icgmuni-map-polygon-fill-hover: #c33056;
 // Plugins
 
 // Rangeslider
-$range-track-bgcolor: #ffffff;
+$range-track-bgcolor: $color-white;
 $range-bgcolor: #bd2c4c;
+$range-selection-bgcolor: $color-white;
+$range-selection-handle-bgcolor: #bd2c4c;
+$range-list-before-bgcolor: $color-white;
+$range-card-bgcolor: $color-white;
+$range-card-text-color: #303034;
+$range-card-title-text-color: #303034;
+$range-card-title-span-text-color: #bd2c4c;
+$range-card-btn-text-color: #fff;
+$range-card-btn-bgcolor: #c33056;
+$range-card-btn-bgcolor-hover: #111214;
+$range-card-btn-text-color-active: #960c30;
+$range-card-btn-border-color-active: #960c30;

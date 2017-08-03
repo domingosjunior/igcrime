@@ -11,21 +11,3 @@
    @content;
  }
 }
-
-
-@mixin ifThemeViolenteSecurity ($typeSection){
-
-  @if $typeSection == violentas {
-    .bg-section {
-      background: #111214;
-    }
-  }
-
-  @if $typeSection == segura {
-    .bg-section {
-      background: #111214;
-    }
-
-  }
-
-}

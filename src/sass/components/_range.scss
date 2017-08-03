@@ -9,7 +9,6 @@
     z-index: 2;
 
     &.slider-horizontal {
-      // border: solid 1px red;
       width: 100%;
     }
 
@@ -18,12 +17,12 @@
     }
 
     &-selection{
-      background-color: #fff;
+      background-color: $range-selection-bgcolor;
       @extend %slider-noboxshadow;
     }
 
     &-handle {
-      background: #bd2c4c;
+      background: $range-selection-handle-bgcolor;
       @extend %slider-noboxshadow;
     }
 
@@ -53,7 +52,7 @@
         width: 20px;
         height: 20px;
         border-radius: 50%;
-        background-color: #ffffff;
+        background-color: $range-list-before-bgcolor;
       }
 
       span {
@@ -90,8 +89,8 @@
     padding-bottom: 15px;
     width: 218px;
     text-align: center;
-    color: #303034;
-    background-color: #fff;
+    color: $range-card-text-color;
+    background-color: $range-card-bgcolor;
     border-radius: 5px;
 
     &-title {
@@ -100,7 +99,7 @@
         display: block;
         font-size: 22px;
       }
-      span { color: #bd2c4c; }
+      span { color: $range-card-title-span-text-color; }
     }
 
     img { margin-bottom: 15px; }
@@ -115,11 +114,11 @@
       padding: 5px 15px;
       font-size: 12px;
       line-height: 20px;
-      color: #fff;
+      color: $range-card-btn-text-color;
       text-transform: uppercase;
       border-radius: 20px;
       border: solid 1px transparent;
-      background-color: #c33056;
+      background-color: $range-card-btn-bgcolor;
       transition-duration: 0.3s;
     }
 
@@ -128,15 +127,15 @@
       &:hover {
         .rangeicg-card-btn {
           transition-duration: 0.15s;
-          background-color: #111214;
+          background-color: $range-card-btn-bgcolor-hover;
         }
       }
       &:active {
         .rangeicg-card-btn {
           transition-duration: 0.15s;
-          color: #960c30;
           background-color: transparent;
-          border-color: #c33056;
+          color: $range-card-btn-text-color-active;
+          border-color: $range-card-btn-border-color-active;
         }
       }
     }
