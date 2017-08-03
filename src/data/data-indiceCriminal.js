@@ -7,15 +7,15 @@ var dataIndice = {
                 icg: "0,586",
                 imgMunicipio: "../data/2012/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
-                linkIframeCard: "linkAqui1"
+                linkIframeCard: "FemdTEIDvRM"
             },
             {
                 rank: "2º Colocado",
                 year: '2012',
-                icg: "0,000",
+                icg: "0,897",
                 imgMunicipio: "../data/2012/img/mais-violentas/nilopolis.png",
                 nameMunicipio: "Nilópolis",
-                linkIframeCard: "linkAqui2"
+                linkIframeCard: "TdBSoy9F9NA"
             }
         ],
         maisSeguras: [

@@ -13113,9 +13113,43 @@ strong {
   position: relative;
 }
 
-/* line 4, src/sass/plugins/_modal.scss */
-.modal-igc .modal-dialog {
+/* line 5, src/sass/plugins/_modal.scss */
+.modal-icg .modal-dialog {
   width: 1100px;
+}
+
+/* line 6, src/sass/plugins/_modal.scss */
+.modal-icg .modal-header {
+  padding-bottom: 0;
+  border-bottom-color: transparent;
+}
+
+/* line 10, src/sass/plugins/_modal.scss */
+.modal-icg .close {
+  color: #303134;
+  font-size: 60px;
+}
+
+/* line 15, src/sass/plugins/_modal.scss */
+.modal-icg--title {
+  color: #303134;
+  font-size: 30px;
+}
+
+/* line 19, src/sass/plugins/_modal.scss */
+.modal-icg--title b {
+  font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
+}
+
+/* line 25, src/sass/plugins/_modal.scss */
+.modal-icg--name-municipio {
+  color: #bd2c4c;
+  font-size: 18px;
+}
+
+/* line 29, src/sass/plugins/_modal.scss */
+.modal-icg--name-municipio b {
+  font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
 }
 
 /* line 3, src/sass/layout/_topbar.scss */
@@ -13831,37 +13865,38 @@ strong {
   color: #303034;
   background-color: #ffffff;
   border-radius: 5px;
+  cursor: pointer;
 }
 
-/* line 96, src/sass/components/_range.scss */
+/* line 97, src/sass/components/_range.scss */
 .rangeicg-card-title {
   font-size: 20px;
 }
 
-/* line 98, src/sass/components/_range.scss */
+/* line 99, src/sass/components/_range.scss */
 .rangeicg-card-title strong {
   display: block;
   font-size: 22px;
 }
 
-/* line 102, src/sass/components/_range.scss */
+/* line 103, src/sass/components/_range.scss */
 .rangeicg-card-title span {
   color: #bd2c4c;
 }
 
-/* line 105, src/sass/components/_range.scss */
+/* line 106, src/sass/components/_range.scss */
 .rangeicg-card img {
   margin-bottom: 15px;
 }
 
-/* line 107, src/sass/components/_range.scss */
+/* line 108, src/sass/components/_range.scss */
 .rangeicg-card figcaption {
   margin-bottom: 10px;
   font-family: "montserrat_extrabold", Arial, Verdana, Sans-serif;
   font-size: 12px;
 }
 
-/* line 113, src/sass/components/_range.scss */
+/* line 114, src/sass/components/_range.scss */
 .rangeicg-card-btn {
   padding: 5px 15px;
   font-size: 12px;
@@ -13874,18 +13909,18 @@ strong {
   transition-duration: 0.3s;
 }
 
-/* line 125, src/sass/components/_range.scss */
+/* line 126, src/sass/components/_range.scss */
 .rangeicg-card > a {
   color: inherit;
 }
 
-/* line 128, src/sass/components/_range.scss */
+/* line 129, src/sass/components/_range.scss */
 .rangeicg-card > a:hover .rangeicg-card-btn {
   transition-duration: 0.15s;
   background-color: #111214;
 }
 
-/* line 134, src/sass/components/_range.scss */
+/* line 135, src/sass/components/_range.scss */
 .rangeicg-card > a:active .rangeicg-card-btn {
   transition-duration: 0.15s;
   background-color: transparent;

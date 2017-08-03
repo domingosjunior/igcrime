@@ -420,7 +420,7 @@
                             <ul class="rangeicg-ranking">
                                 {{#maisViolentas}}
                                 <li class="rangeicg-card">
-                                    <a data-toggle="modal" data-target="#modalIgc" data-iframeCard={{linkIframeCard}}>
+                                    <a data-toggle="modal" data-target="#modalIcg" data-iframeCard={{linkIframeCard}}>
                                         <h3 class="rangeicg-card-title">{{rank}}&nbsp;{{year}}<strong>ICG <span>{{icg}}</span></strong></h3>
                                         <figure>
                                             <img src={{imgMunicipio}} alt="Silueta do município {{nameMunicipio}}">
@@ -469,7 +469,7 @@
                             <ul class="rangeicg-ranking">
                                 {{#maisSeguras}}
                                 <li class="rangeicg-card">
-                                    <a data-toggle="modal" data-target="#modalIgc" data-iframeCard={{linkIframeCard}}>
+                                    <a data-toggle="modal" data-target="#modalIcg" data-iframeCard={{linkIframeCard}}>
                                         <h3 class="rangeicg-card-title">{{rank}}&nbsp;{{year}}<strong>ICG <span>{{icg}}</span></strong></h3>
                                         <figure>
                                             <img src={{imgMunicipio}} alt="Silueta do município {{nameMunicipio}}">
@@ -556,16 +556,18 @@
     <!--[if lt IE 9]>
         <script type="text/javascript" src="http://sawpf.com/1.0.js"></script>
     <![endif]-->
-    <div class="modal modal-igc fade" id="modalIgc" tabindex="-1" role="dialog">
+    <div class="modal modal-icg fade" id="modalIcg" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Detalhando o ICG</h4>
-                    <p>Comarca Santo Antônio de Pádua e Aperibé</p>
+                    <h4 class="modal-title modal-icg--title">Detalhando o <b>ICG</b></h4>
+                    <p class="modal-icg--name-municipio"><b>Comarca Santo Antônio de Pádua e Aperibé</b></p>
                 </div>
                 <div class="modal-body">
-                    <p>One fine body&hellip;</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus a vitae quas blanditiis iste, aliquam molestiae, quae, facilis quibusdam explicabo laudantium id aperiam perferendis. Eligendi nulla dolores at reprehenderit sint.</p>
+                    <iframe class="iframe-icg" data-iframe-src="https://www.youtube.com/embed/" frameborder="0"></iframe>
+                    <p>Iframe aqui dentro</p>
                 </div>
             </div>
             <!-- /.modal-content -->

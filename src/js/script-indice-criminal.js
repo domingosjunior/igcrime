@@ -78,5 +78,15 @@ $(function(){
 
     $('#sliderMaisViolentas, #sliderMaisSeguras').trigger('change');
 
+    // Modal load iframe
+    $('#modalIcg').modal('hide');
+    $('#modalIcg').on('show.bs.modal', function(item){
+        var pathIframe = $(item.relatedTarget).data('iframecard');
+        var iframeModalSrc = $(this).find('.iframe-icg').data('iframe-src');
+        $(this).find('.iframe-icg').attr('src', iframeModalSrc + pathIframe);
+    });
+    $('#modalIcg').on('hide.bs.modal', function(item){
+        $(this).find('.iframe-icg').attr('src', '');
+    });
 });
 
