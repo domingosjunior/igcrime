@@ -5,7 +5,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year:'2012',
                 icg: "0,586",
-                imgMunicipio: "../data/2012/img/mais-violentas/duque-de-caxias.png",
+                imgMunicipio: "data/2012/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "FemdTEIDvRM"
             },
@@ -13,7 +13,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2012',
                 icg: "0,897",
-                imgMunicipio: "../data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
                 nameMunicipio: "Nilópolis",
                 linkIframeCard: "TdBSoy9F9NA"
             }
@@ -23,7 +23,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2012',
                 icg: "0,586",
-                imgMunicipio: "../data/2012/img/mais-seguras/cambuci.png",
+                imgMunicipio: "data/2012/img/mais-seguras/cambuci.png",
                 nameMunicipio: "Cambuci",
                 linkIframeCard: "linkAqui1"
             },
@@ -31,7 +31,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2012',
                 icg: "0,000",
-                imgMunicipio: "../data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Santo Antônio de Padua e Aperibe",
                 linkIframeCard: "linkAqui2"
             }
@@ -44,7 +44,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2013',
                 icg: "0,586",
-                imgMunicipio: "../data/2012/img/mais-violentas/duque-de-caxias.png",
+                imgMunicipio: "data/2012/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "linkAqui1"
             },
@@ -52,7 +52,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2013',
                 icg: "0,000",
-                imgMunicipio: "../data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
                 nameMunicipio: "Nilópolis",
                 linkIframeCard: "linkAqui2"
             }
@@ -62,7 +62,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2013',
                 icg: "0,586",
-                imgMunicipio: "../data/2012/img/mais-seguras/cambuci.png",
+                imgMunicipio: "data/2012/img/mais-seguras/cambuci.png",
                 nameMunicipio: "Cambuci",
                 linkIframeCard: "linkAqui1"
             },
@@ -70,7 +70,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2013',
                 icg: "0,000",
-                imgMunicipio: "../data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Santo Antônio de Padua e Aperibe",
                 linkIframeCard: "linkAqui2"
             }
@@ -82,7 +82,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2014',
                 icg: "0,586",
-                imgMunicipio: "../data/2012/img/mais-violentas/duque-de-caxias.png",
+                imgMunicipio: "data/2012/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "linkAqui1"
             },
@@ -90,7 +90,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2014',
                 icg: "0,000",
-                imgMunicipio: "../data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
                 nameMunicipio: "Nilópolis",
                 linkIframeCard: "linkAqui2"
             }
@@ -100,7 +100,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2014',
                 icg: "0,586",
-                imgMunicipio: "../data/2012/img/mais-seguras/cambuci.png",
+                imgMunicipio: "data/2012/img/mais-seguras/cambuci.png",
                 nameMunicipio: "Cambuci",
                 linkIframeCard: "linkAqui1"
             },
@@ -108,7 +108,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2014',
                 icg: "0,000",
-                imgMunicipio: "../data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Santo Antônio de Padua e Aperibe",
                 linkIframeCard: "linkAqui2"
             }
