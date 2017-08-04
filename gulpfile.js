@@ -18,6 +18,9 @@ require(config.tasksPath + '/taskBuildFont')(gulp, plugins, config);
 // Minifica e concatena js/css
 require(config.tasksPath + '/taskBuildCode')(gulp, plugins, config);
 
+// Copia database
+require(config.tasksPath + '/taskCopyData')(gulp, plugins, config);
+
 // Sass
 require(config.tasksPath + '/taskSass')(gulp, plugins, config);
 
