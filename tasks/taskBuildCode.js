@@ -5,8 +5,15 @@ module.exports = function (gulp, plugins, config) {
                    .pipe(plugins.usemin({
                         jsLib:[plugins.uglify],
                         jsScript:[plugins.uglify],
-                        css:[plugins.autoprefixer, plugins.cssmin]
-
+                        css:[plugins.autoprefixer, plugins.cssmin],
+                        html: [function () {
+                            return plugins.htmlmin({
+                                                    collapseWhitespace: true,
+                                                    collapseInlineTagWhitespace: true,
+                                                    removeComments: true,
+                                                    removeEmptyElements: true,
+                                                });
+                        }],
                    }))
                    .pipe(gulp.dest(config.srcDist));
   });
