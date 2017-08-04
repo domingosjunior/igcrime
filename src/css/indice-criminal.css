@@ -13157,43 +13157,8 @@ strong {
   display: inline-block;
 }
 
-/* line 7, src/sass/layout/_topbar.scss */
-.topbar {
-  margin-bottom: 0;
-  padding-top: 15px;
-  padding-bottom: 5px;
-  color: #000000;
-  border-bottom: solid 6px #000;
-  transition: all .15s;
-  background-color: #ffffff;
-  color: #000000;
-}
-
-/* line 17, src/sass/layout/_topbar.scss */
-.topbar--logo {
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 56px;
-  font-family: "montserrat_semibolditalic", Arial, Verdana, Sans-serif;
-}
-
-/* line 26, src/sass/layout/_topbar.scss */
-.topbar--menu {
-  padding-top: 10px;
-  font-size: 16px;
-}
-
-/* line 33, src/sass/layout/_topbar.scss */
-.topbar--menu a {
-  position: relative;
-  display: block;
-  margin-left: 12px;
-}
-
-/* line 38, src/sass/layout/_topbar.scss */
-.topbar--menu a:after {
+/* line 8, src/sass/layout/_topbar.scss */
+.topbar--menu a:after, .fp-viewing-anchor1 .topbar--menu-link:nth-child(1) a:after, .fp-viewing-anchor2 .topbar--menu-link:nth-child(2) a:after, .fp-viewing-anchor3 .topbar--menu-link:nth-child(3) a:after, .fp-viewing-anchor4 .topbar--menu-link:nth-child(4) a:after, .fp-viewing-anchor5 .topbar--menu-link:nth-child(5) a:after, .fp-viewing-anchor6 .topbar--menu-link:nth-child(6) a:after {
   content: '';
   position: absolute;
   left: 0;
@@ -13205,17 +13170,125 @@ strong {
   transition: all .25s ease-out;
 }
 
-/* line 50, src/sass/layout/_topbar.scss */
-.topbar--menu a:hover {
-  color: #000000;
+/* line 20, src/sass/layout/_topbar.scss */
+.topbar--menu a:hover, .fp-viewing-anchor1 .topbar--menu-link:nth-child(1) a:hover:after, .fp-viewing-anchor2 .topbar--menu-link:nth-child(2) a:hover:after, .fp-viewing-anchor3 .topbar--menu-link:nth-child(3) a:hover:after, .fp-viewing-anchor4 .topbar--menu-link:nth-child(4) a:hover:after, .fp-viewing-anchor5 .topbar--menu-link:nth-child(5) a:hover:after, .fp-viewing-anchor6 .topbar--menu-link:nth-child(6) a:hover:after {
+  color: #bd2c4c;
 }
 
-/* line 53, src/sass/layout/_topbar.scss */
-.topbar--menu a:hover:after {
+/* line 23, src/sass/layout/_topbar.scss */
+.topbar--menu a:hover:after, .fp-viewing-anchor1 .topbar--menu-link:nth-child(1) a:hover:after, .fp-viewing-anchor2 .topbar--menu-link:nth-child(2) a:hover:after, .fp-viewing-anchor3 .topbar--menu-link:nth-child(3) a:hover:after, .fp-viewing-anchor4 .topbar--menu-link:nth-child(4) a:hover:after, .fp-viewing-anchor5 .topbar--menu-link:nth-child(5) a:hover:after, .fp-viewing-anchor6 .topbar--menu-link:nth-child(6) a:hover:after {
   width: 100%;
   opacity: 1;
   transition: all .3s ease-in;
-  background: #000000;
+  background: #bd2c4c;
+}
+
+/* line 33, src/sass/layout/_topbar.scss */
+.topbar {
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: #000000;
+  border-bottom: solid 6px #000;
+  transition: all .15s;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* line 43, src/sass/layout/_topbar.scss */
+.topbar--logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 56px;
+  font-family: "montserrat_semibolditalic", Arial, Verdana, Sans-serif;
+}
+
+/* line 52, src/sass/layout/_topbar.scss */
+.topbar--menu {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+/* line 59, src/sass/layout/_topbar.scss */
+.topbar--menu a {
+  position: relative;
+  display: block;
+  margin-left: 12px;
+  text-decoration: none;
+}
+
+/* line 74, src/sass/layout/_topbar.scss */
+.fp-viewing-anchor1 .topbar--menu-link:nth-child(1) a {
+  color: #bd2c4c;
+}
+
+/* line 76, src/sass/layout/_topbar.scss */
+.fp-viewing-anchor1 .topbar--menu-link:nth-child(1) a:after {
+  width: 100%;
+  opacity: 1;
+  background-color: #bd2c4c;
+}
+
+/* line 74, src/sass/layout/_topbar.scss */
+.fp-viewing-anchor2 .topbar--menu-link:nth-child(2) a {
+  color: #bd2c4c;
+}
+
+/* line 76, src/sass/layout/_topbar.scss */
+.fp-viewing-anchor2 .topbar--menu-link:nth-child(2) a:after {
+  width: 100%;
+  opacity: 1;
+  background-color: #bd2c4c;
+}
+
+/* line 74, src/sass/layout/_topbar.scss */
+.fp-viewing-anchor3 .topbar--menu-link:nth-child(3) a {
+  color: #bd2c4c;
+}
+
+/* line 76, src/sass/layout/_topbar.scss */
+.fp-viewing-anchor3 .topbar--menu-link:nth-child(3) a:after {
+  width: 100%;
+  opacity: 1;
+  background-color: #bd2c4c;
+}
+
+/* line 74, src/sass/layout/_topbar.scss */
+.fp-viewing-anchor4 .topbar--menu-link:nth-child(4) a {
+  color: #bd2c4c;
+}
+
+/* line 76, src/sass/layout/_topbar.scss */
+.fp-viewing-anchor4 .topbar--menu-link:nth-child(4) a:after {
+  width: 100%;
+  opacity: 1;
+  background-color: #bd2c4c;
+}
+
+/* line 74, src/sass/layout/_topbar.scss */
+.fp-viewing-anchor5 .topbar--menu-link:nth-child(5) a {
+  color: #bd2c4c;
+}
+
+/* line 76, src/sass/layout/_topbar.scss */
+.fp-viewing-anchor5 .topbar--menu-link:nth-child(5) a:after {
+  width: 100%;
+  opacity: 1;
+  background-color: #bd2c4c;
+}
+
+/* line 74, src/sass/layout/_topbar.scss */
+.fp-viewing-anchor6 .topbar--menu-link:nth-child(6) a {
+  color: #bd2c4c;
+}
+
+/* line 76, src/sass/layout/_topbar.scss */
+.fp-viewing-anchor6 .topbar--menu-link:nth-child(6) a:after {
+  width: 100%;
+  opacity: 1;
+  background-color: #bd2c4c;
 }
 
 /* line 4, src/sass/layout/_sections.scss */
