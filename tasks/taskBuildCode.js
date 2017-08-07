@@ -9,9 +9,8 @@ module.exports = function (gulp, plugins, config) {
                         html: [function () {
                             return plugins.htmlmin({
                                                     collapseWhitespace: true,
-                                                    collapseInlineTagWhitespace: true,
                                                     removeComments: true,
-                                                    removeEmptyElements: true,
+                                                    collapseInlineTagWhitespace: true,
                                                 });
                         }],
                    }))
