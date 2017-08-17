@@ -35,9 +35,11 @@
   .rangeicg-card {
     background-color: $section-seguras-rangecard-bgcolor;
 
-    &-title,
-    figcaption {
+    &-title {
       color: $section-seguras-rangecard-titel-color;
+    }
+    &--title-municipio {
+      color: #ffffff;
     }
 
   }

@@ -13707,8 +13707,12 @@ strong {
 }
 
 /* line 38, src/sass/layout/_section-mais-seguras.scss */
-.section-seguras .rangeicg-card-title,
-.section-seguras .rangeicg-card figcaption {
+.section-seguras .rangeicg-card-title {
+  color: #ffffff;
+}
+
+/* line 41, src/sass/layout/_section-mais-seguras.scss */
+.section-seguras .rangeicg-card--title-municipio {
   color: #ffffff;
 }
 
@@ -13966,7 +13970,7 @@ strong {
 .rangeicg-card figcaption {
   margin-bottom: 10px;
   font-family: "montserrat_extrabold", Arial, Verdana, Sans-serif;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 /* line 114, src/sass/components/_range.scss */
