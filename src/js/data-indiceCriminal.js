@@ -13,7 +13,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2012',
                 icg: "0,94386",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2012/img/mais-violentas/niteroi.png",
                 nameMunicipio: "Niterói",
                 linkIframeCard: "TdBSoy9F9NA"
             },
@@ -29,7 +29,7 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2012',
                 icg: "0,74592",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2012/img/mais-violentas/rio-de-janeiro.png",
                 nameMunicipio: "Rio de Janeiro",
                 linkIframeCard: "TdBSoy9F9NA"
             },
@@ -37,7 +37,7 @@ var dataIndice = {
                 rank: "5º Colocado",
                 year: '2012',
                 icg: "0,71498",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2012/img/mais-violentas/sao-goncalo.png",
                 nameMunicipio: "São Gonçalo",
                 linkIframeCard: "TdBSoy9F9NA"
             }
@@ -47,7 +47,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2012',
                 icg: "0,00005",
-                imgMunicipio: "data/2012/img/mais-violentas/duque-de-caxias.png",
+                imgMunicipio: "data/2012/img/mais-seguras/sumidouro.png",
                 nameMunicipio: "Sumidouro",
                 linkIframeCard: "FemdTEIDvRM"
             },
@@ -55,7 +55,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2012',
                 icg: "0,00082",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2012/img/mais-seguras/duas-barras.png",
                 nameMunicipio: "Duas Barras",
                 linkIframeCard: "TdBSoy9F9NA"
             },
@@ -63,7 +63,7 @@ var dataIndice = {
                 rank: "3º Colocado",
                 year: '2012',
                 icg: "0,00078",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2012/img/mais-seguras/cantagalo.png",
                 nameMunicipio: "Cantagalo",
                 linkIframeCard: "TdBSoy9F9NA"
             },
@@ -71,7 +71,7 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2012',
                 icg: "0,00082",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2012/img/mais-seguras/sao-sebastiao-do-alto.png",
                 nameMunicipio: "São Sebastião do Alto",
                 linkIframeCard: "TdBSoy9F9NA"
             },
@@ -79,7 +79,7 @@ var dataIndice = {
                 rank: "5º Colocado",
                 year: '2012',
                 icg: "0,00120",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2012/img/mais-seguras/carmo.png",
                 nameMunicipio: "Carmo",
                 linkIframeCard: "TdBSoy9F9NA"
             }
