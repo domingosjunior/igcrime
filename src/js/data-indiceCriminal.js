@@ -92,7 +92,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2013',
                 icg: "0,99000",
-                imgMunicipio: "data/2012/img/mais-violentas/duque-de-caxias.png",
+                imgMunicipio: "data/2013/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "linkAqui1"
             },
@@ -100,7 +100,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2013',
                 icg: "0,91347",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2013/img/mais-violentas/belford-roxo.png",
                 nameMunicipio: "Belford Roxo",
                 linkIframeCard: "linkAqui2"
             },
@@ -108,7 +108,7 @@ var dataIndice = {
                 rank: "3º Colocado",
                 year: '2013',
                 icg: "0,86160",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2013/img/mais-violentas/nilopolis.png",
                 nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
                 linkIframeCard: "linkAqui2"
             },
@@ -116,7 +116,7 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2013',
                 icg: "0,84372",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2013/img/mais-violentas/niteroi.png",
                 nameMunicipio: "Niterói",
                 linkIframeCard: "linkAqui2"
             },
@@ -124,7 +124,7 @@ var dataIndice = {
                 rank: "5º Colocado",
                 year: '2013',
                 icg: "0,73047",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2013/img/mais-violentas/sao-joao-de-meriti.png",
                 nameMunicipio: "São João de Meriti",
                 linkIframeCard: "linkAqui2"
             }
