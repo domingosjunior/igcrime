@@ -306,7 +306,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2015',
                 icg: "0,00005",
-                imgMunicipio: "data/2012/img/mais-seguras/cambuci.png",
+                imgMunicipio: "data/2015/img/mais-seguras/laje-do-muriae.png",
                 nameMunicipio: "Laje do Muriaé",
                 linkIframeCard: "linkAqui1"
             },
@@ -314,7 +314,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2015',
                 icg: "0,00014",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2015/img/mais-seguras/rio-das-flores.png",
                 nameMunicipio: "Rio das Flores",
                 linkIframeCard: "linkAqui2"
             },
@@ -322,7 +322,7 @@ var dataIndice = {
                 rank: "3º Colocado",
                 year: '2015',
                 icg: "0,00017",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2015/img/mais-seguras/sumidouro.png",
                 nameMunicipio: "Sumidouro",
                 linkIframeCard: "linkAqui2"
             },
@@ -330,7 +330,7 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2015',
                 icg: "0,00076",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2015/img/mais-seguras/mendes.png",
                 nameMunicipio: "Mendes",
                 linkIframeCard: "linkAqui2"
             },
@@ -338,7 +338,7 @@ var dataIndice = {
                 rank: "5º Colocado",
                 year: '2015',
                 icg: "0,00099",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2015/img/mais-seguras/carmo.png",
                 nameMunicipio: "Carmo",
                 linkIframeCard: "linkAqui2"
             }
