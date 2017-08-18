@@ -134,7 +134,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2013',
                 icg: "0,00005",
-                imgMunicipio: "data/2012/img/mais-seguras/cambuci.png",
+                imgMunicipio: "data/2013/img/mais-seguras/carmo.png",
                 nameMunicipio: "Carmo",
                 linkIframeCard: "linkAqui1"
             },
@@ -142,7 +142,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2013',
                 icg: "0,00063",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2013/img/mais-seguras/porciuncula.png",
                 nameMunicipio: "Porciúncula",
                 linkIframeCard: "linkAqui2"
             },
@@ -150,7 +150,7 @@ var dataIndice = {
                 rank: "3º Colocado",
                 year: '2013',
                 icg: "0,00064",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2013/img/mais-seguras/laje-do-muriae.png",
                 nameMunicipio: "Laje do Muriaé",
                 linkIframeCard: "linkAqui2"
             },
@@ -158,7 +158,7 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2013',
                 icg: "0,00088",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2013/img/mais-seguras/sumidouro.png",
                 nameMunicipio: "Sumidouro",
                 linkIframeCard: "linkAqui2"
             },
@@ -166,7 +166,7 @@ var dataIndice = {
                 rank: "5º Colocado",
                 year: '2013',
                 icg: "0,00110",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2013/img/mais-seguras/mendes.png",
                 nameMunicipio: "Mendes",
                 linkIframeCard: "linkAqui2"
             }
