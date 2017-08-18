@@ -350,7 +350,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2016',
                 icg: "0,99000",
-                imgMunicipio: "data/2012/img/mais-violentas/duque-de-caxias.png",
+                imgMunicipio: "data/2016/img/mais-violentas/sao-joao-de-meriti.png",
                 nameMunicipio: "São João de Meriti",
                 linkIframeCard: "linkAqui1"
             },
@@ -358,7 +358,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2016',
                 icg: "0,84275",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2016/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "linkAqui2"
             },
@@ -366,7 +366,7 @@ var dataIndice = {
                 rank: "3º Colocado",
                 year: '2016',
                 icg: "0,75701",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2016/img/mais-violentas/sao-goncalo.png",
                 nameMunicipio: "São Gonçalo",
                 linkIframeCard: "linkAqui2"
             },
@@ -374,7 +374,7 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2016',
                 icg: "0,75350",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2016/img/mais-violentas/niteroi.png",
                 nameMunicipio: "Niterói",
                 linkIframeCard: "linkAqui2"
             },
@@ -382,7 +382,7 @@ var dataIndice = {
                 rank: "5º Colocado",
                 year: '2016',
                 icg: "0,73698",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2016/img/mais-violentas/nova-iguacu-e-mesquita.png",
                 nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
                 linkIframeCard: "linkAqui2"
             }
@@ -392,7 +392,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2016',
                 icg: "0,00005",
-                imgMunicipio: "data/2012/img/mais-seguras/cambuci.png",
+                imgMunicipio: "data/2016/img/mais-seguras/sumidouro.png",
                 nameMunicipio: "Sumidouro",
                 linkIframeCard: "linkAqui1"
             },
@@ -400,7 +400,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2016',
                 icg: "0,00005",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2016/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Trajano de Morais",
                 linkIframeCard: "linkAqui2"
             },
@@ -408,7 +408,7 @@ var dataIndice = {
                 rank: "3º Colocado",
                 year: '2016',
                 icg: "0,00043",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2016/img/mais-seguras/rio-das-flores.png",
                 nameMunicipio: "Rio das Flores",
                 linkIframeCard: "linkAqui2"
             },
@@ -416,7 +416,7 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2016',
                 icg: "0,00055",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2016/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "São Sebastião do Alto",
                 linkIframeCard: "linkAqui2"
             },
@@ -424,7 +424,7 @@ var dataIndice = {
                 rank: "5º Colocado",
                 year: '2016',
                 icg: "0,00090",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2016/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Rio Claro",
                 linkIframeCard: "linkAqui2"
             }
