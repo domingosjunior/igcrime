@@ -178,7 +178,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2014',
                 icg: "0,99000",
-                imgMunicipio: "data/2012/img/mais-violentas/duque-de-caxias.png",
+                imgMunicipio: "data/2014/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "linkAqui1"
             },
@@ -186,7 +186,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2014',
                 icg: "0,90398",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2014/img/mais-violentas/belford-roxo.png",
                 nameMunicipio: "Belford Roxo",
                 linkIframeCard: "linkAqui2"
             },
@@ -194,7 +194,7 @@ var dataIndice = {
                 rank: "3º Colocado",
                 year: '2014',
                 icg: "0,88522",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2014/img/mais-violentas/nova-iguacu-e-mesquita.png",
                 nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
                 linkIframeCard: "linkAqui2"
             },
@@ -202,7 +202,7 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2014',
                 icg: "0,86700",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2014/img/mais-violentas/sao-goncalo.png",
                 nameMunicipio: "São Gonçalo",
                 linkIframeCard: "linkAqui2"
             },
@@ -210,7 +210,7 @@ var dataIndice = {
                 rank: "5º Colocado",
                 year: '2014',
                 icg: "0,82701",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2014/img/mais-violentas/sao-joao-de-meriti.png",
                 nameMunicipio: "São João de Meriti",
                 linkIframeCard: "linkAqui2"
             }
@@ -220,7 +220,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2014',
                 icg: "0,00005",
-                imgMunicipio: "data/2012/img/mais-seguras/cambuci.png",
+                imgMunicipio: "data/2014/img/mais-seguras/sao-jose-do-vale-do-rio-preto.png",
                 nameMunicipio: "São José do Vale do Rio Preto",
                 linkIframeCard: "linkAqui1"
             },
@@ -228,7 +228,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2014',
                 icg: "0,00117",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2014/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Comarca Cambuci e São José de Ubá",
                 linkIframeCard: "linkAqui2"
             },
@@ -236,7 +236,7 @@ var dataIndice = {
                 rank: "3º Colocado",
                 year: '2014',
                 icg: "0,00152",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2014/img/mais-seguras/bom-jardim.png",
                 nameMunicipio: "Bom Jardim",
                 linkIframeCard: "linkAqui2"
             },
@@ -244,7 +244,7 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2014',
                 icg: "0,00184",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2014/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Comarca Natividade e Varre e Sai",
                 linkIframeCard: "linkAqui2"
             },
@@ -252,7 +252,7 @@ var dataIndice = {
                 rank: "5º Colocado",
                 year: '2014',
                 icg: "0,00256",
-                imgMunicipio: "data/2012/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2014/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Comarca Cardoso Moreira e Italva",
                 linkIframeCard: "linkAqui2"
             }
@@ -264,7 +264,7 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2015',
                 icg: "0,99000",
-                imgMunicipio: "data/2012/img/mais-violentas/duque-de-caxias.png",
+                imgMunicipio: "data/2015/img/mais-violentas/niteroi.png",
                 nameMunicipio: "Niterói",
                 linkIframeCard: "linkAqui1"
             },
@@ -272,7 +272,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2015',
                 icg: "0,90049",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2015/img/mais-violentas/sao-joao-de-meriti.png",
                 nameMunicipio: "São João de Meriti",
                 linkIframeCard: "linkAqui2"
             },
@@ -280,7 +280,7 @@ var dataIndice = {
                 rank: "3º Colocado",
                 year: '2015',
                 icg: "0,86637",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2015/img/mais-violentas/sao-goncalo.png",
                 nameMunicipio: "São Gonçalo",
                 linkIframeCard: "linkAqui2"
             },
@@ -288,7 +288,7 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2015',
                 icg: "0,80606",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2015/img/mais-violentas/nilopolis.png",
                 nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
                 linkIframeCard: "linkAqui2"
             },
@@ -296,7 +296,7 @@ var dataIndice = {
                 rank: "5º Colocado",
                 year: '2015',
                 icg: "0,75015",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2015/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "linkAqui2"
             }
