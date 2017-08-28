@@ -13,7 +13,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2012',
                 icg: "0,832",
-                imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2012/img/mais-violentas/nova-iguacu-e-mesquita.png",
                 nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
                 linkIframeCard: "TdBSoy9F9NA"
             },
@@ -21,7 +21,7 @@ var dataIndice = {
                 rank: "3º Colocado",
                 year: '2012',
                 icg: "0,805",
-                imgMunicipio: "data/2012/img/mais-violentas/rio-de-janeiro.png",
+                imgMunicipio: "data/2012/img/mais-violentas/sao-joao-de-meriti.png",
                 nameMunicipio: "São João de meriti - Falta atualizar foto",
                 linkIframeCard: "TdBSoy9F9NA"
             },
@@ -99,7 +99,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2013',
                 icg: "0,909",
-                imgMunicipio: "data/2013/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2013/img/mais-violentas/nova-iguacu-e-mesquita.png",
                 nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
                 linkIframeCard: "linkAqui2"
             },
@@ -227,8 +227,8 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2014',
                 icg: "0,280",
-                imgMunicipio: "data/2014/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
-                nameMunicipio: "Porciúncula - Não temos imagem",
+                imgMunicipio: "data/2014/img/mais-seguras/porciuncula.png",
+                nameMunicipio: "Porciúncula",
                 linkIframeCard: "linkAqui2"
             },
             {
@@ -271,7 +271,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2015',
                 icg: "0,934",
-                imgMunicipio: "data/2015/img/mais-violentas/nilopolis.png",
+                imgMunicipio: "data/2015/img/mais-violentas/nova-iguacu-e-mesquita.png",
                 nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
                 linkIframeCard: "linkAqui2"
             },
@@ -362,7 +362,7 @@ var dataIndice = {
                 linkIframeCard: "linkAqui2"
             },
             {
-                rank: "2º Colocado",
+                rank: "3º Colocado",
                 year: '2016',
                 icg: "0,783",
                 imgMunicipio: "data/2016/img/mais-violentas/duque-de-caxias.png",
@@ -370,7 +370,7 @@ var dataIndice = {
                 linkIframeCard: "linkAqui2"
             },
             {
-                rank: "3º Colocado",
+                rank: "4º Colocado",
                 year: '2016',
                 icg: "0,676",
                 imgMunicipio: "data/2016/img/mais-violentas/sao-goncalo.png",
@@ -378,10 +378,10 @@ var dataIndice = {
                 linkIframeCard: "linkAqui2"
             },
             {
-                rank: "4º Colocado",
+                rank: "5º Colocado",
                 year: '2016',
                 icg: "0,621",
-                imgMunicipio: "data/2016/img/mais-violentas/niteroi.png",
+                imgMunicipio: "data/2016/img/mais-violentas/queimados.png",
                 nameMunicipio: "Queimados",
                 linkIframeCard: "linkAqui2"
             }
@@ -415,7 +415,7 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2016',
                 icg: "0,296",
-                imgMunicipio: "data/2016/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2016/img/mais-seguras/sao-sebatiao-do-alto.png",
                 nameMunicipio: "São Sebastião do Alto",
                 linkIframeCard: "linkAqui2"
             },
@@ -423,7 +423,7 @@ var dataIndice = {
                 rank: "5º Colocado",
                 year: '2016',
                 icg: "0,296",
-                imgMunicipio: "data/2016/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2016/img/mais-seguras/rio-claro.png",
                 nameMunicipio: "Rio Claro",
                 linkIframeCard: "linkAqui2"
             }
