@@ -182,7 +182,7 @@ var dataIndice = {
                 linkIframeCard: "linkAqui2"
             },
             {
-                rank: "1º Colocado",
+                rank: "2º Colocado",
                 year: '2014',
                 icg: "0,939",
                 imgMunicipio: "data/2014/img/mais-violentas/duque-de-caxias.png",
@@ -190,69 +190,69 @@ var dataIndice = {
                 linkIframeCard: "linkAqui1"
             },
             {
-                rank: "2º Colocado",
+                rank: "3º Colocado",
                 year: '2014',
-                icg: "0,90398",
-                imgMunicipio: "data/2014/img/mais-violentas/belford-roxo.png",
-                nameMunicipio: "Belford Roxo",
-                linkIframeCard: "linkAqui2"
-            },
-            {
-                rank: "4º Colocado",
-                year: '2014',
-                icg: "0,86700",
+                icg: "0,857",
                 imgMunicipio: "data/2014/img/mais-violentas/sao-goncalo.png",
                 nameMunicipio: "São Gonçalo",
                 linkIframeCard: "linkAqui2"
             },
             {
-                rank: "5º Colocado",
+                rank: "4º Colocado",
                 year: '2014',
-                icg: "0,82701",
+                icg: "0,851",
                 imgMunicipio: "data/2014/img/mais-violentas/sao-joao-de-meriti.png",
                 nameMunicipio: "São João de Meriti",
                 linkIframeCard: "linkAqui2"
-            }
+            },
+            {
+                rank: "5º Colocado",
+                year: '2014',
+                icg: "0,696",
+                imgMunicipio: "data/2014/img/mais-violentas/belford-roxo.png",
+                nameMunicipio: "Belford Roxo",
+                linkIframeCard: "linkAqui2"
+            },
         ],
         maisSeguras: [
             {
                 rank: "1º Colocado",
                 year: '2014',
-                icg: "0,00005",
+                icg: "0,2803",
                 imgMunicipio: "data/2014/img/mais-seguras/sao-jose-do-vale-do-rio-preto.png",
-                nameMunicipio: "São José do Vale do Rio Preto",
+                nameMunicipio: "Engenheiro Paulo de Frontin - Não temos imagem",
                 linkIframeCard: "linkAqui1"
             },
             {
                 rank: "2º Colocado",
                 year: '2014',
-                icg: "0,00117",
+                icg: "0,2804",
                 imgMunicipio: "data/2014/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
-                nameMunicipio: "Comarca Cambuci e São José de Ubá",
+                nameMunicipio: "Porciúncula - Não temos imagem",
                 linkIframeCard: "linkAqui2"
             },
             {
                 rank: "3º Colocado",
                 year: '2014',
-                icg: "0,00152",
+                icg: "0,2807",
                 imgMunicipio: "data/2014/img/mais-seguras/bom-jardim.png",
-                nameMunicipio: "Bom Jardim",
+                nameMunicipio: "Trajano de Morais - Não temos imagem",
                 linkIframeCard: "linkAqui2"
             },
             {
                 rank: "4º Colocado",
                 year: '2014',
-                icg: "0,00184",
+                icg: "0,2808",
                 imgMunicipio: "data/2014/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
-                nameMunicipio: "Comarca Natividade e Varre e Sai",
+                nameMunicipio: "Santa Maria Madalena - Não temos imagem",
                 linkIframeCard: "linkAqui2"
             },
             {
                 rank: "5º Colocado",
                 year: '2014',
-                icg: "0,00256",
+                icg: "0,2809",
                 imgMunicipio: "data/2014/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
-                nameMunicipio: "Comarca Cardoso Moreira e Italva",
+                nameMunicipio: "Laje do Muriaé - Não temos imagem",
                 linkIframeCard: "linkAqui2"
             }
         ]
