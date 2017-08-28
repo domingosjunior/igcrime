@@ -262,7 +262,7 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year: '2015',
-                icg: "0,944",
+                icg: "0,945",
                 imgMunicipio: "data/2015/img/mais-violentas/sao-joao-de-meriti.png",
                 nameMunicipio: "São João de Meriti",
                 linkIframeCard: "linkAqui2"
@@ -278,7 +278,7 @@ var dataIndice = {
             {
                 rank: "3º Colocado",
                 year: '2015',
-                icg: "0,845",
+                icg: "0,846",
                 imgMunicipio: "data/2015/img/mais-violentas/sao-goncalo.png",
                 nameMunicipio: "São Gonçalo",
                 linkIframeCard: "linkAqui2"
@@ -286,7 +286,7 @@ var dataIndice = {
             {
                 rank: "4º Colocado",
                 year: '2015',
-                icg: "0,825",
+                icg: "0,826",
                 imgMunicipio: "data/2015/img/mais-violentas/niteroi.png",
                 nameMunicipio: "Niterói",
                 linkIframeCard: "linkAqui1"
@@ -294,7 +294,7 @@ var dataIndice = {
             {
                 rank: "5º Colocado",
                 year: '2015',
-                icg: "0,803",
+                icg: "0,804",
                 imgMunicipio: "data/2015/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "linkAqui2"
@@ -304,7 +304,7 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year: '2015',
-                icg: "0,00005",
+                icg: "0,284",
                 imgMunicipio: "data/2015/img/mais-seguras/laje-do-muriae.png",
                 nameMunicipio: "Laje do Muriaé",
                 linkIframeCard: "linkAqui1"
@@ -312,15 +312,15 @@ var dataIndice = {
             {
                 rank: "2º Colocado",
                 year: '2015',
-                icg: "0,00014",
+                icg: "0,284",
                 imgMunicipio: "data/2015/img/mais-seguras/rio-das-flores.png",
                 nameMunicipio: "Rio das Flores",
                 linkIframeCard: "linkAqui2"
-            },
+            },s
             {
                 rank: "3º Colocado",
                 year: '2015',
-                icg: "0,00017",
+                icg: "0,284",
                 imgMunicipio: "data/2015/img/mais-seguras/sumidouro.png",
                 nameMunicipio: "Sumidouro",
                 linkIframeCard: "linkAqui2"
@@ -328,7 +328,7 @@ var dataIndice = {
             {
                 rank: "4º Colocado",
                 year: '2015',
-                icg: "0,00076",
+                icg: "0,285",
                 imgMunicipio: "data/2015/img/mais-seguras/mendes.png",
                 nameMunicipio: "Mendes",
                 linkIframeCard: "linkAqui2"
@@ -336,7 +336,7 @@ var dataIndice = {
             {
                 rank: "5º Colocado",
                 year: '2015',
-                icg: "0,00099",
+                icg: "0,285",
                 imgMunicipio: "data/2015/img/mais-seguras/carmo.png",
                 nameMunicipio: "Carmo",
                 linkIframeCard: "linkAqui2"
@@ -348,7 +348,7 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year: '2016',
-                icg: "0,99000",
+                icg: "0,983",
                 imgMunicipio: "data/2016/img/mais-violentas/sao-joao-de-meriti.png",
                 nameMunicipio: "São João de Meriti",
                 linkIframeCard: "linkAqui1"
