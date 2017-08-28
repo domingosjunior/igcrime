@@ -4,7 +4,7 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year:'2012',
-                icg: "0,99000",
+                icg: "0,998",
                 imgMunicipio: "data/2012/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "FemdTEIDvRM"
@@ -12,33 +12,33 @@ var dataIndice = {
             {
                 rank: "2º Colocado",
                 year: '2012',
-                icg: "0,94386",
-                imgMunicipio: "data/2012/img/mais-violentas/niteroi.png",
-                nameMunicipio: "Niterói",
-                linkIframeCard: "TdBSoy9F9NA"
-            },
-            {
-                rank: "3º Colocado",
-                year: '2012',
-                icg: "0,76675",
+                icg: "0,831",
                 imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
                 nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
                 linkIframeCard: "TdBSoy9F9NA"
             },
             {
-                rank: "4º Colocado",
+                rank: "3º Colocado",
                 year: '2012',
-                icg: "0,74592",
+                icg: "0,805",
                 imgMunicipio: "data/2012/img/mais-violentas/rio-de-janeiro.png",
-                nameMunicipio: "Rio de Janeiro",
+                nameMunicipio: "São João de meriti - Falta atualizar foto",
                 linkIframeCard: "TdBSoy9F9NA"
             },
             {
-                rank: "5º Colocado",
+                rank: "4º Colocado",
                 year: '2012',
-                icg: "0,71498",
+                icg: "0,772",
                 imgMunicipio: "data/2012/img/mais-violentas/sao-goncalo.png",
                 nameMunicipio: "São Gonçalo",
+                linkIframeCard: "TdBSoy9F9NA"
+            },
+             {
+                rank: "5º Colocado",
+                year: '2012',
+                icg: "0,713",
+                imgMunicipio: "data/2012/img/mais-violentas/niteroi.png",
+                nameMunicipio: "Niterói",
                 linkIframeCard: "TdBSoy9F9NA"
             }
         ],
@@ -46,7 +46,7 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year: '2012',
-                icg: "0,00005",
+                icg: "0,1954",
                 imgMunicipio: "data/2012/img/mais-seguras/sumidouro.png",
                 nameMunicipio: "Sumidouro",
                 linkIframeCard: "FemdTEIDvRM"
@@ -54,7 +54,7 @@ var dataIndice = {
             {
                 rank: "2º Colocado",
                 year: '2012',
-                icg: "0,00082",
+                icg: "0,1957",
                 imgMunicipio: "data/2012/img/mais-seguras/duas-barras.png",
                 nameMunicipio: "Duas Barras",
                 linkIframeCard: "TdBSoy9F9NA"
@@ -62,7 +62,7 @@ var dataIndice = {
             {
                 rank: "3º Colocado",
                 year: '2012',
-                icg: "0,00078",
+                icg: "0,1961",
                 imgMunicipio: "data/2012/img/mais-seguras/cantagalo.png",
                 nameMunicipio: "Cantagalo",
                 linkIframeCard: "TdBSoy9F9NA"
@@ -70,7 +70,7 @@ var dataIndice = {
             {
                 rank: "4º Colocado",
                 year: '2012',
-                icg: "0,00082",
+                icg: "0,1962",
                 imgMunicipio: "data/2012/img/mais-seguras/sao-sebastiao-do-alto.png",
                 nameMunicipio: "São Sebastião do Alto",
                 linkIframeCard: "TdBSoy9F9NA"
@@ -78,7 +78,7 @@ var dataIndice = {
             {
                 rank: "5º Colocado",
                 year: '2012',
-                icg: "0,00120",
+                icg: "0,1965",
                 imgMunicipio: "data/2012/img/mais-seguras/carmo.png",
                 nameMunicipio: "Carmo",
                 linkIframeCard: "TdBSoy9F9NA"
