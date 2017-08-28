@@ -316,7 +316,7 @@ var dataIndice = {
                 imgMunicipio: "data/2015/img/mais-seguras/rio-das-flores.png",
                 nameMunicipio: "Rio das Flores",
                 linkIframeCard: "linkAqui2"
-            },s
+            },
             {
                 rank: "3º Colocado",
                 year: '2015',
@@ -356,7 +356,15 @@ var dataIndice = {
             {
                 rank: "2º Colocado",
                 year: '2016',
-                icg: "0,84275",
+                icg: "0,823",
+                imgMunicipio: "data/2016/img/mais-violentas/nova-iguacu-e-mesquita.png",
+                nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
+                linkIframeCard: "linkAqui2"
+            },
+            {
+                rank: "2º Colocado",
+                year: '2016',
+                icg: "0,783",
                 imgMunicipio: "data/2016/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "linkAqui2"
@@ -364,7 +372,7 @@ var dataIndice = {
             {
                 rank: "3º Colocado",
                 year: '2016',
-                icg: "0,75701",
+                icg: "0,676",
                 imgMunicipio: "data/2016/img/mais-violentas/sao-goncalo.png",
                 nameMunicipio: "São Gonçalo",
                 linkIframeCard: "linkAqui2"
@@ -372,17 +380,9 @@ var dataIndice = {
             {
                 rank: "4º Colocado",
                 year: '2016',
-                icg: "0,75350",
+                icg: "0,621",
                 imgMunicipio: "data/2016/img/mais-violentas/niteroi.png",
-                nameMunicipio: "Niterói",
-                linkIframeCard: "linkAqui2"
-            },
-            {
-                rank: "5º Colocado",
-                year: '2016',
-                icg: "0,73698",
-                imgMunicipio: "data/2016/img/mais-violentas/nova-iguacu-e-mesquita.png",
-                nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
+                nameMunicipio: "Queimados",
                 linkIframeCard: "linkAqui2"
             }
         ],
@@ -390,7 +390,7 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year: '2016',
-                icg: "0,00005",
+                icg: "0,295",
                 imgMunicipio: "data/2016/img/mais-seguras/sumidouro.png",
                 nameMunicipio: "Sumidouro",
                 linkIframeCard: "linkAqui1"
@@ -398,7 +398,7 @@ var dataIndice = {
             {
                 rank: "2º Colocado",
                 year: '2016',
-                icg: "0,00005",
+                icg: "0,295",
                 imgMunicipio: "data/2016/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Trajano de Morais",
                 linkIframeCard: "linkAqui2"
@@ -406,7 +406,7 @@ var dataIndice = {
             {
                 rank: "3º Colocado",
                 year: '2016',
-                icg: "0,00043",
+                icg: "0,296",
                 imgMunicipio: "data/2016/img/mais-seguras/rio-das-flores.png",
                 nameMunicipio: "Rio das Flores",
                 linkIframeCard: "linkAqui2"
@@ -414,7 +414,7 @@ var dataIndice = {
             {
                 rank: "4º Colocado",
                 year: '2016',
-                icg: "0,00055",
+                icg: "0,296",
                 imgMunicipio: "data/2016/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "São Sebastião do Alto",
                 linkIframeCard: "linkAqui2"
@@ -422,7 +422,7 @@ var dataIndice = {
             {
                 rank: "5º Colocado",
                 year: '2016',
-                icg: "0,00090",
+                icg: "0,296",
                 imgMunicipio: "data/2016/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Rio Claro",
                 linkIframeCard: "linkAqui2"
