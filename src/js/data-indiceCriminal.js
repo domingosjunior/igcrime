@@ -84,14 +84,13 @@ var dataIndice = {
                 linkIframeCard: "TdBSoy9F9NA"
             }
         ]
-
     },
     '2013': {
         maisViolentas: [
             {
                 rank: "1º Colocado",
                 year: '2013',
-                icg: "0,99000",
+                icg: "0,990",
                 imgMunicipio: "data/2013/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "linkAqui1"
@@ -99,33 +98,33 @@ var dataIndice = {
             {
                 rank: "2º Colocado",
                 year: '2013',
-                icg: "0,91347",
-                imgMunicipio: "data/2013/img/mais-violentas/belford-roxo.png",
-                nameMunicipio: "Belford Roxo",
-                linkIframeCard: "linkAqui2"
-            },
-            {
-                rank: "3º Colocado",
-                year: '2013',
-                icg: "0,86160",
+                icg: "0,909",
                 imgMunicipio: "data/2013/img/mais-violentas/nilopolis.png",
                 nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
                 linkIframeCard: "linkAqui2"
             },
             {
-                rank: "4º Colocado",
-                year: '2013',
-                icg: "0,84372",
-                imgMunicipio: "data/2013/img/mais-violentas/niteroi.png",
-                nameMunicipio: "Niterói",
-                linkIframeCard: "linkAqui2"
-            },
-            {
-                rank: "5º Colocado",
-                year: '2013',
+                rank: "3º Colocado",
+                year: '0,890',
                 icg: "0,73047",
                 imgMunicipio: "data/2013/img/mais-violentas/sao-joao-de-meriti.png",
                 nameMunicipio: "São João de Meriti",
+                linkIframeCard: "linkAqui2"
+            },
+            {
+                rank: "4º Colocado",
+                year: '2013',
+                icg: "0,8434",
+                imgMunicipio: "data/2013/img/mais-violentas/belford-roxo.png",
+                nameMunicipio: "Belford Roxo",
+                linkIframeCard: "linkAqui2"
+            },
+            {
+                rank: "4º Colocado",
+                year: '2013',
+                icg: "0,758",
+                imgMunicipio: "data/2013/img/mais-violentas/niteroi.png",
+                nameMunicipio: "Niterói",
                 linkIframeCard: "linkAqui2"
             }
         ],
@@ -133,7 +132,7 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year: '2013',
-                icg: "0,00005",
+                icg: "0,244",
                 imgMunicipio: "data/2013/img/mais-seguras/carmo.png",
                 nameMunicipio: "Carmo",
                 linkIframeCard: "linkAqui1"
@@ -141,7 +140,7 @@ var dataIndice = {
             {
                 rank: "2º Colocado",
                 year: '2013',
-                icg: "0,00063",
+                icg: "0,245",
                 imgMunicipio: "data/2013/img/mais-seguras/porciuncula.png",
                 nameMunicipio: "Porciúncula",
                 linkIframeCard: "linkAqui2"
@@ -149,7 +148,7 @@ var dataIndice = {
             {
                 rank: "3º Colocado",
                 year: '2013',
-                icg: "0,00064",
+                icg: "0,245",
                 imgMunicipio: "data/2013/img/mais-seguras/laje-do-muriae.png",
                 nameMunicipio: "Laje do Muriaé",
                 linkIframeCard: "linkAqui2"
@@ -157,7 +156,7 @@ var dataIndice = {
             {
                 rank: "4º Colocado",
                 year: '2013',
-                icg: "0,00088",
+                icg: "0,2458",
                 imgMunicipio: "data/2013/img/mais-seguras/sumidouro.png",
                 nameMunicipio: "Sumidouro",
                 linkIframeCard: "linkAqui2"
@@ -165,7 +164,7 @@ var dataIndice = {
             {
                 rank: "5º Colocado",
                 year: '2013',
-                icg: "0,00110",
+                icg: "0,246",
                 imgMunicipio: "data/2013/img/mais-seguras/mendes.png",
                 nameMunicipio: "Mendes",
                 linkIframeCard: "linkAqui2"
@@ -177,7 +176,15 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year: '2014',
-                icg: "0,99000",
+                icg: "0,962",
+                imgMunicipio: "data/2014/img/mais-violentas/nova-iguacu-e-mesquita.png",
+                nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
+                linkIframeCard: "linkAqui2"
+            },
+            {
+                rank: "1º Colocado",
+                year: '2014',
+                icg: "0,939",
                 imgMunicipio: "data/2014/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "linkAqui1"
@@ -188,14 +195,6 @@ var dataIndice = {
                 icg: "0,90398",
                 imgMunicipio: "data/2014/img/mais-violentas/belford-roxo.png",
                 nameMunicipio: "Belford Roxo",
-                linkIframeCard: "linkAqui2"
-            },
-            {
-                rank: "3º Colocado",
-                year: '2014',
-                icg: "0,88522",
-                imgMunicipio: "data/2014/img/mais-violentas/nova-iguacu-e-mesquita.png",
-                nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
                 linkIframeCard: "linkAqui2"
             },
             {
