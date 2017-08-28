@@ -4,7 +4,7 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year:'2012',
-                icg: "0,998",
+                icg: "0,980",
                 imgMunicipio: "data/2012/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "FemdTEIDvRM"
@@ -12,7 +12,7 @@ var dataIndice = {
             {
                 rank: "2º Colocado",
                 year: '2012',
-                icg: "0,831",
+                icg: "0,832",
                 imgMunicipio: "data/2012/img/mais-violentas/nilopolis.png",
                 nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
                 linkIframeCard: "TdBSoy9F9NA"
@@ -28,7 +28,7 @@ var dataIndice = {
             {
                 rank: "4º Colocado",
                 year: '2012',
-                icg: "0,772",
+                icg: "0,773",
                 imgMunicipio: "data/2012/img/mais-violentas/sao-goncalo.png",
                 nameMunicipio: "São Gonçalo",
                 linkIframeCard: "TdBSoy9F9NA"
@@ -46,7 +46,7 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year: '2012',
-                icg: "0,1954",
+                icg: "0,195",
                 imgMunicipio: "data/2012/img/mais-seguras/sumidouro.png",
                 nameMunicipio: "Sumidouro",
                 linkIframeCard: "FemdTEIDvRM"
@@ -54,7 +54,7 @@ var dataIndice = {
             {
                 rank: "2º Colocado",
                 year: '2012',
-                icg: "0,1957",
+                icg: "0,196",
                 imgMunicipio: "data/2012/img/mais-seguras/duas-barras.png",
                 nameMunicipio: "Duas Barras",
                 linkIframeCard: "TdBSoy9F9NA"
@@ -62,7 +62,7 @@ var dataIndice = {
             {
                 rank: "3º Colocado",
                 year: '2012',
-                icg: "0,1961",
+                icg: "0,196",
                 imgMunicipio: "data/2012/img/mais-seguras/cantagalo.png",
                 nameMunicipio: "Cantagalo",
                 linkIframeCard: "TdBSoy9F9NA"
@@ -70,7 +70,7 @@ var dataIndice = {
             {
                 rank: "4º Colocado",
                 year: '2012',
-                icg: "0,1962",
+                icg: "0,196",
                 imgMunicipio: "data/2012/img/mais-seguras/sao-sebastiao-do-alto.png",
                 nameMunicipio: "São Sebastião do Alto",
                 linkIframeCard: "TdBSoy9F9NA"
@@ -78,7 +78,7 @@ var dataIndice = {
             {
                 rank: "5º Colocado",
                 year: '2012',
-                icg: "0,1965",
+                icg: "0,197",
                 imgMunicipio: "data/2012/img/mais-seguras/carmo.png",
                 nameMunicipio: "Carmo",
                 linkIframeCard: "TdBSoy9F9NA"
@@ -105,8 +105,8 @@ var dataIndice = {
             },
             {
                 rank: "3º Colocado",
-                year: '0,890',
-                icg: "0,73047",
+                year: '2013',
+                icg: "0,891",
                 imgMunicipio: "data/2013/img/mais-violentas/sao-joao-de-meriti.png",
                 nameMunicipio: "São João de Meriti",
                 linkIframeCard: "linkAqui2"
@@ -114,7 +114,7 @@ var dataIndice = {
             {
                 rank: "4º Colocado",
                 year: '2013',
-                icg: "0,8434",
+                icg: "0,843",
                 imgMunicipio: "data/2013/img/mais-violentas/belford-roxo.png",
                 nameMunicipio: "Belford Roxo",
                 linkIframeCard: "linkAqui2"
@@ -132,7 +132,7 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year: '2013',
-                icg: "0,244",
+                icg: "0,245",
                 imgMunicipio: "data/2013/img/mais-seguras/carmo.png",
                 nameMunicipio: "Carmo",
                 linkIframeCard: "linkAqui1"
@@ -140,7 +140,7 @@ var dataIndice = {
             {
                 rank: "2º Colocado",
                 year: '2013',
-                icg: "0,245",
+                icg: "0,246",
                 imgMunicipio: "data/2013/img/mais-seguras/porciuncula.png",
                 nameMunicipio: "Porciúncula",
                 linkIframeCard: "linkAqui2"
@@ -148,7 +148,7 @@ var dataIndice = {
             {
                 rank: "3º Colocado",
                 year: '2013',
-                icg: "0,245",
+                icg: "0,246",
                 imgMunicipio: "data/2013/img/mais-seguras/laje-do-muriae.png",
                 nameMunicipio: "Laje do Muriaé",
                 linkIframeCard: "linkAqui2"
@@ -156,7 +156,7 @@ var dataIndice = {
             {
                 rank: "4º Colocado",
                 year: '2013',
-                icg: "0,2458",
+                icg: "0,246",
                 imgMunicipio: "data/2013/img/mais-seguras/sumidouro.png",
                 nameMunicipio: "Sumidouro",
                 linkIframeCard: "linkAqui2"
@@ -176,7 +176,7 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year: '2014',
-                icg: "0,962",
+                icg: "0,963",
                 imgMunicipio: "data/2014/img/mais-violentas/nova-iguacu-e-mesquita.png",
                 nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
                 linkIframeCard: "linkAqui2"
@@ -184,7 +184,7 @@ var dataIndice = {
             {
                 rank: "2º Colocado",
                 year: '2014',
-                icg: "0,939",
+                icg: "0,940",
                 imgMunicipio: "data/2014/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "linkAqui1"
@@ -192,7 +192,7 @@ var dataIndice = {
             {
                 rank: "3º Colocado",
                 year: '2014',
-                icg: "0,857",
+                icg: "0,858",
                 imgMunicipio: "data/2014/img/mais-violentas/sao-goncalo.png",
                 nameMunicipio: "São Gonçalo",
                 linkIframeCard: "linkAqui2"
@@ -208,7 +208,7 @@ var dataIndice = {
             {
                 rank: "5º Colocado",
                 year: '2014',
-                icg: "0,696",
+                icg: "0,697",
                 imgMunicipio: "data/2014/img/mais-violentas/belford-roxo.png",
                 nameMunicipio: "Belford Roxo",
                 linkIframeCard: "linkAqui2"
@@ -218,7 +218,7 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year: '2014',
-                icg: "0,2803",
+                icg: "0,280",
                 imgMunicipio: "data/2014/img/mais-seguras/sao-jose-do-vale-do-rio-preto.png",
                 nameMunicipio: "Engenheiro Paulo de Frontin - Não temos imagem",
                 linkIframeCard: "linkAqui1"
@@ -226,7 +226,7 @@ var dataIndice = {
             {
                 rank: "2º Colocado",
                 year: '2014',
-                icg: "0,2804",
+                icg: "0,280",
                 imgMunicipio: "data/2014/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Porciúncula - Não temos imagem",
                 linkIframeCard: "linkAqui2"
@@ -234,7 +234,7 @@ var dataIndice = {
             {
                 rank: "3º Colocado",
                 year: '2014',
-                icg: "0,2807",
+                icg: "0,281",
                 imgMunicipio: "data/2014/img/mais-seguras/bom-jardim.png",
                 nameMunicipio: "Trajano de Morais - Não temos imagem",
                 linkIframeCard: "linkAqui2"
@@ -242,7 +242,7 @@ var dataIndice = {
             {
                 rank: "4º Colocado",
                 year: '2014',
-                icg: "0,2808",
+                icg: "0,281",
                 imgMunicipio: "data/2014/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Santa Maria Madalena - Não temos imagem",
                 linkIframeCard: "linkAqui2"
@@ -250,7 +250,7 @@ var dataIndice = {
             {
                 rank: "5º Colocado",
                 year: '2014',
-                icg: "0,2809",
+                icg: "0,281",
                 imgMunicipio: "data/2014/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
                 nameMunicipio: "Laje do Muriaé - Não temos imagem",
                 linkIframeCard: "linkAqui2"
@@ -262,23 +262,23 @@ var dataIndice = {
             {
                 rank: "1º Colocado",
                 year: '2015',
-                icg: "0,99000",
-                imgMunicipio: "data/2015/img/mais-violentas/niteroi.png",
-                nameMunicipio: "Niterói",
-                linkIframeCard: "linkAqui1"
-            },
-            {
-                rank: "2º Colocado",
-                year: '2015',
-                icg: "0,90049",
+                icg: "0,944",
                 imgMunicipio: "data/2015/img/mais-violentas/sao-joao-de-meriti.png",
                 nameMunicipio: "São João de Meriti",
                 linkIframeCard: "linkAqui2"
             },
             {
+                rank: "2º Colocado",
+                year: '2015',
+                icg: "0,934",
+                imgMunicipio: "data/2015/img/mais-violentas/nilopolis.png",
+                nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
+                linkIframeCard: "linkAqui2"
+            },
+            {
                 rank: "3º Colocado",
                 year: '2015',
-                icg: "0,86637",
+                icg: "0,845",
                 imgMunicipio: "data/2015/img/mais-violentas/sao-goncalo.png",
                 nameMunicipio: "São Gonçalo",
                 linkIframeCard: "linkAqui2"
@@ -286,15 +286,15 @@ var dataIndice = {
             {
                 rank: "4º Colocado",
                 year: '2015',
-                icg: "0,80606",
-                imgMunicipio: "data/2015/img/mais-violentas/nilopolis.png",
-                nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
-                linkIframeCard: "linkAqui2"
+                icg: "0,825",
+                imgMunicipio: "data/2015/img/mais-violentas/niteroi.png",
+                nameMunicipio: "Niterói",
+                linkIframeCard: "linkAqui1"
             },
             {
                 rank: "5º Colocado",
                 year: '2015',
-                icg: "0,75015",
+                icg: "0,803",
                 imgMunicipio: "data/2015/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
                 linkIframeCard: "linkAqui2"
