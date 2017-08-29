@@ -495,10 +495,7 @@
                         <h1 class="section-header--title">Veja o <span>ICG</span> do seu município.</h1>
                         <p class="section-header--text">Para visualizar, basta clicar na área do município que deseja.</p>
                     </header>
-
-                    <!-- <svg class="maprio" version="1.1" x="0px" y="0px"
-                    viewBox="0 0 3370 2384" enable-background="new 0 0 3370 2384" xml:space="preserve"> -->
-                    <!-- rangeicg ranking  -->
+                    <!-- gene  -->
                     <script id="municipios-rj" type="text/x-handlebars-template">
                         <svg class="maprio"
                              x="0px"
@@ -508,37 +505,19 @@
                              height="100%"
                              >
                              <g id="municipios-rj--group">
-                                {{#countiesSvgPathRJ}}
+                                {{#countiesRJ}}
                                 <path d="{{path}}"
-                                        fill="#ffffff"
                                         stroke="#111214"
                                         stroke-width="150"
                                         data-nameSvg="{{name}}"
                                         data-toggle="modal"
                                         data-target="#modalIcg"
                                 />
-                                {{/countiesSvgPathRJ}}
+                                {{/countiesRJ}}
                             </g>
                         </svg>
                     </script>
-                    <div id="testResultSvg"></div>
-
-
-
-                    <!-- Aqui vai entar o svg com a class maprio
-                    e com os efeitos de click em cada municipio para abrir o modal com o iframe
-                    -->
-
-                    <!-- <svg class="maprio" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 3370 2384" enable-background="new 0 0 3370 2384" xml:space="preserve">
-                        <g id="fundo" display="none">
-                            <rect x="-79" y="-48" display="inline" fill="#303134" stroke="#FFFFFF" stroke-miterlimit="10" width="3548" height="2528"/>
-                        </g>
-                        <g id="Layer_1">
-                            <polygon data-toggle="modal" data-target="#modalIcg" fill="#FFFFFF" stroke="#313131" stroke-width="3" stroke-miterlimit="10" points="1247,1834.5 1247.1,1835 1247.1,1835.2
-                                1247.3,1835.7"/>
-
-                        </g>
-                    </svg> -->
+                    <div id="wrap-maprj"></div>
                 </section>
             </div>
         </div>
@@ -580,7 +559,6 @@
         <!-- / saiba mais  -->
     </div>
     <!-- / fullpage  -->
-
     <!-- build:js js/script-indice-criminal.min.js -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/handlebars.js"></script>

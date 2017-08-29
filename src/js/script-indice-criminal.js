@@ -81,7 +81,7 @@ $(function(){
     var $tagScriptCountiesRj = $('#municipios-rj').html();
     var templateHandleBarsCountiesRJ = Handlebars.compile($tagScriptCountiesRj);
     var htmlHandleBarsCountiesRj = templateHandleBarsCountiesRJ(countiesSvgPathRJ);
-    $("#testResultSvg").html(htmlHandleBarsCountiesRj);
+    $("#wrap-maprj").html(htmlHandleBarsCountiesRj);
 
 
 
