@@ -22,7 +22,7 @@ var dataIndice = {
                 year: '2012',
                 icg: "0,805",
                 imgMunicipio: "data/2012/img/mais-violentas/sao-joao-de-meriti.png",
-                nameMunicipio: "São João de meriti - Falta atualizar foto",
+                nameMunicipio: "São João de meriti",
                 linkIframeCard: "TdBSoy9F9NA"
             },
             {
@@ -219,8 +219,8 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2014',
                 icg: "0,280",
-                imgMunicipio: "data/2014/img/mais-seguras/sao-jose-do-vale-do-rio-preto.png",
-                nameMunicipio: "Engenheiro Paulo de Frontin - Não temos imagem",
+                imgMunicipio: "data/2014/img/mais-seguras/engenheiro-paulo-de-frontin.png",
+                nameMunicipio: "Engenheiro Paulo de Frontin",
                 linkIframeCard: "linkAqui1"
             },
             {
@@ -235,24 +235,24 @@ var dataIndice = {
                 rank: "3º Colocado",
                 year: '2014',
                 icg: "0,281",
-                imgMunicipio: "data/2014/img/mais-seguras/bom-jardim.png",
-                nameMunicipio: "Trajano de Morais - Não temos imagem",
+                imgMunicipio: "data/2014/img/mais-seguras/trajano-de-morais.png",
+                nameMunicipio: "Trajano de Morais",
                 linkIframeCard: "linkAqui2"
             },
             {
                 rank: "4º Colocado",
                 year: '2014',
                 icg: "0,281",
-                imgMunicipio: "data/2014/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
-                nameMunicipio: "Santa Maria Madalena - Não temos imagem",
+                imgMunicipio: "data/2014/img/mais-seguras/santa-maria-madalena.png",
+                nameMunicipio: "Santa Maria Madalena",
                 linkIframeCard: "linkAqui2"
             },
             {
                 rank: "5º Colocado",
                 year: '2014',
                 icg: "0,281",
-                imgMunicipio: "data/2014/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
-                nameMunicipio: "Laje do Muriaé - Não temos imagem",
+                imgMunicipio: "data/2014/img/mais-seguras/laje-do-muriae.png",
+                nameMunicipio: "Laje do Muriaé",
                 linkIframeCard: "linkAqui2"
             }
         ]
@@ -399,7 +399,7 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2016',
                 icg: "0,295",
-                imgMunicipio: "data/2016/img/mais-seguras/santo-antonio-de-padua-e-aperibe.png",
+                imgMunicipio: "data/2016/img/mais-seguras/trajano-de-morais.png",
                 nameMunicipio: "Trajano de Morais",
                 linkIframeCard: "linkAqui2"
             },
@@ -415,7 +415,7 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2016',
                 icg: "0,296",
-                imgMunicipio: "data/2016/img/mais-seguras/sao-sebatiao-do-alto.png",
+                imgMunicipio: "data/2016/img/mais-seguras/sao-sebastiao-do-alto.png",
                 nameMunicipio: "São Sebastião do Alto",
                 linkIframeCard: "linkAqui2"
             },
