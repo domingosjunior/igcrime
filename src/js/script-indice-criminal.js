@@ -77,6 +77,33 @@ $(function(){
 
     $('#sliderMaisViolentas, #sliderMaisSeguras').trigger('change');
 
+    // Render counties RJ in svg
+    var $tagScriptCountiesRj = $('#municipios-rj').html();
+    var templateHandleBarsCountiesRJ = Handlebars.compile($tagScriptCountiesRj);
+    var htmlHandleBarsCountiesRj = templateHandleBarsCountiesRJ(countiesSvgPathRJ);
+    $("#testResultSvg").html(htmlHandleBarsCountiesRj);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // Modal load  dynamic iframe
     $('#modalIcg').modal('hide');
     $('#modalIcg').on('show.bs.modal', function(item){
