@@ -56,12 +56,20 @@ $(function(){
     }
 
     $('#sliderMaisViolentas').on('change', function(value){
-        $('#cardsMaisViolentas').html(
-            showCards({
-                valueInput: this.value,
-                listRange: '#maisViolentas li',
-                scripCard: '#card-template'
-            })
+        var $targetRender = $('#cardsMaisViolentas');
+
+        $targetRender.addClass('fade-card');
+
+        setTimeout(function(){
+            $targetRender.removeClass('fade-card');
+        },50)
+
+        $targetRender.html(
+                showCards({
+                    valueInput: this.value,
+                    listRange: '#maisViolentas li',
+                    scripCard: '#card-template'
+                })
         );
     });
 

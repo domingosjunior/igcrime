@@ -13314,6 +13314,23 @@ strong {
   font-size: 20px;
 }
 
+/* line 27, src/sass/layout/_sections.scss */
+.wrap-cards {
+  min-height: 300px;
+}
+
+/* line 31, src/sass/layout/_sections.scss */
+.fade-card .rangeicg-ranking {
+  transition: opacity ease-in .5s;
+  opacity: 0;
+}
+
+/* line 38, src/sass/layout/_sections.scss */
+.rangeicg-ranking {
+  transition: opacity ease-out .5s;
+  opacity: 1;
+}
+
 /* line 4, src/sass/layout/_section-intro.scss */
 .bgcolor-section-intro {
   background-color: #ff0000;

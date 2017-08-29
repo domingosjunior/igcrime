@@ -807,15 +807,11 @@ var countiesSvgPathRJ = {
     ]
 }
 
-
+// Increment id in object
 function incrementIdSvgRJ(){
     var count = 0;
     for (var key in countiesSvgPathRJ.countiesRJ){
         countiesSvgPathRJ.countiesRJ[key].id = count++;
-        // countiesSvgPathRJ.countiesRJ[key].id = push( { id: count++ } );
     }
 }
 incrementIdSvgRJ();
-
-
-console.table(countiesSvgPathRJ.countiesRJ)
