@@ -55,14 +55,21 @@ $(function(){
 
     }
 
+    // Interation cards
+    function interactionCards( targetElement ){
+        var $targetAnimation = targetElement;
+
+        $targetAnimation.addClass('fade-card');
+
+        setTimeout(function () {
+            $targetAnimation.removeClass('fade-card');
+        }, 50)
+    }
+
     $('#sliderMaisViolentas').on('change', function(value){
         var $targetRender = $('#cardsMaisViolentas');
 
-        $targetRender.addClass('fade-card');
-
-        setTimeout(function(){
-            $targetRender.removeClass('fade-card');
-        },50)
+        interactionCards($targetRender);
 
         $targetRender.html(
                 showCards({
@@ -74,7 +81,11 @@ $(function(){
     });
 
     $('#sliderMaisSeguras').on('change', function (value) {
-        $('#cardsMaisSeguras').html(
+        var $targetRender = $('#cardsMaisSeguras');
+
+        interactionCards($targetRender);
+
+        $targetRender.html(
             showCards({
                 valueInput: this.value,
                 listRange: '#maisSeguras li',
@@ -86,30 +97,12 @@ $(function(){
     $('#sliderMaisViolentas, #sliderMaisSeguras').trigger('change');
 
     // Render counties RJ in svg
-    var $tagScriptCountiesRj = $('#municipios-rj').html();
-    var templateHandleBarsCountiesRJ = Handlebars.compile($tagScriptCountiesRj);
-    var htmlHandleBarsCountiesRj = templateHandleBarsCountiesRJ(countiesSvgPathRJ);
-    $("#wrap-maprj").html(htmlHandleBarsCountiesRj);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    function renderCountiesRj() {
+        var $tagScriptCountiesRj = $('#municipios-rj').html();
+        var templateHandleBarsCountiesRJ = Handlebars.compile($tagScriptCountiesRj);
+        var htmlHandleBarsCountiesRj = templateHandleBarsCountiesRJ(countiesSvgPathRJ);
+        $("#wrap-maprj").html(htmlHandleBarsCountiesRj);
+    }
 
 
     // Modal load  dynamic iframe

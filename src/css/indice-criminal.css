@@ -13321,13 +13321,13 @@ strong {
 
 /* line 31, src/sass/layout/_sections.scss */
 .fade-card .rangeicg-ranking {
-  transition: opacity ease-in .5s;
+  transition: opacity ease-in 3s;
   opacity: 0;
 }
 
 /* line 38, src/sass/layout/_sections.scss */
 .rangeicg-ranking {
-  transition: opacity ease-out .5s;
+  transition: opacity ease-out 1.5s;
   opacity: 1;
 }
 
@@ -13743,9 +13743,17 @@ strong {
   padding-top: 40px;
   padding-bottom: 80px;
   text-align: center;
+  height: 760px;
 }
 
-/* line 12, src/sass/layout/_section-icgmuni.scss */
+@media (min-width: 1800px) {
+  /* line 7, src/sass/layout/_section-icgmuni.scss */
+  .section-icgmuni {
+    height: auto;
+  }
+}
+
+/* line 17, src/sass/layout/_section-icgmuni.scss */
 .section-icgmuni .section-header {
   position: relative;
   top: 80px;
@@ -13754,12 +13762,12 @@ strong {
   color: #ffffff;
 }
 
-/* line 19, src/sass/layout/_section-icgmuni.scss */
+/* line 24, src/sass/layout/_section-icgmuni.scss */
 .section-icgmuni .section-header--title {
   text-transform: initial;
 }
 
-/* line 26, src/sass/layout/_section-icgmuni.scss */
+/* line 31, src/sass/layout/_section-icgmuni.scss */
 .maprio {
   position: relative;
   z-index: 2;
@@ -13767,20 +13775,27 @@ strong {
 }
 
 @media (min-width: 1400px) {
-  /* line 26, src/sass/layout/_section-icgmuni.scss */
+  /* line 31, src/sass/layout/_section-icgmuni.scss */
   .maprio {
-    top: -60px;
+    top: -72px;
+    width: 950px;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* line 31, src/sass/layout/_section-icgmuni.scss */
+  .maprio {
     width: 1000px;
   }
 }
 
-/* line 36, src/sass/layout/_section-icgmuni.scss */
+/* line 45, src/sass/layout/_section-icgmuni.scss */
 .maprio path {
   transition: fill .3s ease-in-out .1s;
   fill: #ffffff;
 }
 
-/* line 40, src/sass/layout/_section-icgmuni.scss */
+/* line 49, src/sass/layout/_section-icgmuni.scss */
 .maprio path:hover {
   cursor: pointer;
   fill: #c33056;

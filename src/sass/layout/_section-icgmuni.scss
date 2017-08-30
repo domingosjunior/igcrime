@@ -8,6 +8,11 @@
     padding-top: 40px;
     padding-bottom: 80px;
     text-align: center;
+    height: 760px;
+
+    @include mediamin(1800px){
+      height: auto;
+    }
 
     .section-header {
       position: relative;
@@ -29,7 +34,11 @@
   width: 800px;
 
   @include mediamin(1400px){
-    top: -60px;
+    top: -72px;
+    width: 950px;
+  }
+
+  @include mediamin(1800px){
     width: 1000px;
   }
 
