@@ -97,13 +97,10 @@ $(function(){
     $('#sliderMaisViolentas, #sliderMaisSeguras').trigger('change');
 
     // Render counties RJ in svg
-    function renderCountiesRj() {
-        var $tagScriptCountiesRj = $('#municipios-rj').html();
-        var templateHandleBarsCountiesRJ = Handlebars.compile($tagScriptCountiesRj);
-        var htmlHandleBarsCountiesRj = templateHandleBarsCountiesRJ(countiesSvgPathRJ);
-        $("#wrap-maprj").html(htmlHandleBarsCountiesRj);
-    }
-
+    var $tagScriptCountiesRj = $('#municipios-rj').html();
+    var templateHandleBarsCountiesRJ = Handlebars.compile($tagScriptCountiesRj);
+    var htmlHandleBarsCountiesRj = templateHandleBarsCountiesRJ(countiesSvgPathRJ);
+    $("#wrap-maprj").html(htmlHandleBarsCountiesRj);
 
     // Modal load  dynamic iframe
     $('#modalIcg').modal('hide');
