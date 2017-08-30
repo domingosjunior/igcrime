@@ -22,3 +22,21 @@
 
 }
 
+// Sections filter cards
+
+.wrap-cards { min-height: 300px; }
+
+.fade-card {
+
+  .rangeicg-ranking {
+    transition: opacity ease-in 3s;
+    opacity: 0;
+  }
+
+}
+
+.rangeicg-ranking {
+  transition: opacity ease-out 1.5s;
+  opacity: 1;
+}
+
