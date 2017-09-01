@@ -15,7 +15,7 @@ var dataIndice = {
                 year: '2012',
                 icg: "0,907",
                 imgMunicipio: "data/2012/img/mais-violentas/nova-iguacu-e-mesquita.png",
-                nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
+                nameMunicipio: "Comarca Nova Iguaçu e Mesquita",
                 linkIframeCard: "TdBSoy9F9NA"
             },
             {
@@ -101,7 +101,7 @@ var dataIndice = {
                 year: '2013',
                 icg: "0,994",
                 imgMunicipio: "data/2013/img/mais-violentas/nova-iguacu-e-mesquita.png",
-                nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
+                nameMunicipio: "Comarca Nova Iguaçu e Mesquita",
                 linkIframeCard: "linkAqui2"
             },
             {
@@ -179,7 +179,7 @@ var dataIndice = {
                 year: '2014',
                 icg: "0,996",
                 imgMunicipio: "data/2014/img/mais-violentas/nova-iguacu-e-mesquita.png",
-                nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
+                nameMunicipio: "Comarca Nova Iguaçu e Mesquita",
                 linkIframeCard: "linkAqui2"
             },
             {
@@ -273,7 +273,7 @@ var dataIndice = {
                 year: '2015',
                 icg: "0,995",
                 imgMunicipio: "data/2015/img/mais-violentas/nova-iguacu-e-mesquita.png",
-                nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
+                nameMunicipio: "Comarca Nova Iguaçu e Mesquita",
                 linkIframeCard: "linkAqui2"
             },
             {
@@ -359,7 +359,7 @@ var dataIndice = {
                 year: '2016',
                 icg: "0,933",
                 imgMunicipio: "data/2016/img/mais-violentas/nova-iguacu-e-mesquita.png",
-                nameMunicipio: "Comarca Nova Iguaçú e Mesquita",
+                nameMunicipio: "Comarca Nova Iguaçu e Mesquita",
                 linkIframeCard: "linkAqui2"
             },
             {
