@@ -115,7 +115,7 @@ $(function(){
             var nameMunicipio = $(item.relatedTarget).find(".rangeicg-card--title-municipio").text();
 
             // Insert name municipio
-            $('.modal-icg--name-municipio b').text(nameMunicipio);
+            $('.modal-icg--name-municipio b').text('Incidência de Delitos na Comarca de ' + nameMunicipio);
 
             // Insert url in iframe
             $(this).find('.iframe-icg').attr('src', '');

@@ -25,6 +25,7 @@
   &--name-municipio {
     color: #bd2c4c;
     font-size: 18px;
+    margin-bottom: 0;
 
     b {
       @include font-family("bold");

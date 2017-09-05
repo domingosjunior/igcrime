@@ -13145,9 +13145,10 @@ strong {
 .modal-icg--name-municipio {
   color: #bd2c4c;
   font-size: 18px;
+  margin-bottom: 0;
 }
 
-/* line 29, src/sass/plugins/_modal.scss */
+/* line 30, src/sass/plugins/_modal.scss */
 .modal-icg--name-municipio b {
   font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
 }
