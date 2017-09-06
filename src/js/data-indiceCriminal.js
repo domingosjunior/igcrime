@@ -56,9 +56,8 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2012',
                 icg: "0,311",
-                imgMunicipio: "data/2012/img/mais-seguras/duas-barras.png",
+                imgMunicipio: "data/2012/img/mais-seguras/comarca-cambuci-sao-jose-uba.png",
                 nameMunicipio: "Comarca de Cambuci e São José de Ubá",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
                 linkIframeCard: "TdBSoy9F9NA"
             },
             {
@@ -73,9 +72,8 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2012',
                 icg: "0,311",
-                imgMunicipio: "data/2012/img/mais-seguras/cantagalo.png",
+                imgMunicipio: "data/2012/img/mais-seguras/sao-jose-vale-do-rio-preto.png",
                 nameMunicipio: "São José do Vale do Rio Preto",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
                 linkIframeCard: "TdBSoy9F9NA"
             },
             {
@@ -144,9 +142,8 @@ var dataIndice = {
                 rank: "2º Colocado",
                 year: '2013',
                 icg: "0,346",
-                imgMunicipio: "data/2013/img/mais-seguras/porciuncula.png",
+                imgMunicipio: "data/2013/img/mais-seguras/sao-jose-vale-do-rio-preto.png",
                 nameMunicipio: "São José do Vale do Rio Preto",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
                 linkIframeCard: "linkAqui2"
             },
             {
@@ -161,18 +158,16 @@ var dataIndice = {
                 rank: "4º Colocado",
                 year: '2013',
                 icg: "0,346",
-                imgMunicipio: "data/2013/img/mais-seguras/sumidouro.png",
-                nameMunicipio: "Laje de Muriaé",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
+                imgMunicipio: "data/2013/img/mais-seguras/laje-do-muriae.png",
+                nameMunicipio: "Laje do Muriaé",
                 linkIframeCard: "linkAqui2"
             },
             {
                 rank: "5º Colocado",
                 year: '2013',
                 icg: "0,346",
-                imgMunicipio: "data/2013/img/mais-seguras/mendes.png",
+                imgMunicipio: "data/2013/img/mais-seguras/comarca-cambuci-sao-jose-uba.png",
                 nameMunicipio: "Comarca de Cambuci e São José de Ubá",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
                 linkIframeCard: "linkAqui2"
             }
         ]
@@ -225,9 +220,8 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2014',
                 icg: "0,321",
-                imgMunicipio: "data/2014/img/mais-seguras/engenheiro-paulo-de-frontin.png",
+                imgMunicipio: "data/2014/img/mais-seguras/sao-jose-do-vale-do-rio-preto.png",
                 nameMunicipio: "São José do Vale do Rio Preto",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
                 linkIframeCard: "linkAqui1"
             },
             {
@@ -242,9 +236,8 @@ var dataIndice = {
                 rank: "3º Colocado",
                 year: '2014',
                 icg: "0,321",
-                imgMunicipio: "data/2014/img/mais-seguras/porciuncula.png",
+                imgMunicipio: "data/2014/img/mais-seguras/comarca-cambuci-sao-jose-uba.png",
                 nameMunicipio: "Comarca de Cambuci e São José de Ubá",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
                 linkIframeCard: "linkAqui2"
             },
             {
@@ -259,8 +252,8 @@ var dataIndice = {
                 rank: "5º Colocado",
                 year: '2014',
                 icg: "0,322",
-                imgMunicipio: "data/2014/img/mais-seguras/trajano-de-morais.png",
-                nameMunicipio: "Bom Jardim TROCAR IMAGEM",
+                imgMunicipio: "data/2014/img/mais-seguras/bom-jardim.png",
+                nameMunicipio: "Bom Jardim",
                 linkIframeCard: "linkAqui2"
             }
         ]
@@ -313,45 +306,40 @@ var dataIndice = {
                 rank: "1º Colocado",
                 year: '2015',
                 icg: "0,325",
-                imgMunicipio: "data/2015/img/mais-seguras/laje-do-muriae.png",
+                imgMunicipio: "data/2015/img/mais-seguras/sao-jose-do-vale-do-rio-preto.png",
                 nameMunicipio: "São José do Vale do Rio Preto",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
                 linkIframeCard: "linkAqui1"
             },
             {
                 rank: "2º Colocado",
                 year: '2015',
                 icg: "0,325",
-                imgMunicipio: "data/2015/img/mais-seguras/rio-das-flores.png",
+                imgMunicipio: "data/2015/img/mais-seguras/pinheiral.png",
                 nameMunicipio: "Pinheiral",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
                 linkIframeCard: "linkAqui2"
             },
             {
                 rank: "3º Colocado",
                 year: '2015',
                 icg: "0,326",
-                imgMunicipio: "data/2015/img/mais-seguras/sumidouro.png",
+                imgMunicipio: "data/2015/img/mais-seguras/comarca-cambuci-sao-jose-uba.png",
                 nameMunicipio: "Comarca de Cambuci e São José de Ubá",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
                 linkIframeCard: "linkAqui2"
             },
             {
                 rank: "4º Colocado",
                 year: '2015',
                 icg: "0,326",
-                imgMunicipio: "data/2015/img/mais-seguras/mendes.png",
+                imgMunicipio: "data/2015/img/mais-seguras/comarca-de-natividade-e-varre-sai.png",
                 nameMunicipio: "Comarcar de Natividade e Varre Sai",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
                 linkIframeCard: "linkAqui2"
             },
             {
                 rank: "5º Colocado",
                 year: '2015',
                 icg: "0,326",
-                imgMunicipio: "data/2015/img/mais-seguras/carmo.png",
+                imgMunicipio: "data/2015/img/mais-seguras/laje-de-muriae.png",
                 nameMunicipio: "Laje de Muriáe",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
                 linkIframeCard: "linkAqui2"
             }
         ]
@@ -395,7 +383,7 @@ var dataIndice = {
                 year: '2016',
                 icg: "0,620",
                 imgMunicipio: "data/2016/img/mais-violentas/niteroi.png",
-                nameMunicipio: "NITEROI",
+                nameMunicipio: "Niterói",
                 linkIframeCard: "linkAqui2"
             }
         ],
@@ -420,18 +408,16 @@ var dataIndice = {
                 rank: "3º Colocado",
                 year: '2016',
                 icg: "0,338",
-                imgMunicipio: "data/2016/img/mais-seguras/rio-das-flores.png",
+                imgMunicipio: "data/2016/img/mais-seguras/bom-jardim.png",
                 nameMunicipio: "Bom Jardim",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
                 linkIframeCard: "linkAqui2"
             },
             {
                 rank: "4º Colocado",
                 year: '2016',
                 icg: "0,338",
-                imgMunicipio: "data/2016/img/mais-seguras/sao-sebastiao-do-alto.png",
+                imgMunicipio: "data/2016/img/mais-seguras/comarca-cambuci-sao-jose-uba.png",
                 nameMunicipio: "Comarcar de Cambuci e São José de Ubá",
-                trocarImagem : "PRECISA TROCAR A IMAGEM",
                 linkIframeCard: "linkAqui2"
             },
             {
@@ -821,17 +807,17 @@ var countiesSvgPathRJ = {
     ]
 }
 
-// Increment id in object
-function incrementIdSvgRJ(){
-    var count = 0;
-    for (var key in countiesSvgPathRJ.countiesRJ){
-        countiesSvgPathRJ.countiesRJ[key].id = count++;
-    }
-}
-incrementIdSvgRJ();
+// // Increment id in object
+// function incrementIdSvgRJ(){
+//     var count = 0;
+//     for (var key in countiesSvgPathRJ.countiesRJ){
+//         countiesSvgPathRJ.countiesRJ[key].id = count++;
+//     }
+// }
+// incrementIdSvgRJ();
 
 
-console.table(countiesSvgPathRJ.countiesRJ)
+// console.table(countiesSvgPathRJ.countiesRJ)
 
 
 // <param name='filter' value='CD_COMARCA="+cod_comarca+"' />
