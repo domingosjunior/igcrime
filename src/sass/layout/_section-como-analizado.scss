@@ -1,21 +1,18 @@
 // Section como analizado
-
 %bggradient-analisado {
   // Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+50,c34e67+50,c34e67+100
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(255, 255, 255, 1);
   background: #ffffff;
-  background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 50%, #c34e67 50%, #c34e67 100%);
-  background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 50%,#c34e67 50%,#c34e67 100%);
-  background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 50%,#c34e67 50%,#c34e67 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c34e67',GradientType=0 );
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 50%, #c34e67 50%, #c34e67 100%);
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 50%, #c34e67 50%, #c34e67 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #c34e67 50%, #c34e67 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c34e67', GradientType=0);
 }
 
 .section-wrap-analisado {
   z-index: 5;
   .fp-tableCell {
-      // background-color: $analizado-bgcolor-wrap;
-      @extend %bggradient-analisado;
-
+    @extend %bggradient-analisado;
   }
 }
 
@@ -29,16 +26,16 @@
   z-index: 2;
   padding-top: 100px;
   padding-bottom: 50px;
-
-  @include mediamin(1400px){
-    padding-top: 50px;
+  @include mediamin(1400px) {
+    padding-top: 0;
+    height: 620px;
+    padding-bottom: 0;
+    margin-top: 50px;
   }
-
   .section-header {
     margin-bottom: 50px;
     text-align: left;
   }
-
   .section-header--title {
     color: $analizado-header-title;
     span {
@@ -46,17 +43,13 @@
       color: $analizado-header-title-span;
     }
   }
-
   &--filter {
     width: 430px;
     text-align: center;
   }
-
 }
 
-
 // Svg filter
-
 %filtro-svg-trsn {
   transition: all .15s ease;
 }
@@ -70,7 +63,6 @@
   margin: 0 auto 10px;
   text-align: left;
   overflow: hidden;
-
   &:before {
     content: '\f055';
     position: absolute;
@@ -78,9 +70,7 @@
     right: 0;
     font: 30px 'FontAwesome';
     color: $filter-item-before-color;
-
   }
-
   &:after {
     content: '';
     position: absolute;
@@ -89,129 +79,142 @@
     height: 2px;
     border: 2px dashed $filter-item-after-color;
   }
-
   &.delitos {
     width: 540px;
-    &:after { width: 36%; }
-    svg { width: 300px; }
-
-    @include mediamin(1400px){
-      width: 740px;
-      svg { width: auto; }
+    &:after {
+      width: 36%;
     }
-
+    svg {
+      width: 300px;
+    }
+    @include mediamin(1400px) {
+      width: 740px;
+      svg {
+        width: auto;
+      }
+    }
   }
-
   &.filtrados {
     top: -36px;
     left: -22px;
     width: 560px;
     padding-left: 50px;
-    &:after { width: 39%; }
-    svg { width: 245px; }
-
-    @include mediamin(1400px){
-      &:after { width: 44%; }
+    &:after {
+      width: 39%;
     }
-
+    svg {
+      width: 245px;
+    }
+    @include mediamin(1400px) {
+      &:after {
+        width: 44%;
+      }
+    }
   }
-
   &.analisados {
     top: -64px;
     left: -60px;
     padding-left: 118px;
     width: 598px;
-    &:after { width: 42%; }
-    svg { width: 185px; }
-
-    @include mediamin(1400px){
-      padding-left: 92px;
-      &:after { width: 51%; }
+    &:after {
+      width: 42%;
     }
-
+    svg {
+      width: 185px;
+    }
+    @include mediamin(1400px) {
+      padding-left: 92px;
+      &:after {
+        width: 49.5%;
+      }
+    }
   }
-
   &.fatores {
     top: -90px;
     left: -3px;
     padding-left: 92px;
     width: 540px;
-    &:after { width: 51%; }
-    svg { width: 130px; }
-
-    @include mediamin(1400px){
+    &:after {
+      width: 51%;
+    }
+    svg {
+      width: 130px;
+    }
+    @include mediamin(1400px) {
       padding-left: 132px;
-      &:after { width: 54%; }
+      &:after {
+        width: 54%;
+      }
     }
   }
-
   &.indice {
-    top: -122px;
-    left: -43px;
-    padding-left: 154px;
-    width: 580px;
-    &:after { width: 52%; }
-    svg { width: 80px; }
+    top: -98px;
+    left: -65px;
 
-    @include mediamin(1400px){
-      padding-left: 162px;
-      &:after { width: 57%; }
+    padding-left: 154px;
+    width: 602px;
+    &:after {
+      width: 47%;
+    }
+    svg {
+      width: 125px;
+    }
+    @include mediamin(1400px) {
+      padding-left: 130px;
+      &:after {
+        width: 54%;
+      }
     }
   }
-
   &.filtrados,
   &.analisados,
   &.fatores,
   &.indice {
-    @include mediamin(1400px){
+    @include mediamin(1400px) {
       top: 0;
       left: 0;
       width: 740px;
       svg {
-          width: auto;
+        width: auto;
       }
     }
   }
-
   &:hover {
     cursor: help;
-  }
-
-  //Style svg
-
+  } //Style svg
   .svg-filtro {
-      &--path-topo { @extend %filtro-svg-trsn; }
-      &--path-body { @extend %filtro-svg-trsn; }
-      &--txt path { @extend %filtro-svg-trsn; }
+    &--path-topo {
+      @extend %filtro-svg-trsn;
     }
-
-  // Hover svg
+    &--path-body {
+      @extend %filtro-svg-trsn;
+    }
+    &--txt path {
+      @extend %filtro-svg-trsn;
+    }
+  } // Hover svg
   &:hover {
     .svg-filtro {
-
       &--path-topo {
         fill: $filter-item-svg-pahtop-color;
         @extend %filtro-hover-svg-trsn;
       }
-
       &--path-body {
         fill: $filter-item-svg-pahbody-color;
         @extend %filtro-hover-svg-trsn;
       }
-
       &--txt path {
         fill: $filter-item-svg-text-color;
         @extend %filtro-hover-svg-trsn;
       }
-
     }
-
   }
-
 }
 
 .tooltip-filtro {
-  &.in { opacity: 1; }
+  &.in {
+    opacity: 1;
+  }
   .tooltip-inner {
     padding: 25px 30px;
     max-width: none;
@@ -220,6 +223,4 @@
     background-color: $filter-tooltip-bgcolor;
     border-radius: 30px;
   }
-
 }
-

@@ -13407,27 +13407,27 @@ strong {
   margin-bottom: 30px;
 }
 
-/* line 3, src/sass/layout/_section-como-analizado.scss */
+/* line 2, src/sass/layout/_section-como-analizado.scss */
 .section-wrap-analisado .fp-tableCell, .bg-section-analizado {
   background-color: white;
   background: #ffffff;
   background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 50%, #c34e67 50%, #c34e67 100%);
   background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 50%, #c34e67 50%, #c34e67 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #c34e67 50%, #c34e67 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c34e67',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c34e67', GradientType=0);
 }
 
-/* line 13, src/sass/layout/_section-como-analizado.scss */
+/* line 12, src/sass/layout/_section-como-analizado.scss */
 .section-wrap-analisado {
   z-index: 5;
 }
 
-/* line 22, src/sass/layout/_section-como-analizado.scss */
+/* line 19, src/sass/layout/_section-como-analizado.scss */
 .bg-section-analizado {
   position: relative;
 }
 
-/* line 27, src/sass/layout/_section-como-analizado.scss */
+/* line 24, src/sass/layout/_section-como-analizado.scss */
 .section-analizado {
   position: relative;
   z-index: 2;
@@ -13436,46 +13436,49 @@ strong {
 }
 
 @media (min-width: 1400px) {
-  /* line 27, src/sass/layout/_section-como-analizado.scss */
+  /* line 24, src/sass/layout/_section-como-analizado.scss */
   .section-analizado {
-    padding-top: 50px;
+    padding-top: 0;
+    height: 620px;
+    padding-bottom: 0;
+    margin-top: 50px;
   }
 }
 
-/* line 37, src/sass/layout/_section-como-analizado.scss */
+/* line 35, src/sass/layout/_section-como-analizado.scss */
 .section-analizado .section-header {
   margin-bottom: 50px;
   text-align: left;
 }
 
-/* line 42, src/sass/layout/_section-como-analizado.scss */
+/* line 39, src/sass/layout/_section-como-analizado.scss */
 .section-analizado .section-header--title {
   color: #000000;
 }
 
-/* line 44, src/sass/layout/_section-como-analizado.scss */
+/* line 41, src/sass/layout/_section-como-analizado.scss */
 .section-analizado .section-header--title span {
   font-size: 60px;
   color: #bd2c4c;
 }
 
-/* line 50, src/sass/layout/_section-como-analizado.scss */
+/* line 46, src/sass/layout/_section-como-analizado.scss */
 .section-analizado--filter {
   width: 430px;
   text-align: center;
 }
 
-/* line 60, src/sass/layout/_section-como-analizado.scss */
+/* line 53, src/sass/layout/_section-como-analizado.scss */
 .filter-item .svg-filtro--path-topo, .filter-item .svg-filtro--path-body, .filter-item .svg-filtro--txt path {
   transition: all .15s ease;
 }
 
-/* line 64, src/sass/layout/_section-como-analizado.scss */
+/* line 57, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--path-topo, .filter-item:hover .svg-filtro--path-body, .filter-item:hover .svg-filtro--txt path {
   transition: all .3s ease;
 }
 
-/* line 68, src/sass/layout/_section-como-analizado.scss */
+/* line 61, src/sass/layout/_section-como-analizado.scss */
 .filter-item {
   position: relative;
   margin: 0 auto 10px;
@@ -13483,7 +13486,7 @@ strong {
   overflow: hidden;
 }
 
-/* line 74, src/sass/layout/_section-como-analizado.scss */
+/* line 66, src/sass/layout/_section-como-analizado.scss */
 .filter-item:before {
   content: '\f055';
   position: absolute;
@@ -13493,7 +13496,7 @@ strong {
   color: #1b1e20;
 }
 
-/* line 84, src/sass/layout/_section-como-analizado.scss */
+/* line 74, src/sass/layout/_section-como-analizado.scss */
 .filter-item:after {
   content: '';
   position: absolute;
@@ -13503,33 +13506,33 @@ strong {
   border: 2px dashed #1b1e20;
 }
 
-/* line 93, src/sass/layout/_section-como-analizado.scss */
+/* line 82, src/sass/layout/_section-como-analizado.scss */
 .filter-item.delitos {
   width: 540px;
 }
 
-/* line 95, src/sass/layout/_section-como-analizado.scss */
+/* line 84, src/sass/layout/_section-como-analizado.scss */
 .filter-item.delitos:after {
   width: 36%;
 }
 
-/* line 96, src/sass/layout/_section-como-analizado.scss */
+/* line 87, src/sass/layout/_section-como-analizado.scss */
 .filter-item.delitos svg {
   width: 300px;
 }
 
 @media (min-width: 1400px) {
-  /* line 93, src/sass/layout/_section-como-analizado.scss */
+  /* line 82, src/sass/layout/_section-como-analizado.scss */
   .filter-item.delitos {
     width: 740px;
   }
-  /* line 100, src/sass/layout/_section-como-analizado.scss */
+  /* line 92, src/sass/layout/_section-como-analizado.scss */
   .filter-item.delitos svg {
     width: auto;
   }
 }
 
-/* line 105, src/sass/layout/_section-como-analizado.scss */
+/* line 97, src/sass/layout/_section-como-analizado.scss */
 .filter-item.filtrados {
   top: -36px;
   left: -22px;
@@ -13537,24 +13540,24 @@ strong {
   padding-left: 50px;
 }
 
-/* line 110, src/sass/layout/_section-como-analizado.scss */
+/* line 102, src/sass/layout/_section-como-analizado.scss */
 .filter-item.filtrados:after {
   width: 39%;
 }
 
-/* line 111, src/sass/layout/_section-como-analizado.scss */
+/* line 105, src/sass/layout/_section-como-analizado.scss */
 .filter-item.filtrados svg {
   width: 245px;
 }
 
 @media (min-width: 1400px) {
-  /* line 114, src/sass/layout/_section-como-analizado.scss */
+  /* line 109, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados:after {
     width: 44%;
   }
 }
 
-/* line 119, src/sass/layout/_section-como-analizado.scss */
+/* line 114, src/sass/layout/_section-como-analizado.scss */
 .filter-item.analisados {
   top: -64px;
   left: -60px;
@@ -13562,28 +13565,28 @@ strong {
   width: 598px;
 }
 
-/* line 124, src/sass/layout/_section-como-analizado.scss */
+/* line 119, src/sass/layout/_section-como-analizado.scss */
 .filter-item.analisados:after {
   width: 42%;
 }
 
-/* line 125, src/sass/layout/_section-como-analizado.scss */
+/* line 122, src/sass/layout/_section-como-analizado.scss */
 .filter-item.analisados svg {
   width: 185px;
 }
 
 @media (min-width: 1400px) {
-  /* line 119, src/sass/layout/_section-como-analizado.scss */
+  /* line 114, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados {
     padding-left: 92px;
   }
-  /* line 129, src/sass/layout/_section-como-analizado.scss */
+  /* line 127, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados:after {
-    width: 51%;
+    width: 49.5%;
   }
 }
 
-/* line 134, src/sass/layout/_section-como-analizado.scss */
+/* line 132, src/sass/layout/_section-como-analizado.scss */
 .filter-item.fatores {
   top: -90px;
   left: -3px;
@@ -13591,7 +13594,7 @@ strong {
   width: 540px;
 }
 
-/* line 139, src/sass/layout/_section-como-analizado.scss */
+/* line 137, src/sass/layout/_section-como-analizado.scss */
 .filter-item.fatores:after {
   width: 51%;
 }
@@ -13602,84 +13605,84 @@ strong {
 }
 
 @media (min-width: 1400px) {
-  /* line 134, src/sass/layout/_section-como-analizado.scss */
+  /* line 132, src/sass/layout/_section-como-analizado.scss */
   .filter-item.fatores {
     padding-left: 132px;
   }
-  /* line 144, src/sass/layout/_section-como-analizado.scss */
+  /* line 145, src/sass/layout/_section-como-analizado.scss */
   .filter-item.fatores:after {
     width: 54%;
   }
 }
 
-/* line 148, src/sass/layout/_section-como-analizado.scss */
+/* line 150, src/sass/layout/_section-como-analizado.scss */
 .filter-item.indice {
-  top: -122px;
-  left: -43px;
+  top: -98px;
+  left: -65px;
   padding-left: 154px;
-  width: 580px;
+  width: 602px;
 }
 
-/* line 153, src/sass/layout/_section-como-analizado.scss */
+/* line 156, src/sass/layout/_section-como-analizado.scss */
 .filter-item.indice:after {
-  width: 52%;
+  width: 47%;
 }
 
-/* line 154, src/sass/layout/_section-como-analizado.scss */
+/* line 159, src/sass/layout/_section-como-analizado.scss */
 .filter-item.indice svg {
-  width: 80px;
+  width: 125px;
 }
 
 @media (min-width: 1400px) {
-  /* line 148, src/sass/layout/_section-como-analizado.scss */
+  /* line 150, src/sass/layout/_section-como-analizado.scss */
   .filter-item.indice {
-    padding-left: 162px;
+    padding-left: 130px;
   }
-  /* line 158, src/sass/layout/_section-como-analizado.scss */
+  /* line 164, src/sass/layout/_section-como-analizado.scss */
   .filter-item.indice:after {
-    width: 57%;
+    width: 54%;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 162, src/sass/layout/_section-como-analizado.scss */
+  /* line 169, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados, .filter-item.analisados, .filter-item.fatores, .filter-item.indice {
     top: 0;
     left: 0;
     width: 740px;
   }
-  /* line 170, src/sass/layout/_section-como-analizado.scss */
+  /* line 177, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados svg, .filter-item.analisados svg, .filter-item.fatores svg, .filter-item.indice svg {
     width: auto;
   }
 }
 
-/* line 176, src/sass/layout/_section-como-analizado.scss */
+/* line 182, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover {
   cursor: help;
 }
 
-/* line 192, src/sass/layout/_section-como-analizado.scss */
+/* line 198, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--path-topo {
   fill: #353535;
 }
 
-/* line 197, src/sass/layout/_section-como-analizado.scss */
+/* line 202, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--path-body {
   fill: #161516;
 }
 
-/* line 202, src/sass/layout/_section-como-analizado.scss */
+/* line 206, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--txt path {
   fill: #ffffff;
 }
 
-/* line 214, src/sass/layout/_section-como-analizado.scss */
+/* line 215, src/sass/layout/_section-como-analizado.scss */
 .tooltip-filtro.in {
   opacity: 1;
 }
 
-/* line 215, src/sass/layout/_section-como-analizado.scss */
+/* line 218, src/sass/layout/_section-como-analizado.scss */
 .tooltip-filtro .tooltip-inner {
   padding: 25px 30px;
   max-width: none;
