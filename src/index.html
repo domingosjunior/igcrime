@@ -656,7 +656,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci et ad provident sunt error blanditiis
                             vel amet eum, nisi praesentium architecto unde. Voluptas deleniti consequuntur sequi, quam architecto
                             dolores doloremque.</p>
-                        <button class="btn btn-lg btn-default btn-download">VER ESTUDO</button>
+                        <a href="data/nota_metodologica_icg.pdf" class="btn btn-lg btn-default btn-download">VER ESTUDO</a>
                     </div>
                     <div class="col-md-4">
                         <h4 class="saibamais-downloads-title">Dados</h4>
@@ -711,8 +711,11 @@
                     <!-- <iframe class="iframe-icg" src="https://www.youtube.com/embed/" frameborder="0"></iframe>  -->
 
                     <div class='tableauPlaceholder' id='viz1504649955104' style='position: relative'>
+
                         <noscript>
-                            <a href='#'><img alt='Painel 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;IC&#47;ICGCrim&#47;Painel1&#47;1_rss.png' style='border: none' /></a>
+                            <a href='#'>
+                                <img alt='Painel 1' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;IC&#47;ICGCrim&#47;Painel1&#47;1_rss.png' style='border: none' />
+                            </a>
                         </noscript>
                         <object class='tableauViz' style='display:none;'>
                             <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
@@ -730,15 +733,22 @@
                         </object>
                     </div>
                     <script type='text/javascript'>
+                        // var divElement = document.getElementById('viz1504649955104');
                         var divElement = document.getElementById('viz1504649955104');
+
+                        console.log( divElement.getElementsByTagName('object'));
+
                         var vizElement = divElement.getElementsByTagName('object')[0];
-                        vizElement.style.width = '1064px';
-                        vizElement.style.height = '539px';
+                            vizElement.style.width = '1064px';
+                            vizElement.style.height = '539px';
+
                         var scriptElement = document.createElement('script');
-                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
 
                     </script>
+
                 </div>
             </div>
             <!-- /.modal-content -->
