@@ -8,15 +8,15 @@ var dataIndice = {
                 icg: "0,987",
                 imgMunicipio: "data/2012/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
-                linkIframeCard: "FemdTEIDvRM"
+                idTableau: "22"
             },
             {
                 rank: "2º Colocado",
                 year: '2012',
                 icg: "0,806",
                 imgMunicipio: "data/2012/img/mais-violentas/nova-iguacu-e-mesquita.png",
-                nameMunicipio: "Nova Iguaçu e Mesquita",
-                linkIframeCard: "TdBSoy9F9NA"
+                nameMunicipio: "Comarca Nova Iguaçu e Mesquita",
+                idTableau: "46"
             },
             {
                 rank: "3º Colocado",
@@ -24,7 +24,7 @@ var dataIndice = {
                 icg: "0,782",
                 imgMunicipio: "data/2012/img/mais-violentas/sao-goncalo.png",
                 nameMunicipio: "São Gonçalo",
-                linkIframeCard: "TdBSoy9F9NA"
+                idTableau: "66"
             },
             {
                 rank: "4º Colocado",
@@ -32,7 +32,7 @@ var dataIndice = {
                 icg: "0,684",
                 imgMunicipio: "data/2012/img/mais-violentas/sao-joao-de-meriti.png",
                 nameMunicipio: "São João de meriti",
-                linkIframeCard: "TdBSoy9F9NA"
+                idTableau: "68"
             },
              {
                 rank: "5º Colocado",
@@ -40,7 +40,7 @@ var dataIndice = {
                 icg: "0,672",
                 imgMunicipio: "data/2012/img/mais-violentas/rio-de-janeiro.png",
                 nameMunicipio: "Rio de Janeiro",
-                linkIframeCard: "TdBSoy9F9NA"
+                idTableau: "15"
             }
         ],
         maisSeguras: [
@@ -50,7 +50,7 @@ var dataIndice = {
                 icg: "0,311",
                 imgMunicipio: "data/2012/img/mais-seguras/sumidouro.png",
                 nameMunicipio: "Sumidouro",
-                linkIframeCard: "FemdTEIDvRM"
+                idTableau: "76"
             },
             {
                 rank: "2º Colocado",
@@ -58,7 +58,7 @@ var dataIndice = {
                 icg: "0,311",
                 imgMunicipio: "data/2012/img/mais-seguras/comarca-cambuci-sao-jose-uba.png",
                 nameMunicipio: "Comarca de Cambuci e São José de Ubá",
-                linkIframeCard: "TdBSoy9F9NA"
+                idTableau: "12"
             },
             {
                 rank: "3º Colocado",
@@ -66,7 +66,7 @@ var dataIndice = {
                 icg: "0,311",
                 imgMunicipio: "data/2012/img/mais-seguras/duas-barras.png",
                 nameMunicipio: "Duas Barras",
-                linkIframeCard: "TdBSoy9F9NA"
+                idTableau: "21"
             },
             {
                 rank: "4º Colocado",
@@ -74,7 +74,7 @@ var dataIndice = {
                 icg: "0,311",
                 imgMunicipio: "data/2012/img/mais-seguras/sao-jose-vale-do-rio-preto.png",
                 nameMunicipio: "São José do Vale do Rio Preto",
-                linkIframeCard: "TdBSoy9F9NA"
+                idTableau: "69"
             },
             {
                 rank: "5º Colocado",
@@ -82,7 +82,7 @@ var dataIndice = {
                 icg: "0,311",
                 imgMunicipio: "data/2012/img/mais-seguras/cantagalo.png",
                 nameMunicipio: "Cantagalo",
-                linkIframeCard: "TdBSoy9F9NA"
+                idTableau: "14"
             }
         ]
     },
@@ -94,7 +94,7 @@ var dataIndice = {
                 icg: "0,999",
                 imgMunicipio: "data/2013/img/mais-violentas/duque-de-caxias.png",
                 nameMunicipio: "Duque de Caxias",
-                linkIframeCard: "linkAqui1"
+                idTableau: "22"
             },
             {
                 rank: "2º Colocado",
@@ -102,7 +102,7 @@ var dataIndice = {
                 icg: "0,883",
                 imgMunicipio: "data/2013/img/mais-violentas/nova-iguacu-e-mesquita.png",
                 nameMunicipio: "Comarca Nova Iguaçu e Mesquita",
-                linkIframeCard: "linkAqui2"
+                idTableau: "46"
             },
             {
                 rank: "3º Colocado",
@@ -110,7 +110,7 @@ var dataIndice = {
                 icg: "0,790",
                 imgMunicipio: "data/2013/img/mais-violentas/sao-joao-de-meriti.png",
                 nameMunicipio: "São João de Meriti",
-                linkIframeCard: "linkAqui2"
+                idTableau: "68"
             },
             {
                 rank: "4º Colocado",
@@ -118,7 +118,7 @@ var dataIndice = {
                 icg: "0,778",
                 imgMunicipio: "data/2013/img/mais-violentas/belford-roxo.png",
                 nameMunicipio: "Belford Roxo",
-                linkIframeCard: "linkAqui2"
+                idTableau: "7"
             },
             {
                 rank: "5º Colocado",
@@ -126,7 +126,7 @@ var dataIndice = {
                 icg: "0,761",
                 imgMunicipio: "data/2013/img/mais-violentas/niteroi.png",
                 nameMunicipio: "Niterói",
-                linkIframeCard: "linkAqui2"
+                idTableau: "44"
             }
         ],
         maisSeguras: [
@@ -136,7 +136,7 @@ var dataIndice = {
                 icg: "0,345",
                 imgMunicipio: "data/2013/img/mais-seguras/carmo.png",
                 nameMunicipio: "Carmo",
-                linkIframeCard: "linkAqui1"
+                idTableau: "17"
             },
             {
                 rank: "2º Colocado",
@@ -144,7 +144,7 @@ var dataIndice = {
                 icg: "0,346",
                 imgMunicipio: "data/2013/img/mais-seguras/sao-jose-vale-do-rio-preto.png",
                 nameMunicipio: "São José do Vale do Rio Preto",
-                linkIframeCard: "linkAqui2"
+                idTableau: "69"
             },
             {
                 rank: "3º Colocado",
@@ -152,7 +152,7 @@ var dataIndice = {
                 icg: "0,346",
                 imgMunicipio: "data/2013/img/mais-seguras/porciuncula.png",
                 nameMunicipio: "Porciúncula",
-                linkIframeCard: "linkAqui2"
+                idTableau: "54"
             },
             {
                 rank: "4º Colocado",
@@ -160,7 +160,7 @@ var dataIndice = {
                 icg: "0,346",
                 imgMunicipio: "data/2013/img/mais-seguras/laje-do-muriae.png",
                 nameMunicipio: "Laje do Muriaé",
-                linkIframeCard: "linkAqui2"
+                idTableau: "33"
             },
             {
                 rank: "5º Colocado",
@@ -168,7 +168,7 @@ var dataIndice = {
                 icg: "0,346",
                 imgMunicipio: "data/2013/img/mais-seguras/comarca-cambuci-sao-jose-uba.png",
                 nameMunicipio: "Comarca de Cambuci e São José de Ubá",
-                linkIframeCard: "linkAqui2"
+                idTableau: "12"
             }
         ]
     },
