@@ -539,7 +539,7 @@
                             <ul class="rangeicg-ranking">
                                 {{#maisViolentas}}
                                 <li class="rangeicg-card">
-                                    <a data-toggle="modal" data-target="#modalIcg" data-idtableau={{idTableau}}>
+                                    <a class="card" data-toggle="modal" data-target="#modalIcg" data-idtableau={{idTableau}}>
                                         <h3 class="rangeicg-card-title">{{rank}}&nbsp;{{year}}<strong>ICG <span>{{icg}}</span></strong></h3>
                                         <figure>
                                             <img src={{imgMunicipio}} alt="Silueta do município {{nameMunicipio}}">
@@ -592,7 +592,7 @@
                             <ul class="rangeicg-ranking">
                                 {{#maisSeguras}}
                                 <li class="rangeicg-card">
-                                    <a data-toggle="modal" data-target="#modalIcg" data-idtableau={{idTableau}}>
+                                    <a class="card" data-toggle="modal" data-target="#modalIcg" data-idtableau={{idTableau}}>
                                         <h3 class="rangeicg-card-title">{{rank}}&nbsp;{{year}}<strong>ICG <span>{{icg}}</span></strong></h3>
                                         <figure>
                                             <img src={{imgMunicipio}} alt="Silueta do município {{nameMunicipio}}">
@@ -625,7 +625,7 @@
                         <svg class="maprio" x="0px" y="0px" viewBox="0 0 271000 194640" width="100%" height="100%">
                             <g id="municipios-rj--group">
                                 {{#countiesRJ}}
-                                <path d="{{path}}" stroke="#111214" stroke-width="150" data-nameSvg="{{name}}" data-toggle="modal" data-target="#modalIcg"
+                                <path class="area-municipio" d="{{path}}" stroke="#111214" stroke-width="150" data-namesvg="{{name}}" data-toggle="modal" data-target="#modalIcg" data-idtableau={{idTableau}}
                                 /> {{/countiesRJ}}
                             </g>
                         </svg>
@@ -705,11 +705,6 @@
                     <span>Ocorrências para cada 10.000 habitantes</span>
                 </div>
                 <div class="modal-body">
-                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus a vitae quas blanditiis iste, aliquam molestiae, quae, facilis quibusdam explicabo laudantium id aperiam perferendis. Eligendi nulla dolores at reprehenderit sint.</p>
-
-                    <iframe class="iframe-icg" frameborder="0"></iframe> -->
-                    <!-- <iframe class="iframe-icg" src="https://www.youtube.com/embed/" frameborder="0"></iframe>  -->
-
                     <div class='tableauPlaceholder' id='viz1504649955104' style='position: relative'>
 
                          <noscript>
@@ -730,23 +725,9 @@
                             <param name='display_overlay' value='yes' />
                             <param name='display_count' value='yes' />
                             <param name='filter' value='publish=yes' />
-                            <param id="xuxa" name='filter' value='CD_COMARCA=1' />
+                            <param id="idComarca" name='filter' value='CD_COMARCA=1' />
                         </object>
                     </div>
-                    <script type='text/javascript'>
-                        // var divElement = document.getElementById('viz1504649955104');
-
-                        // var vizElement = divElement.getElementsByTagName('object')[0];
-                        //     vizElement.style.width = '1064px';
-                        //     vizElement.style.height = '539px';
-
-                        // var scriptElement = document.createElement('script');
-                        //     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-
-                        //     vizElement.parentNode.insertBefore(scriptElement, vizElement);
-
-                    </script>
-
                 </div>
             </div>
             <!-- /.modal-content -->

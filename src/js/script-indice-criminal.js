@@ -133,7 +133,7 @@ $(function(){
                 "<param name='display_overlay' value='yes' />" +
                 "<param name='display_count' value='yes' />" +
                 "<param name='filter' value='publish=yes' />" +
-            "<param id='xuxa' name='filter' value='CD_COMARCA=" + idTableau + "'   />" +
+            "<param id='idComarca' name='filter' value='CD_COMARCA=" + idTableau + "'   />" +
             "</object>";
 
         $(targetIframe).remove();
@@ -141,33 +141,33 @@ $(function(){
 
     }
 
+    function modalCard(item){
+        // Variables modal
+        var iframeTableau = $('#viz1504649955104').find('iframe');
+        var idTableauCard = $(item.relatedTarget).data('idtableau');
+
+        // Insert name municipio
+        $('.modal-icg--name-municipio b').text('Incidência de Delitos na Comarca de ' + nameInputModal(item));
+
+        // Create tableau
+        $('#idComarca').attr('value', 'CD_COMARCA=' + idTableauCard);
+        iframeTableau.length > 0 ? updateTableau(iframeTableau[0], idTableauCard) : null;
+        createTableau();
+    }
+
+    function nameInputModal(item){
+        var $targetItem = $(item.relatedTarget);
+        return $targetItem.hasClass('card') ?
+               $targetItem.find('.rangeicg-card--title-municipio').text() :
+               $targetItem.data('namesvg');
+    }
+
     // Modal load  dynamic iframe
     $('#modalIcg').modal('hide');
     $('#modalIcg').on('show.bs.modal', function(item){
-
-        var targetCard = $(item.relatedTarget).closest('li').hasClass('rangeicg-card');
-
-        if (targetCard) {
-            // Variables modal
-            var nameMunicipio = $(item.relatedTarget).find(".rangeicg-card--title-municipio").text();
-            var iframeTableau = $('#viz1504649955104').find('iframe');
-            var idTableauCard = $(item.relatedTarget).data('idtableau');
-
-            // Insert name municipio
-            $('.modal-icg--name-municipio b').text('Incidência de Delitos na Comarca de ' + nameMunicipio);
-
-            // Create tableau
-            $('#xuxa').attr('value', 'CD_COMARCA=' + idTableauCard);
-            iframeTableau.length > 0 ? updateTableau(iframeTableau[0], idTableauCard) : null;
-            createTableau();
-
-        }
-
-
-    });
-    $('#modalIcg').on('hide.bs.modal', function(){
-        // Clean src iframe
-        $(this).find('.iframe-icg').attr('src', '');
+        var $targetCard = $(item.relatedTarget).closest('li').hasClass('rangeicg-card');
+        var $targetSvg = $('#municipios-rj--group path');
+        modalCard(item);
     });
 });
 
