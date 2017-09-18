@@ -39,10 +39,8 @@ $(function(){
             for (var key in dataIndice) {
                 if (dataIndice.hasOwnProperty(year)) {
                     return dataIndice[year];
-                } else {
-                    return dataIndice['2012'];
-
                 }
+                return dataIndice['2016'];
             }
         }
 
@@ -50,8 +48,8 @@ $(function(){
         var templateCard = Handlebars.compile(element.scripCard);
 
         return templateCard(
-                    getYearIndiceCriminal( rangeDates[element.valueInput] )
-               )
+            getYearIndiceCriminal( rangeDates[element.valueInput] )
+        )
 
     }
 
@@ -102,6 +100,47 @@ $(function(){
     var htmlHandleBarsCountiesRj = templateHandleBarsCountiesRJ(countiesSvgPathRJ);
     $("#wrap-maprj").html(htmlHandleBarsCountiesRj);
 
+
+    function createTableau() {
+        var divElement = document.getElementById('viz1504649955104');
+
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '1064px';
+        vizElement.style.height = '539px';
+
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    }
+
+    function updateTableau(targetIframe, idTableau){
+        var objectParameters = "<noscript>" +
+            "<a href='#'>" +
+                "<img alt='Painel 1' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;IC&#47;ICGCrim&#47;Painel1&#47;1_rss.png' style='border: none' />" +
+            "</a>" +
+        "</noscript>" +
+            "<object class='tableauViz' style='display:none;'>" +
+                "<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />" +
+                "<param name='site_root' value='' />" +
+                "<param name='name' value='ICGCrim&#47;Painel1' />" +
+                "<param name='tabs' value='no' />" +
+                "<param name='toolbar' value='yes' />" +
+                "<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;IC&#47;ICGCrim&#47;Painel1&#47;1.png' />" +
+                "<param name='animate_transition' value='yes' />" +
+                "<param name='display_static_image' value='yes' />" +
+                "<param name='display_spinner' value='yes' />" +
+                "<param name='display_overlay' value='yes' />" +
+                "<param name='display_count' value='yes' />" +
+                "<param name='filter' value='publish=yes' />" +
+            "<param id='xuxa' name='filter' value='CD_COMARCA=" + idTableau + "'   />" +
+            "</object>";
+
+        $(targetIframe).remove();
+        $('#viz1504649955104').html(objectParameters);
+
+    }
+
     // Modal load  dynamic iframe
     $('#modalIcg').modal('hide');
     $('#modalIcg').on('show.bs.modal', function(item){
@@ -110,18 +149,18 @@ $(function(){
 
         if (targetCard) {
             // Variables modal
-            var linkPattern = "https://www.youtube.com/embed/";
-            var pathIframe = $(item.relatedTarget).data('linkiframe');
             var nameMunicipio = $(item.relatedTarget).find(".rangeicg-card--title-municipio").text();
+            var iframeTableau = $('#viz1504649955104').find('iframe');
+            var idTableauCard = $(item.relatedTarget).data('idtableau');
 
             // Insert name municipio
             $('.modal-icg--name-municipio b').text('Incidência de Delitos na Comarca de ' + nameMunicipio);
 
-            // Insert url in iframe
-            $(this).find('.iframe-icg').attr('src', '');
-            $(this).find('.iframe-icg').attr('src', linkPattern + pathIframe);
-        } else {
-            console.log('opa');
+            // Create tableau
+            $('#xuxa').attr('value', 'CD_COMARCA=' + idTableauCard);
+            iframeTableau.length > 0 ? updateTableau(iframeTableau[0], idTableauCard) : null;
+            createTableau();
+
         }
 
 
