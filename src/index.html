@@ -539,7 +539,7 @@
                             <ul class="rangeicg-ranking">
                                 {{#maisViolentas}}
                                 <li class="rangeicg-card">
-                                    <a data-toggle="modal" data-target="#modalIcg" data-linkiframe={{linkIframeCard}}>
+                                    <a data-toggle="modal" data-target="#modalIcg" data-idtableau={{idTableau}}>
                                         <h3 class="rangeicg-card-title">{{rank}}&nbsp;{{year}}<strong>ICG <span>{{icg}}</span></strong></h3>
                                         <figure>
                                             <img src={{imgMunicipio}} alt="Silueta do município {{nameMunicipio}}">
@@ -592,7 +592,7 @@
                             <ul class="rangeicg-ranking">
                                 {{#maisSeguras}}
                                 <li class="rangeicg-card">
-                                    <a data-toggle="modal" data-target="#modalIcg" data-linkiframe={{linkIframeCard}}>
+                                    <a data-toggle="modal" data-target="#modalIcg" data-idtableau={{idTableau}}>
                                         <h3 class="rangeicg-card-title">{{rank}}&nbsp;{{year}}<strong>ICG <span>{{icg}}</span></strong></h3>
                                         <figure>
                                             <img src={{imgMunicipio}} alt="Silueta do município {{nameMunicipio}}">
@@ -712,7 +712,7 @@
 
                     <div class='tableauPlaceholder' id='viz1504649955104' style='position: relative'>
 
-                        <noscript>
+                         <noscript>
                             <a href='#'>
                                 <img alt='Painel 1' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;IC&#47;ICGCrim&#47;Painel1&#47;1_rss.png' style='border: none' />
                             </a>
@@ -730,23 +730,20 @@
                             <param name='display_overlay' value='yes' />
                             <param name='display_count' value='yes' />
                             <param name='filter' value='publish=yes' />
-                            <param name='filter' value='Team=5' />
+                            <param id="xuxa" name='filter' value='CD_COMARCA=1' />
                         </object>
                     </div>
                     <script type='text/javascript'>
                         // var divElement = document.getElementById('viz1504649955104');
-                        var divElement = document.getElementById('viz1504649955104');
 
-                        console.log( divElement.getElementsByTagName('object'));
+                        // var vizElement = divElement.getElementsByTagName('object')[0];
+                        //     vizElement.style.width = '1064px';
+                        //     vizElement.style.height = '539px';
 
-                        var vizElement = divElement.getElementsByTagName('object')[0];
-                            vizElement.style.width = '1064px';
-                            vizElement.style.height = '539px';
+                        // var scriptElement = document.createElement('script');
+                        //     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
 
-                        var scriptElement = document.createElement('script');
-                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-
-                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                        //     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 
                     </script>
 
