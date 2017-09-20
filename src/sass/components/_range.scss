@@ -65,17 +65,18 @@
 }
 
 .rangeicg {
-  padding-top: 20px;
+  padding-top: 15px;
 
   &-title {
+    margin-top: 0;
+    margin-bottom: 20px;
     font-size: 24px;
     @include font-family('light');
-    margin-bottom: 20px;
     text-align: center;
   }
 
   &-ranking {
-    margin-top: 50px;
+    margin-top: 40px;
     padding-left: 0;
     display: flex;
     justify-content: space-between;
@@ -143,4 +144,11 @@
 
   }
 
+}
+
+.img-faixaindice {
+  display: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  width: 970px;
 }
