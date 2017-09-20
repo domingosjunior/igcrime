@@ -13223,75 +13223,76 @@ strong {
   position: relative;
   display: block;
   margin-left: 12px;
+  font-size: 13px;
   text-decoration: none;
 }
 
-/* line 80, src/sass/layout/_topbar.scss */
+/* line 81, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor1 .topbar--menu-link:nth-child(1) a {
   color: #bd2c4c;
 }
 
-/* line 82, src/sass/layout/_topbar.scss */
+/* line 83, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor1 .topbar--menu-link:nth-child(1) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 80, src/sass/layout/_topbar.scss */
+/* line 81, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor2 .topbar--menu-link:nth-child(2) a {
   color: #bd2c4c;
 }
 
-/* line 82, src/sass/layout/_topbar.scss */
+/* line 83, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor2 .topbar--menu-link:nth-child(2) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 80, src/sass/layout/_topbar.scss */
+/* line 81, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor3 .topbar--menu-link:nth-child(3) a {
   color: #bd2c4c;
 }
 
-/* line 82, src/sass/layout/_topbar.scss */
+/* line 83, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor3 .topbar--menu-link:nth-child(3) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 80, src/sass/layout/_topbar.scss */
+/* line 81, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor4 .topbar--menu-link:nth-child(4) a {
   color: #bd2c4c;
 }
 
-/* line 82, src/sass/layout/_topbar.scss */
+/* line 83, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor4 .topbar--menu-link:nth-child(4) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 80, src/sass/layout/_topbar.scss */
+/* line 81, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor5 .topbar--menu-link:nth-child(5) a {
   color: #bd2c4c;
 }
 
-/* line 82, src/sass/layout/_topbar.scss */
+/* line 83, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor5 .topbar--menu-link:nth-child(5) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 80, src/sass/layout/_topbar.scss */
+/* line 81, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor6 .topbar--menu-link:nth-child(6) a {
   color: #bd2c4c;
 }
 
-/* line 82, src/sass/layout/_topbar.scss */
+/* line 83, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor6 .topbar--menu-link:nth-child(6) a:after {
   width: 100%;
   opacity: 1;
