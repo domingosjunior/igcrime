@@ -13775,9 +13775,10 @@ strong {
 /* line 24, src/sass/layout/_section-icgmuni.scss */
 .section-icgmuni .section-header--title {
   text-transform: initial;
+  font-size: 42px;
 }
 
-/* line 31, src/sass/layout/_section-icgmuni.scss */
+/* line 32, src/sass/layout/_section-icgmuni.scss */
 .maprio {
   position: relative;
   z-index: 2;
@@ -13785,7 +13786,7 @@ strong {
 }
 
 @media (min-width: 1400px) {
-  /* line 31, src/sass/layout/_section-icgmuni.scss */
+  /* line 32, src/sass/layout/_section-icgmuni.scss */
   .maprio {
     top: -72px;
     width: 950px;
@@ -13793,19 +13794,19 @@ strong {
 }
 
 @media (min-width: 1800px) {
-  /* line 31, src/sass/layout/_section-icgmuni.scss */
+  /* line 32, src/sass/layout/_section-icgmuni.scss */
   .maprio {
     width: 1000px;
   }
 }
 
-/* line 45, src/sass/layout/_section-icgmuni.scss */
+/* line 46, src/sass/layout/_section-icgmuni.scss */
 .maprio path {
   transition: fill .3s ease-in-out .1s;
   fill: #ffffff;
 }
 
-/* line 49, src/sass/layout/_section-icgmuni.scss */
+/* line 50, src/sass/layout/_section-icgmuni.scss */
 .maprio path:hover {
   cursor: pointer;
   fill: #c33056;
