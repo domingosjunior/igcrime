@@ -9,7 +9,7 @@
     "server": "npm run gulp server",
     "build": "npm run gulp build"
   },
-  "author": "",
+  "author": "mpemmapas-mprj",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.17.6",
