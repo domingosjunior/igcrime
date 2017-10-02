@@ -13837,9 +13837,10 @@ strong {
   border-color: #303134;
   background-color: transparent;
   transition-duration: .3s;
+  line-height: 30px;
 }
 
-/* line 25, src/sass/layout/_section-saibamais.scss */
+/* line 26, src/sass/layout/_section-saibamais.scss */
 .btn-download:hover, .btn-dropdown-download.open > .btn-download, .btn-download:active, .btn-dropdown-download.open > .btn-download:active, .btn-dropdown-download.open > .btn-download:focus, .btn-dropdown-download.open > .btn-download:active:focus, .dropdown-menu-download > li > a:hover {
   background-color: #303134;
   border-color: #303134;
@@ -13847,7 +13848,7 @@ strong {
   transition-duration: .15s;
 }
 
-/* line 32, src/sass/layout/_section-saibamais.scss */
+/* line 33, src/sass/layout/_section-saibamais.scss */
 .btn-download:active, .btn-dropdown-download.open > .btn-download:active, .btn-dropdown-download.open > .btn-download:focus, .btn-dropdown-download.open > .btn-download:active:focus, .dropdown-menu-download > li > a:hover, .btn-download:focus, .btn-download:active:focus, .btn-dropdown-download.open > .btn-download:focus, .dropdown-menu-download > li > a:focus:hover {
   color: #ffffff;
   background-color: #101113;
