@@ -9,6 +9,7 @@ Para tanto, o Núcleo de Estatística abordou um conjunto de dezenove variáveis
 1. Clone o projeto ou faça o [download](https://github.com/MinisterioPublicoRJ/igcrime/archive/master.zip) para seu computador.
 1. Verifique que você tenha o Node.js e o npm instalados.
 1. Execute o `npm install`
+1. Instale o gulp globalmente com `npm install -g gulp`
 1. Este projeto usa [EditorConfig](http://editorconfig.org/) para manter o seu padrão de código.
 
 ### Executando
