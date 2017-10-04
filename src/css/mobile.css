@@ -1,0 +1,81 @@
+@media (max-width: 800px) {
+  /* line 4, src/sass/mobile.scss */
+  .topbar--menu {
+    display: none;
+  }
+  /* line 8, src/sass/mobile.scss */
+  .bgcolor-section-intro .fp-tableCell:after {
+    display: none;
+  }
+  /* line 12, src/sass/mobile.scss */
+  .section-header--title {
+    font-size: 26px;
+  }
+  /* line 16, src/sass/mobile.scss */
+  .container.section-intro {
+    padding-top: 80px;
+  }
+  /* line 20, src/sass/mobile.scss */
+  .container.section-analizado {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  /* line 24, src/sass/mobile.scss */
+  .container.section-analizado .section-header {
+    margin-bottom: 20px;
+  }
+  /* line 27, src/sass/mobile.scss */
+  .container.section-analizado .section-header--title {
+    margin-top: 30px;
+  }
+  /* line 30, src/sass/mobile.scss */
+  .container.section-analizado .section-header--title span {
+    font-size: inherit;
+  }
+  /* line 37, src/sass/mobile.scss */
+  .container.section-analizado .filter-item:before, .container.section-analizado .filter-item:after {
+    display: none;
+  }
+  /* line 43, src/sass/mobile.scss */
+  .container.section-violentas, .container.section-seguras {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  /* line 47, src/sass/mobile.scss */
+  .container.section-violentas .rangeicg-title, .container.section-violentas .rangeslider, .container.section-seguras .rangeicg-title, .container.section-seguras .rangeslider {
+    display: none;
+  }
+  /* line 51, src/sass/mobile.scss */
+  .container.section-violentas .rangeicg-ranking, .container.section-seguras .rangeicg-ranking {
+    display: block;
+    margin-top: 0;
+  }
+  /* line 56, src/sass/mobile.scss */
+  .container.section-violentas .rangeicg-card, .container.section-seguras .rangeicg-card {
+    display: block;
+    margin: 0 auto 10px;
+    padding-top: 1px;
+  }
+  /* line 60, src/sass/mobile.scss */
+  .container.section-violentas .rangeicg-card figure, .container.section-seguras .rangeicg-card figure {
+    display: none;
+  }
+  /* line 65, src/sass/mobile.scss */
+  .container.section-violentas .img-faixaindice, .container.section-seguras .img-faixaindice {
+    display: none;
+  }
+  /* line 70, src/sass/mobile.scss */
+  .topbar--menu-link[data-menuanchor='anchor5'] {
+    display: none;
+  }
+  /* line 73, src/sass/mobile.scss */
+  #section5 {
+    display: none;
+  }
+  /* line 78, src/sass/mobile.scss */
+  .container.section-saibamais a {
+    margin-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */
