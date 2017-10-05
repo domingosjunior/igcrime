@@ -48,17 +48,27 @@
     font-size: 42px;
     @include font-family('semibolditalic');
 
+    @include media-max480{
+      font-size: 22px;
+    }
+
     span {
       @include font-family('bold');
     }
+
 
   }
 
   &--menu {
     @extend %inline-blockmenu;
+    display: none;
     padding-top: 14px;
     font-size: 14px;
     float: right;
+
+    @include media-min992 {
+      display: block;
+    }
 
     li { @extend %inline-blockmenu; }
 

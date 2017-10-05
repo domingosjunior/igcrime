@@ -42,10 +42,25 @@
 .section-intro {
   position: relative;
   z-index: 2;
-  font-size: 18px;
-  padding-top: 180px;
-  @include font-family('light');
   color: $sec-intro-text-color;
+  @include font-family('light');
+
+  @include media-max768 {
+    padding-top: 80px;
+    font-size: 18px;
+    line-height: inherit;
+  }
+
+  @include media-max480 {
+    padding-top: 60px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  @include media-min992{
+    padding-top: 180px;
+    font-size: 18px;
+  }
 
   @include mediamin(1400px) {
     font-size: 20px;
@@ -55,7 +70,21 @@
   span { color: $sec-intro-header-title-span-color; }
 
   .section-header {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+
+    @include media-min992{
+      margin-bottom: 30px;
+    }
+
+    &--title{
+      font-size: 7vw;
+
+      @include media-max768 {
+        font-size: 5.5vw;
+      }
+
+    }
+
   }
 
 }

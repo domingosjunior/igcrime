@@ -14,12 +14,14 @@ $(function(){
             menu: '#menu',
             scrollOverflow: true
         });
+
+        //Tooltip funnel
+        $('[data-toggle="tooltip-filtro"]').tooltip({
+            template:'<div class="tooltip tooltip-filtro" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
+        });
+
     }
 
-    //Tooltip funnel
-    $('[data-toggle="tooltip-filtro"]').tooltip({
-        template:'<div class="tooltip tooltip-filtro" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
-    });
 
     // Range hide tooltip
     $('#sliderMaisViolentas, #sliderMaisSeguras').slider({
