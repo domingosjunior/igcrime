@@ -19,7 +19,9 @@ Para tanto, o Núcleo de Estatística abordou um conjunto de dezenove variáveis
 # Time
 
 ## Desenvolvimento
+- [Arlindo Pereira](https://www.linkedin.com/in/arlindosaraivapereira/) ([@nighto](https://github.com/nighto))
 - [Daniel Belchior](https://www.linkedin.com/in/danielbelchior/) ([@danielbelchior](https://github.com/danielbelchior))
+- [Gabriel Barbier](https://www.linkedin.com/in/gabrielbarbier/) ([@barbier](https://github.com/barbier))
 - [Luciano Baraúna](https://www.linkedin.com/in/lucianobarauna/) ([@lucianobarauna](https://github.com/lucianobarauna))
 - [Rafael Lage Tavares](https://www.linkedin.com/in/rltrafael/) ([@rlage](https://github.com/rlage))
 
