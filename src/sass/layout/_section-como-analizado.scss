@@ -27,12 +27,15 @@
   padding-top: 30px;
   padding-bottom: 30px;
 
-  @include media-min992 {
-    padding-top: 100px;
+  @include media-min768 {
     padding-bottom: 50px;
   }
 
-  @include mediamin(1400px) {
+  @include media-min992 {
+    padding-top: 100px;
+  }
+
+  @include media-min1400 {
     padding-top: 0;
     height: 620px;
     padding-bottom: 0;
@@ -135,7 +138,7 @@
         width: 300px;
       }
     }
-    @include mediamin(1400px) {
+    @include media-min1400 {
       width: 740px;
       svg {
         width: auto;
@@ -160,7 +163,7 @@
         width: 245px;
       }
     }
-    @include mediamin(1400px) {
+    @include media-min1400 {
       &:after {
         width: 44%;
       }
@@ -189,7 +192,7 @@
       }
     }
 
-    @include mediamin(1400px) {
+    @include media-min1400 {
       padding-left: 92px;
       &:after {
         width: 49.5%;
@@ -218,7 +221,7 @@
         width: 125px;
       }
     }
-    @include mediamin(1400px) {
+    @include media-min1400 {
       padding-left: 130px;
       &:after {
         width: 54%;
@@ -229,7 +232,7 @@
   &.analisados,
   &.fatores,
   &.indice {
-    @include mediamin(1400px) {
+    @include media-min1400 {
       top: 0;
       left: 0;
       width: 740px;

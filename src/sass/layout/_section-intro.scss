@@ -29,7 +29,7 @@
       left: 0;
       background: url('#{$path-img}border-triangle.svg') no-repeat top;
 
-      @include mediamin(1400px){
+      @include media-min1400{
         margin-top: -93px;
       }
 
@@ -69,7 +69,7 @@
     padding-bottom: 0;
   }
 
-  @include mediamin(1400px) {
+  @include media-min1400 {
     font-size: 20px;
     padding-bottom: 120px;
   }

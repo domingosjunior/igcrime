@@ -34,7 +34,7 @@
   z-index: 2;
   width: 800px;
 
-  @include mediamin(1400px){
+  @include media-min1400{
     top: -72px;
     width: 950px;
   }
