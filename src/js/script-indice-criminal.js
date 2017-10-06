@@ -5,16 +5,23 @@
 
 $(function(){
     // Fullpage
-    $('#fullpage').fullpage({
-        anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6'],
-        menu: '#menu',
-        scrollOverflow: true
-    });
 
-    //Tooltip funnel
-    $('[data-toggle="tooltip-filtro"]').tooltip({
-        template:'<div class="tooltip tooltip-filtro" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
-    });
+    // detect if window is big enough
+    if (window.matchMedia("(min-width: 801px)").matches) {
+        console.log('rodou')
+        $('#fullpage').fullpage({
+            anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6'],
+            menu: '#menu',
+            scrollOverflow: true
+        });
+
+        //Tooltip funnel
+        $('[data-toggle="tooltip-filtro"]').tooltip({
+            template:'<div class="tooltip tooltip-filtro" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
+        });
+
+    }
+
 
     // Range hide tooltip
     $('#sliderMaisViolentas, #sliderMaisSeguras').slider({

@@ -1,0 +1,86 @@
+@media (max-width: 800px) {
+    // passa a faca!
+
+    .topbar--menu {
+        display: none;
+    }
+
+    .bgcolor-section-intro .fp-tableCell:after {
+        display: none;
+    }
+
+    .rangeicg-card-btn {
+        display: none;
+    }
+
+    .section-header--title {
+        font-size: 26px;
+    }
+
+    .container.section-intro {
+        padding-top: 80px;
+    }
+
+    .container.section-analizado {
+        padding-top: 0;
+        padding-bottom: 0;
+
+        .section-header {
+            margin-bottom: 20px;
+
+            &--title {
+                margin-top: 30px;
+
+                span {
+                    font-size: inherit;
+                }
+            }
+        }
+
+        .filter-item {
+            &:before, &:after {
+                display: none;
+            }
+        }
+    }
+
+    .container.section-violentas, .container.section-seguras {
+        padding-top: 0;
+        padding-bottom: 0;
+
+        .rangeicg-title, .rangeslider {
+            display: none;
+        }
+
+        .rangeicg-ranking {
+            display: block;
+            margin-top: 0;
+        }
+
+        .rangeicg-card {
+            display: block;
+            margin: 0 auto 10px;
+            padding-top: 1px;
+            figure {
+                display: none;
+            }
+        }
+
+        .img-faixaindice {
+            display: none;
+        }
+    }
+
+    .topbar--menu-link[data-menuanchor='anchor5'] {
+        display: none;
+    }
+    #section5 {
+        display: none;
+    }
+
+    .container.section-saibamais {
+        a {
+            margin-bottom: 10px;
+        }
+    }
+}

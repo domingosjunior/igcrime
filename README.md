@@ -4,23 +4,24 @@ O [Ministério Público do Estado do Rio de Janeiro](http://www.mprj.mp.br/) atr
 
 Para tanto, o Núcleo de Estatística abordou um conjunto de dezenove variáveis tais como: Homicídios, Lesão corporal seguida de morte, Lesão Corporal, Roubo, Furto, Ameaça, Extorsão, Estelionato, Estupro, Latrocínio, Apreensão de Drogas, Apreensão de Armas e Tentativa de Homicídio com o objetivo de construir uma base comparativa de dados sobre criminalidade e violência do Estado.
 
-## Como começar
+## [igcrime.mprj.mp.br](http://igcrime.mprj.mp.br/)
+[![captura de tela](https://user-images.githubusercontent.com/397851/31203573-26eb068a-a93e-11e7-8971-6324e346b8fc.png)](http://igcrime.mprj.mp.br/)
+
+## Como rodar
 
 1. Clone o projeto ou faça o [download](https://github.com/MinisterioPublicoRJ/igcrime/archive/master.zip) para seu computador.
 1. Verifique que você tenha o Node.js e o npm instalados.
 1. Execute o `npm install`
+1. Instale o gulp globalmente com `npm install -g gulp`
 1. Este projeto usa [EditorConfig](http://editorconfig.org/) para manter o seu padrão de código.
-
-### Executando
-
-```
-$ npm run server
-```
+1. Execute `npm run server`
 
 # Time
 
 ## Desenvolvimento
+- [Arlindo Pereira](https://www.linkedin.com/in/arlindosaraivapereira/) ([@nighto](https://github.com/nighto))
 - [Daniel Belchior](https://www.linkedin.com/in/danielbelchior/) ([@danielbelchior](https://github.com/danielbelchior))
+- [Gabriel Barbier](https://www.linkedin.com/in/gabrielbarbier/) ([@barbier](https://github.com/barbier))
 - [Luciano Baraúna](https://www.linkedin.com/in/lucianobarauna/) ([@lucianobarauna](https://github.com/lucianobarauna))
 - [Rafael Lage Tavares](https://www.linkedin.com/in/rltrafael/) ([@rlage](https://github.com/rlage))
 

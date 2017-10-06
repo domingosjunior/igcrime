@@ -6,8 +6,28 @@
 }
 
 
+//  Apagar essa media depois de resolver os problemas
 @mixin mediamin($size) {
- @media (min-width: $size){
-   @content;
- }
+  @media (min-width: $size){
+    @content;
+  }
+}
+//
+
+@mixin media-max480 {
+  @media (max-width: 480px){
+    @content;
+  }
+}
+
+@mixin media-max768 {
+  @media (max-width: 768px){
+    @content;
+  }
+}
+
+@mixin media-min992 {
+  @media (min-width: 992px){
+    @content;
+  }
 }
