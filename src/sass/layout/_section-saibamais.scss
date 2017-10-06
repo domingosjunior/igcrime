@@ -27,6 +27,18 @@
 
   }
 
+  @include media-min768 {
+    .section-header--title {
+      font-size: 35px;
+    }
+  }
+
+  @include media-min992 {
+    .section-header--title {
+      font-size: 46px;
+    }
+  }
+
 }
 
 .saibamais-downloads {

@@ -14021,24 +14021,38 @@ strong {
   }
 }
 
-/* line 32, src/sass/layout/_section-saibamais.scss */
+@media (min-width: 768px) {
+  /* line 31, src/sass/layout/_section-saibamais.scss */
+  .section-saibamais .section-header--title {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 37, src/sass/layout/_section-saibamais.scss */
+  .section-saibamais .section-header--title {
+    font-size: 46px;
+  }
+}
+
+/* line 44, src/sass/layout/_section-saibamais.scss */
 .saibamais-downloads {
   padding-top: 20px;
   font-family: "montserrat_light", Arial, Verdana, Sans-serif;
 }
 
-/* line 35, src/sass/layout/_section-saibamais.scss */
+/* line 47, src/sass/layout/_section-saibamais.scss */
 .saibamais-downloads-title {
   font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
 }
 
-/* line 38, src/sass/layout/_section-saibamais.scss */
+/* line 50, src/sass/layout/_section-saibamais.scss */
 .saibamais-downloads div[class^="col-"] {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-/* line 45, src/sass/layout/_section-saibamais.scss */
+/* line 57, src/sass/layout/_section-saibamais.scss */
 .btn-download {
   border-width: 2px;
   border-color: #303134;
@@ -14049,7 +14063,7 @@ strong {
 }
 
 @media (max-width: 480px) {
-  /* line 45, src/sass/layout/_section-saibamais.scss */
+  /* line 57, src/sass/layout/_section-saibamais.scss */
   .btn-download {
     font-size: 16px;
     line-height: 20px;
@@ -14057,13 +14071,13 @@ strong {
 }
 
 @media (min-width: 992px) {
-  /* line 45, src/sass/layout/_section-saibamais.scss */
+  /* line 57, src/sass/layout/_section-saibamais.scss */
   .btn-download {
     margin-bottom: 0;
   }
 }
 
-/* line 61, src/sass/layout/_section-saibamais.scss */
+/* line 73, src/sass/layout/_section-saibamais.scss */
 .btn-download:hover, .btn-dropdown-download.open > .btn-download, .btn-download:active, .btn-dropdown-download.open > .btn-download:active, .btn-dropdown-download.open > .btn-download:focus, .btn-dropdown-download.open > .btn-download:active:focus, .dropdown-menu-download > li > a:hover {
   background-color: #303134;
   border-color: #303134;
@@ -14071,7 +14085,7 @@ strong {
   transition-duration: .15s;
 }
 
-/* line 68, src/sass/layout/_section-saibamais.scss */
+/* line 80, src/sass/layout/_section-saibamais.scss */
 .btn-download:active, .btn-dropdown-download.open > .btn-download:active, .btn-dropdown-download.open > .btn-download:focus, .btn-dropdown-download.open > .btn-download:active:focus, .dropdown-menu-download > li > a:hover, .btn-download:focus, .btn-download:active:focus, .btn-dropdown-download.open > .btn-download:focus, .dropdown-menu-download > li > a:focus:hover {
   color: #ffffff;
   background-color: #101113;
