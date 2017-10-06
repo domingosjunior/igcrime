@@ -13542,21 +13542,29 @@ strong {
   text-align: left;
 }
 
+@media (min-width: 768px) {
+  /* line 42, src/sass/layout/_section-como-analizado.scss */
+  .section-analizado .section-header {
+    padding-top: 20px;
+  }
+}
+
 @media (min-width: 992px) {
   /* line 42, src/sass/layout/_section-como-analizado.scss */
   .section-analizado .section-header {
+    padding-top: 0;
     margin-bottom: 50px;
   }
 }
 
-/* line 51, src/sass/layout/_section-como-analizado.scss */
+/* line 56, src/sass/layout/_section-como-analizado.scss */
 .section-analizado .section-header--title {
   margin-top: 0;
   color: #000000;
 }
 
 @media (max-width: 768px) {
-  /* line 51, src/sass/layout/_section-como-analizado.scss */
+  /* line 56, src/sass/layout/_section-como-analizado.scss */
   .section-analizado .section-header--title {
     font-size: 6.2vw;
     text-align: center;
@@ -13565,41 +13573,48 @@ strong {
   }
 }
 
-/* line 62, src/sass/layout/_section-como-analizado.scss */
+@media (min-width: 768px) {
+  /* line 56, src/sass/layout/_section-como-analizado.scss */
+  .section-analizado .section-header--title {
+    text-align: center;
+  }
+}
+
+/* line 71, src/sass/layout/_section-como-analizado.scss */
 .section-analizado .section-header--title span {
   color: #bd2c4c;
 }
 
 @media (min-width: 992px) {
-  /* line 62, src/sass/layout/_section-como-analizado.scss */
+  /* line 71, src/sass/layout/_section-como-analizado.scss */
   .section-analizado .section-header--title span {
     font-size: 60px;
   }
 }
 
-/* line 74, src/sass/layout/_section-como-analizado.scss */
+/* line 83, src/sass/layout/_section-como-analizado.scss */
 .section-analizado--filter {
   text-align: center;
 }
 
 @media (min-width: 992px) {
-  /* line 74, src/sass/layout/_section-como-analizado.scss */
+  /* line 83, src/sass/layout/_section-como-analizado.scss */
   .section-analizado--filter {
     width: 430px;
   }
 }
 
-/* line 83, src/sass/layout/_section-como-analizado.scss */
+/* line 92, src/sass/layout/_section-como-analizado.scss */
 .filter-item .svg-filtro--path-topo, .filter-item .svg-filtro--path-body, .filter-item .svg-filtro--txt path {
   transition: all .15s ease;
 }
 
-/* line 87, src/sass/layout/_section-como-analizado.scss */
+/* line 96, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--path-topo, .filter-item:hover .svg-filtro--path-body, .filter-item:hover .svg-filtro--txt path {
   transition: all .3s ease;
 }
 
-/* line 91, src/sass/layout/_section-como-analizado.scss */
+/* line 100, src/sass/layout/_section-como-analizado.scss */
 .filter-item {
   position: relative;
   margin: 0 auto 10px;
@@ -13608,7 +13623,7 @@ strong {
 }
 
 @media (min-width: 992px) {
-  /* line 98, src/sass/layout/_section-como-analizado.scss */
+  /* line 107, src/sass/layout/_section-como-analizado.scss */
   .filter-item:before {
     content: '\f055';
     position: absolute;
@@ -13617,7 +13632,7 @@ strong {
     font: 30px 'FontAwesome';
     color: #1b1e20;
   }
-  /* line 106, src/sass/layout/_section-como-analizado.scss */
+  /* line 115, src/sass/layout/_section-como-analizado.scss */
   .filter-item:after {
     content: '';
     position: absolute;
@@ -13629,75 +13644,75 @@ strong {
 }
 
 @media (min-width: 992px) {
-  /* line 116, src/sass/layout/_section-como-analizado.scss */
+  /* line 125, src/sass/layout/_section-como-analizado.scss */
   .filter-item.delitos {
     width: 540px;
   }
 }
 
-/* line 121, src/sass/layout/_section-como-analizado.scss */
+/* line 130, src/sass/layout/_section-como-analizado.scss */
 .filter-item.delitos:after {
   width: 36%;
 }
 
 @media (min-width: 992px) {
-  /* line 124, src/sass/layout/_section-como-analizado.scss */
+  /* line 133, src/sass/layout/_section-como-analizado.scss */
   .filter-item.delitos .svg-filtro {
     width: 300px;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 116, src/sass/layout/_section-como-analizado.scss */
+  /* line 125, src/sass/layout/_section-como-analizado.scss */
   .filter-item.delitos {
     width: 740px;
   }
-  /* line 131, src/sass/layout/_section-como-analizado.scss */
+  /* line 140, src/sass/layout/_section-como-analizado.scss */
   .filter-item.delitos svg {
     width: auto;
   }
 }
 
-/* line 136, src/sass/layout/_section-como-analizado.scss */
+/* line 145, src/sass/layout/_section-como-analizado.scss */
 .filter-item.filtrados {
   left: -22px;
   padding-left: 50px;
 }
 
 @media (min-width: 992px) {
-  /* line 136, src/sass/layout/_section-como-analizado.scss */
+  /* line 145, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados {
     top: -36px;
     width: 560px;
   }
 }
 
-/* line 145, src/sass/layout/_section-como-analizado.scss */
+/* line 154, src/sass/layout/_section-como-analizado.scss */
 .filter-item.filtrados:after {
   width: 39%;
 }
 
 @media (min-width: 992px) {
-  /* line 149, src/sass/layout/_section-como-analizado.scss */
+  /* line 158, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados .svg-filtro {
     width: 245px;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 155, src/sass/layout/_section-como-analizado.scss */
+  /* line 164, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados:after {
     width: 44%;
   }
 }
 
-/* line 160, src/sass/layout/_section-como-analizado.scss */
+/* line 169, src/sass/layout/_section-como-analizado.scss */
 .filter-item.analisados {
   left: 5px;
 }
 
 @media (min-width: 992px) {
-  /* line 160, src/sass/layout/_section-como-analizado.scss */
+  /* line 169, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados {
     top: -64px;
     left: -60px;
@@ -13706,13 +13721,13 @@ strong {
   }
 }
 
-/* line 170, src/sass/layout/_section-como-analizado.scss */
+/* line 179, src/sass/layout/_section-como-analizado.scss */
 .filter-item.analisados:after {
   width: 42%;
 }
 
 @media (min-width: 992px) {
-  /* line 174, src/sass/layout/_section-como-analizado.scss */
+  /* line 183, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados .svg-filtro {
     top: -64px;
     left: -60px;
@@ -13721,24 +13736,24 @@ strong {
 }
 
 @media (min-width: 1400px) {
-  /* line 160, src/sass/layout/_section-como-analizado.scss */
+  /* line 169, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados {
     padding-left: 92px;
   }
-  /* line 185, src/sass/layout/_section-como-analizado.scss */
+  /* line 194, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados:after {
     width: 49.5%;
   }
 }
 
-/* line 191, src/sass/layout/_section-como-analizado.scss */
+/* line 200, src/sass/layout/_section-como-analizado.scss */
 .filter-item.indice {
   left: 8px;
   width: 172px;
 }
 
 @media (min-width: 992px) {
-  /* line 191, src/sass/layout/_section-como-analizado.scss */
+  /* line 200, src/sass/layout/_section-como-analizado.scss */
   .filter-item.indice {
     left: -65px;
     top: -98px;
@@ -13747,68 +13762,68 @@ strong {
   }
 }
 
-/* line 202, src/sass/layout/_section-como-analizado.scss */
+/* line 211, src/sass/layout/_section-como-analizado.scss */
 .filter-item.indice:after {
   width: 47%;
 }
 
 @media (min-width: 992px) {
-  /* line 206, src/sass/layout/_section-como-analizado.scss */
+  /* line 215, src/sass/layout/_section-como-analizado.scss */
   .filter-item.indice .svg-filtro {
     width: 125px;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 191, src/sass/layout/_section-como-analizado.scss */
+  /* line 200, src/sass/layout/_section-como-analizado.scss */
   .filter-item.indice {
     padding-left: 130px;
   }
-  /* line 214, src/sass/layout/_section-como-analizado.scss */
+  /* line 223, src/sass/layout/_section-como-analizado.scss */
   .filter-item.indice:after {
     width: 54%;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 219, src/sass/layout/_section-como-analizado.scss */
+  /* line 228, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados, .filter-item.analisados, .filter-item.fatores, .filter-item.indice {
     top: 0;
     left: 0;
     width: 740px;
   }
-  /* line 227, src/sass/layout/_section-como-analizado.scss */
+  /* line 236, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados svg, .filter-item.analisados svg, .filter-item.fatores svg, .filter-item.indice svg {
     width: auto;
   }
 }
 
-/* line 232, src/sass/layout/_section-como-analizado.scss */
+/* line 241, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover {
   cursor: help;
 }
 
-/* line 236, src/sass/layout/_section-como-analizado.scss */
+/* line 245, src/sass/layout/_section-como-analizado.scss */
 .filter-item .svg-filtro {
   width: 100%;
 }
 
-/* line 251, src/sass/layout/_section-como-analizado.scss */
+/* line 260, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--path-topo {
   fill: #353535;
 }
 
-/* line 255, src/sass/layout/_section-como-analizado.scss */
+/* line 264, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--path-body {
   fill: #161516;
 }
 
-/* line 259, src/sass/layout/_section-como-analizado.scss */
+/* line 268, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--txt path {
   fill: #ffffff;
 }
 
-/* line 267, src/sass/layout/_section-como-analizado.scss */
+/* line 276, src/sass/layout/_section-como-analizado.scss */
 .analisado-filter-mobile {
   display: block;
   margin-left: auto;
@@ -13816,32 +13831,39 @@ strong {
 }
 
 @media (max-width: 768px) {
-  /* line 267, src/sass/layout/_section-como-analizado.scss */
+  /* line 276, src/sass/layout/_section-como-analizado.scss */
   .analisado-filter-mobile {
     width: 65%;
   }
 }
 
 @media (max-width: 480px) {
-  /* line 267, src/sass/layout/_section-como-analizado.scss */
+  /* line 276, src/sass/layout/_section-como-analizado.scss */
   .analisado-filter-mobile {
     width: 80%;
   }
 }
 
+@media (min-width: 768px) {
+  /* line 276, src/sass/layout/_section-como-analizado.scss */
+  .analisado-filter-mobile {
+    width: 60%;
+  }
+}
+
 @media (min-width: 992px) {
-  /* line 267, src/sass/layout/_section-como-analizado.scss */
+  /* line 276, src/sass/layout/_section-como-analizado.scss */
   .analisado-filter-mobile {
     display: none;
   }
 }
 
-/* line 287, src/sass/layout/_section-como-analizado.scss */
+/* line 300, src/sass/layout/_section-como-analizado.scss */
 .tooltip-filtro.in {
   opacity: 1;
 }
 
-/* line 290, src/sass/layout/_section-como-analizado.scss */
+/* line 303, src/sass/layout/_section-como-analizado.scss */
 .tooltip-filtro .tooltip-inner {
   padding: 25px 30px;
   max-width: none;
