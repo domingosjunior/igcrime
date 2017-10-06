@@ -1,11 +1,10 @@
 // Section saiba mais
 
 .section-saibamais {
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   @include media-max768 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-
     .section-header--title {
       font-size: 5.2vw;
     }
