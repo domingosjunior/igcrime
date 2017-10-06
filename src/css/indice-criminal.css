@@ -13542,7 +13542,7 @@ strong {
 @media (max-width: 768px) {
   /* line 51, src/sass/layout/_section-como-analizado.scss */
   .section-analizado .section-header--title {
-    font-size: 7vw;
+    font-size: 6.2vw;
     text-align: center;
     padding-top: 1.2vw;
     padding-bottom: 1.2vw;
