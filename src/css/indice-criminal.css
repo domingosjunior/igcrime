@@ -13407,6 +13407,7 @@ strong {
   /* line 42, src/sass/layout/_section-intro.scss */
   .section-intro {
     padding-top: 80px;
+    padding-bottom: 20px;
     font-size: 18px;
     line-height: inherit;
   }
@@ -13416,7 +13417,6 @@ strong {
   /* line 42, src/sass/layout/_section-intro.scss */
   .section-intro {
     padding-top: 60px;
-    padding-bottom: 20px;
     font-size: 14px;
     line-height: 22px;
   }
