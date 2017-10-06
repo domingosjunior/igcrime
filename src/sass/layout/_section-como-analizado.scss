@@ -50,9 +50,14 @@
 
   .section-header--title {
     margin-top: 0;
-    font-size: 8vw;
     color: $analizado-header-title;
 
+    @include media-max768{
+      font-size: 7vw;
+      text-align: center;
+      padding-top: 1.2vw;
+      padding-bottom: 1.2vw;
+    }
 
     span {
       color: $analizado-header-title-span;
@@ -260,10 +265,19 @@
 }
 
 .analisado-filter-mobile {
-  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+
+  @include media-max768{
+    width: 65%;
+  }
+
+  @include media-max480{
+    width: 80%;
+  }
+
+
   @include media-min992 {
     display: none;
   }

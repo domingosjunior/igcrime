@@ -13407,6 +13407,7 @@ strong {
   /* line 42, src/sass/layout/_section-intro.scss */
   .section-intro {
     padding-top: 80px;
+    padding-bottom: 20px;
     font-size: 18px;
     line-height: inherit;
   }
@@ -13416,7 +13417,6 @@ strong {
   /* line 42, src/sass/layout/_section-intro.scss */
   .section-intro {
     padding-top: 60px;
-    padding-bottom: 20px;
     font-size: 14px;
     line-height: 22px;
   }
@@ -13536,45 +13536,54 @@ strong {
 /* line 51, src/sass/layout/_section-como-analizado.scss */
 .section-analizado .section-header--title {
   margin-top: 0;
-  font-size: 8vw;
   color: #000000;
 }
 
-/* line 57, src/sass/layout/_section-como-analizado.scss */
+@media (max-width: 768px) {
+  /* line 51, src/sass/layout/_section-como-analizado.scss */
+  .section-analizado .section-header--title {
+    font-size: 7vw;
+    text-align: center;
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
+  }
+}
+
+/* line 62, src/sass/layout/_section-como-analizado.scss */
 .section-analizado .section-header--title span {
   color: #bd2c4c;
 }
 
 @media (min-width: 992px) {
-  /* line 57, src/sass/layout/_section-como-analizado.scss */
+  /* line 62, src/sass/layout/_section-como-analizado.scss */
   .section-analizado .section-header--title span {
     font-size: 60px;
   }
 }
 
-/* line 69, src/sass/layout/_section-como-analizado.scss */
+/* line 74, src/sass/layout/_section-como-analizado.scss */
 .section-analizado--filter {
   text-align: center;
 }
 
 @media (min-width: 992px) {
-  /* line 69, src/sass/layout/_section-como-analizado.scss */
+  /* line 74, src/sass/layout/_section-como-analizado.scss */
   .section-analizado--filter {
     width: 430px;
   }
 }
 
-/* line 78, src/sass/layout/_section-como-analizado.scss */
+/* line 83, src/sass/layout/_section-como-analizado.scss */
 .filter-item .svg-filtro--path-topo, .filter-item .svg-filtro--path-body, .filter-item .svg-filtro--txt path {
   transition: all .15s ease;
 }
 
-/* line 82, src/sass/layout/_section-como-analizado.scss */
+/* line 87, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--path-topo, .filter-item:hover .svg-filtro--path-body, .filter-item:hover .svg-filtro--txt path {
   transition: all .3s ease;
 }
 
-/* line 86, src/sass/layout/_section-como-analizado.scss */
+/* line 91, src/sass/layout/_section-como-analizado.scss */
 .filter-item {
   position: relative;
   margin: 0 auto 10px;
@@ -13583,7 +13592,7 @@ strong {
 }
 
 @media (min-width: 992px) {
-  /* line 93, src/sass/layout/_section-como-analizado.scss */
+  /* line 98, src/sass/layout/_section-como-analizado.scss */
   .filter-item:before {
     content: '\f055';
     position: absolute;
@@ -13592,7 +13601,7 @@ strong {
     font: 30px 'FontAwesome';
     color: #1b1e20;
   }
-  /* line 101, src/sass/layout/_section-como-analizado.scss */
+  /* line 106, src/sass/layout/_section-como-analizado.scss */
   .filter-item:after {
     content: '';
     position: absolute;
@@ -13604,75 +13613,75 @@ strong {
 }
 
 @media (min-width: 992px) {
-  /* line 111, src/sass/layout/_section-como-analizado.scss */
+  /* line 116, src/sass/layout/_section-como-analizado.scss */
   .filter-item.delitos {
     width: 540px;
   }
 }
 
-/* line 116, src/sass/layout/_section-como-analizado.scss */
+/* line 121, src/sass/layout/_section-como-analizado.scss */
 .filter-item.delitos:after {
   width: 36%;
 }
 
 @media (min-width: 992px) {
-  /* line 119, src/sass/layout/_section-como-analizado.scss */
+  /* line 124, src/sass/layout/_section-como-analizado.scss */
   .filter-item.delitos .svg-filtro {
     width: 300px;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 111, src/sass/layout/_section-como-analizado.scss */
+  /* line 116, src/sass/layout/_section-como-analizado.scss */
   .filter-item.delitos {
     width: 740px;
   }
-  /* line 126, src/sass/layout/_section-como-analizado.scss */
+  /* line 131, src/sass/layout/_section-como-analizado.scss */
   .filter-item.delitos svg {
     width: auto;
   }
 }
 
-/* line 131, src/sass/layout/_section-como-analizado.scss */
+/* line 136, src/sass/layout/_section-como-analizado.scss */
 .filter-item.filtrados {
   left: -22px;
   padding-left: 50px;
 }
 
 @media (min-width: 992px) {
-  /* line 131, src/sass/layout/_section-como-analizado.scss */
+  /* line 136, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados {
     top: -36px;
     width: 560px;
   }
 }
 
-/* line 140, src/sass/layout/_section-como-analizado.scss */
+/* line 145, src/sass/layout/_section-como-analizado.scss */
 .filter-item.filtrados:after {
   width: 39%;
 }
 
 @media (min-width: 992px) {
-  /* line 144, src/sass/layout/_section-como-analizado.scss */
+  /* line 149, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados .svg-filtro {
     width: 245px;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 150, src/sass/layout/_section-como-analizado.scss */
+  /* line 155, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados:after {
     width: 44%;
   }
 }
 
-/* line 155, src/sass/layout/_section-como-analizado.scss */
+/* line 160, src/sass/layout/_section-como-analizado.scss */
 .filter-item.analisados {
   left: 5px;
 }
 
 @media (min-width: 992px) {
-  /* line 155, src/sass/layout/_section-como-analizado.scss */
+  /* line 160, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados {
     top: -64px;
     left: -60px;
@@ -13681,13 +13690,13 @@ strong {
   }
 }
 
-/* line 165, src/sass/layout/_section-como-analizado.scss */
+/* line 170, src/sass/layout/_section-como-analizado.scss */
 .filter-item.analisados:after {
   width: 42%;
 }
 
 @media (min-width: 992px) {
-  /* line 169, src/sass/layout/_section-como-analizado.scss */
+  /* line 174, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados .svg-filtro {
     top: -64px;
     left: -60px;
@@ -13696,24 +13705,24 @@ strong {
 }
 
 @media (min-width: 1400px) {
-  /* line 155, src/sass/layout/_section-como-analizado.scss */
+  /* line 160, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados {
     padding-left: 92px;
   }
-  /* line 180, src/sass/layout/_section-como-analizado.scss */
+  /* line 185, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados:after {
     width: 49.5%;
   }
 }
 
-/* line 186, src/sass/layout/_section-como-analizado.scss */
+/* line 191, src/sass/layout/_section-como-analizado.scss */
 .filter-item.indice {
   left: 8px;
   width: 172px;
 }
 
 @media (min-width: 992px) {
-  /* line 186, src/sass/layout/_section-como-analizado.scss */
+  /* line 191, src/sass/layout/_section-como-analizado.scss */
   .filter-item.indice {
     left: -65px;
     top: -98px;
@@ -13722,88 +13731,101 @@ strong {
   }
 }
 
-/* line 197, src/sass/layout/_section-como-analizado.scss */
+/* line 202, src/sass/layout/_section-como-analizado.scss */
 .filter-item.indice:after {
   width: 47%;
 }
 
 @media (min-width: 992px) {
-  /* line 201, src/sass/layout/_section-como-analizado.scss */
+  /* line 206, src/sass/layout/_section-como-analizado.scss */
   .filter-item.indice .svg-filtro {
     width: 125px;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 186, src/sass/layout/_section-como-analizado.scss */
+  /* line 191, src/sass/layout/_section-como-analizado.scss */
   .filter-item.indice {
     padding-left: 130px;
   }
-  /* line 209, src/sass/layout/_section-como-analizado.scss */
+  /* line 214, src/sass/layout/_section-como-analizado.scss */
   .filter-item.indice:after {
     width: 54%;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 214, src/sass/layout/_section-como-analizado.scss */
+  /* line 219, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados, .filter-item.analisados, .filter-item.fatores, .filter-item.indice {
     top: 0;
     left: 0;
     width: 740px;
   }
-  /* line 222, src/sass/layout/_section-como-analizado.scss */
+  /* line 227, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados svg, .filter-item.analisados svg, .filter-item.fatores svg, .filter-item.indice svg {
     width: auto;
   }
 }
 
-/* line 227, src/sass/layout/_section-como-analizado.scss */
+/* line 232, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover {
   cursor: help;
 }
 
-/* line 231, src/sass/layout/_section-como-analizado.scss */
+/* line 236, src/sass/layout/_section-como-analizado.scss */
 .filter-item .svg-filtro {
   width: 100%;
 }
 
-/* line 246, src/sass/layout/_section-como-analizado.scss */
+/* line 251, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--path-topo {
   fill: #353535;
 }
 
-/* line 250, src/sass/layout/_section-como-analizado.scss */
+/* line 255, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--path-body {
   fill: #161516;
 }
 
-/* line 254, src/sass/layout/_section-como-analizado.scss */
+/* line 259, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--txt path {
   fill: #ffffff;
 }
 
-/* line 262, src/sass/layout/_section-como-analizado.scss */
+/* line 267, src/sass/layout/_section-como-analizado.scss */
 .analisado-filter-mobile {
-  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+@media (max-width: 768px) {
+  /* line 267, src/sass/layout/_section-como-analizado.scss */
+  .analisado-filter-mobile {
+    width: 65%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 267, src/sass/layout/_section-como-analizado.scss */
+  .analisado-filter-mobile {
+    width: 80%;
+  }
+}
+
 @media (min-width: 992px) {
-  /* line 262, src/sass/layout/_section-como-analizado.scss */
+  /* line 267, src/sass/layout/_section-como-analizado.scss */
   .analisado-filter-mobile {
     display: none;
   }
 }
 
-/* line 273, src/sass/layout/_section-como-analizado.scss */
+/* line 287, src/sass/layout/_section-como-analizado.scss */
 .tooltip-filtro.in {
   opacity: 1;
 }
 
-/* line 276, src/sass/layout/_section-como-analizado.scss */
+/* line 290, src/sass/layout/_section-como-analizado.scss */
 .tooltip-filtro .tooltip-inner {
   padding: 25px 30px;
   max-width: none;
@@ -13934,31 +13956,51 @@ strong {
   transition: fill .12s ease-in-out .1s;
 }
 
-@media (max-width: 480px) {
-  /* line 6, src/sass/layout/_section-saibamais.scss */
+@media (max-width: 768px) {
+  /* line 3, src/sass/layout/_section-saibamais.scss */
+  .section-saibamais {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* line 9, src/sass/layout/_section-saibamais.scss */
   .section-saibamais .section-header--title {
-    font-size: 7vw;
+    font-size: 5.2vw;
+  }
+  /* line 13, src/sass/layout/_section-saibamais.scss */
+  .section-saibamais .section-header--text {
+    font-size: 20px;
   }
 }
 
-/* line 13, src/sass/layout/_section-saibamais.scss */
+@media (max-width: 480px) {
+  /* line 20, src/sass/layout/_section-saibamais.scss */
+  .section-saibamais .section-header--title {
+    font-size: 6vw;
+  }
+  /* line 24, src/sass/layout/_section-saibamais.scss */
+  .section-saibamais .section-header--text {
+    font-size: 15px;
+  }
+}
+
+/* line 32, src/sass/layout/_section-saibamais.scss */
 .saibamais-downloads {
   padding-top: 20px;
   font-family: "montserrat_light", Arial, Verdana, Sans-serif;
 }
 
-/* line 16, src/sass/layout/_section-saibamais.scss */
+/* line 35, src/sass/layout/_section-saibamais.scss */
 .saibamais-downloads-title {
   font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
 }
 
-/* line 19, src/sass/layout/_section-saibamais.scss */
+/* line 38, src/sass/layout/_section-saibamais.scss */
 .saibamais-downloads div[class^="col-"] {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-/* line 26, src/sass/layout/_section-saibamais.scss */
+/* line 45, src/sass/layout/_section-saibamais.scss */
 .btn-download {
   border-width: 2px;
   border-color: #303134;
@@ -13968,14 +14010,22 @@ strong {
   margin-bottom: 20px;
 }
 
+@media (max-width: 480px) {
+  /* line 45, src/sass/layout/_section-saibamais.scss */
+  .btn-download {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
 @media (min-width: 992px) {
-  /* line 26, src/sass/layout/_section-saibamais.scss */
+  /* line 45, src/sass/layout/_section-saibamais.scss */
   .btn-download {
     margin-bottom: 0;
   }
 }
 
-/* line 37, src/sass/layout/_section-saibamais.scss */
+/* line 61, src/sass/layout/_section-saibamais.scss */
 .btn-download:hover, .btn-dropdown-download.open > .btn-download, .btn-download:active, .btn-dropdown-download.open > .btn-download:active, .btn-dropdown-download.open > .btn-download:focus, .btn-dropdown-download.open > .btn-download:active:focus, .dropdown-menu-download > li > a:hover {
   background-color: #303134;
   border-color: #303134;
@@ -13983,7 +14033,7 @@ strong {
   transition-duration: .15s;
 }
 
-/* line 44, src/sass/layout/_section-saibamais.scss */
+/* line 68, src/sass/layout/_section-saibamais.scss */
 .btn-download:active, .btn-dropdown-download.open > .btn-download:active, .btn-dropdown-download.open > .btn-download:focus, .btn-dropdown-download.open > .btn-download:active:focus, .dropdown-menu-download > li > a:hover, .btn-download:focus, .btn-download:active:focus, .btn-dropdown-download.open > .btn-download:focus, .dropdown-menu-download > li > a:focus:hover {
   color: #ffffff;
   background-color: #101113;

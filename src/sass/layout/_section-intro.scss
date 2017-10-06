@@ -47,13 +47,13 @@
 
   @include media-max768 {
     padding-top: 80px;
+    padding-bottom: 20px;
     font-size: 18px;
     line-height: inherit;
   }
 
   @include media-max480 {
     padding-top: 60px;
-    padding-bottom: 20px;
     font-size: 14px;
     line-height: 22px;
   }
