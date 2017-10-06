@@ -2,6 +2,12 @@
 
 .section-saibamais {
 
+  @include media-max480 {
+    .section-header--title {
+      font-size: 7vw;
+    }
+  }
+
 }
 
 .saibamais-downloads {
@@ -23,6 +29,11 @@
   background-color: transparent;
   transition-duration: .3s;
   line-height: 30px;
+  margin-bottom: 20px;
+
+  @include media-min992 {
+    margin-bottom: 0;
+  }
   &:hover,
   &:active {
     background-color: #303134;

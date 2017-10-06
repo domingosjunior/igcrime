@@ -53,6 +53,7 @@
 
   @include media-max480 {
     padding-top: 60px;
+    padding-bottom: 20px;
     font-size: 14px;
     line-height: 22px;
   }
@@ -80,8 +81,13 @@
       font-size: 7vw;
 
       @include media-max768 {
-        font-size: 5.5vw;
+        font-size: 5.2vw;
       }
+
+      @include media-max480 {
+        font-size: 6.5vw;
+      }
+
 
     }
 
