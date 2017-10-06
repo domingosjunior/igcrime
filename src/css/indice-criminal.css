@@ -13422,11 +13422,20 @@ strong {
   }
 }
 
+@media (min-width: 768px) {
+  /* line 42, src/sass/layout/_section-intro.scss */
+  .section-intro {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    font-size: 18px;
+  }
+}
+
 @media (min-width: 992px) {
   /* line 42, src/sass/layout/_section-intro.scss */
   .section-intro {
     padding-top: 180px;
-    font-size: 18px;
+    padding-bottom: 0;
   }
 }
 
@@ -13438,39 +13447,46 @@ strong {
   }
 }
 
-/* line 71, src/sass/layout/_section-intro.scss */
+/* line 77, src/sass/layout/_section-intro.scss */
 .section-intro span {
   color: #000000;
 }
 
-/* line 73, src/sass/layout/_section-intro.scss */
+/* line 79, src/sass/layout/_section-intro.scss */
 .section-intro .section-header {
   margin-bottom: 15px;
 }
 
 @media (min-width: 992px) {
-  /* line 73, src/sass/layout/_section-intro.scss */
+  /* line 79, src/sass/layout/_section-intro.scss */
   .section-intro .section-header {
     margin-bottom: 30px;
   }
 }
 
-/* line 80, src/sass/layout/_section-intro.scss */
+/* line 86, src/sass/layout/_section-intro.scss */
 .section-intro .section-header--title {
   font-size: 7vw;
 }
 
 @media (max-width: 768px) {
-  /* line 80, src/sass/layout/_section-intro.scss */
+  /* line 86, src/sass/layout/_section-intro.scss */
   .section-intro .section-header--title {
     font-size: 5.2vw;
   }
 }
 
 @media (max-width: 480px) {
-  /* line 80, src/sass/layout/_section-intro.scss */
+  /* line 86, src/sass/layout/_section-intro.scss */
   .section-intro .section-header--title {
     font-size: 6.5vw;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 86, src/sass/layout/_section-intro.scss */
+  .section-intro .section-header--title {
+    font-size: 36px;
   }
 }
 

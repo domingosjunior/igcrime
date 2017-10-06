@@ -58,9 +58,15 @@
     line-height: 22px;
   }
 
+  @include media-min768{
+    padding-top: 90px;
+    padding-bottom: 30px;
+    font-size: 18px;
+  }
+
   @include media-min992{
     padding-top: 180px;
-    font-size: 18px;
+    padding-bottom: 0;
   }
 
   @include mediamin(1400px) {
@@ -88,6 +94,9 @@
         font-size: 6.5vw;
       }
 
+      @include media-min768{
+        font-size: 36px;
+      }
 
     }
 
