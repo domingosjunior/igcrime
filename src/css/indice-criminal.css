@@ -13956,31 +13956,51 @@ strong {
   transition: fill .12s ease-in-out .1s;
 }
 
-@media (max-width: 480px) {
-  /* line 6, src/sass/layout/_section-saibamais.scss */
+@media (max-width: 768px) {
+  /* line 3, src/sass/layout/_section-saibamais.scss */
+  .section-saibamais {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* line 9, src/sass/layout/_section-saibamais.scss */
   .section-saibamais .section-header--title {
-    font-size: 7vw;
+    font-size: 5.2vw;
+  }
+  /* line 13, src/sass/layout/_section-saibamais.scss */
+  .section-saibamais .section-header--text {
+    font-size: 20px;
   }
 }
 
-/* line 13, src/sass/layout/_section-saibamais.scss */
+@media (max-width: 480px) {
+  /* line 20, src/sass/layout/_section-saibamais.scss */
+  .section-saibamais .section-header--title {
+    font-size: 6vw;
+  }
+  /* line 24, src/sass/layout/_section-saibamais.scss */
+  .section-saibamais .section-header--text {
+    font-size: 15px;
+  }
+}
+
+/* line 32, src/sass/layout/_section-saibamais.scss */
 .saibamais-downloads {
   padding-top: 20px;
   font-family: "montserrat_light", Arial, Verdana, Sans-serif;
 }
 
-/* line 16, src/sass/layout/_section-saibamais.scss */
+/* line 35, src/sass/layout/_section-saibamais.scss */
 .saibamais-downloads-title {
   font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
 }
 
-/* line 19, src/sass/layout/_section-saibamais.scss */
+/* line 38, src/sass/layout/_section-saibamais.scss */
 .saibamais-downloads div[class^="col-"] {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-/* line 26, src/sass/layout/_section-saibamais.scss */
+/* line 45, src/sass/layout/_section-saibamais.scss */
 .btn-download {
   border-width: 2px;
   border-color: #303134;
@@ -13990,14 +14010,22 @@ strong {
   margin-bottom: 20px;
 }
 
+@media (max-width: 480px) {
+  /* line 45, src/sass/layout/_section-saibamais.scss */
+  .btn-download {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
 @media (min-width: 992px) {
-  /* line 26, src/sass/layout/_section-saibamais.scss */
+  /* line 45, src/sass/layout/_section-saibamais.scss */
   .btn-download {
     margin-bottom: 0;
   }
 }
 
-/* line 37, src/sass/layout/_section-saibamais.scss */
+/* line 61, src/sass/layout/_section-saibamais.scss */
 .btn-download:hover, .btn-dropdown-download.open > .btn-download, .btn-download:active, .btn-dropdown-download.open > .btn-download:active, .btn-dropdown-download.open > .btn-download:focus, .btn-dropdown-download.open > .btn-download:active:focus, .dropdown-menu-download > li > a:hover {
   background-color: #303134;
   border-color: #303134;
@@ -14005,7 +14033,7 @@ strong {
   transition-duration: .15s;
 }
 
-/* line 44, src/sass/layout/_section-saibamais.scss */
+/* line 68, src/sass/layout/_section-saibamais.scss */
 .btn-download:active, .btn-dropdown-download.open > .btn-download:active, .btn-dropdown-download.open > .btn-download:focus, .btn-dropdown-download.open > .btn-download:active:focus, .dropdown-menu-download > li > a:hover, .btn-download:focus, .btn-download:active:focus, .btn-dropdown-download.open > .btn-download:focus, .dropdown-menu-download > li > a:focus:hover {
   color: #ffffff;
   background-color: #101113;
