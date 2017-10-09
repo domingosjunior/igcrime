@@ -13983,7 +13983,7 @@ strong {
 @media (min-width: 1800px) {
   /* line 32, src/sass/layout/_section-icgmuni.scss */
   .maprio {
-    width: 1000px;
+    height: auto;
   }
 }
 
