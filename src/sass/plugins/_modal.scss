@@ -2,7 +2,18 @@
 
 .modal-icg {
 
-  .modal-dialog { width: 1100px; }
+  .modal-dialog {
+    @include media-min992 {
+        width: 92%;
+        min-width: 960px;
+    }
+
+    @include media-min1200 {
+      max-width: 1180px;
+    }
+
+  }
+
   .modal-header {
     padding-bottom: 0;
     border-bottom-color: transparent;
