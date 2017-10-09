@@ -7,7 +7,7 @@ $(function(){
     // Fullpage
 
     // detect if window is big enough
-    if (window.matchMedia("(min-width: 801px)").matches) {
+    if (window.matchMedia("(min-width: 992px)").matches) {
         console.log('rodou')
         $('#fullpage').fullpage({
             anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6'],

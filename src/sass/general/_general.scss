@@ -9,3 +9,16 @@ main { height: auto; }
 b { @include font-family('bold'); }
 strong { @include font-family('extrabold') }
 .container { position: relative; }
+
+
+// Seções mais seguras e violentas
+
+.bg-section-violentas,
+.bg-section-seguras {
+  display: none;
+
+  @include media-min992 {
+    display: table;
+    width: 100%;
+  }
+}

@@ -21,6 +21,7 @@
 
     &:after {
       content: '';
+      display: none;
       width: 100%;
       height: 100%;
       position: absolute;
@@ -28,6 +29,10 @@
       margin-top: -135px;
       left: 0;
       background: url('#{$path-img}border-triangle.svg') no-repeat top;
+
+      @include media-min1200 {
+        display: block;
+      }
 
       @include media-min1400{
         margin-top: -93px;
