@@ -94,18 +94,29 @@
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 15px;
-    width: 218px;
+    width: 180px;
     text-align: center;
     color: $range-card-text-color;
     background-color: $range-card-bgcolor;
     border-radius: 5px;
     cursor: pointer;
 
+    @include media-min1200 {
+      width: 218px;
+    }
+
     &-title {
-      font-size: 20px;
+      font-size: 16px;
+      @include media-min1200 {
+        font-size: 20px;
+      }
+
       strong {
         display: block;
-        font-size: 22px;
+        font-size: 18px;
+        @include media-min1200 {
+          font-size: 22px;
+        }
       }
       span { color: $range-card-title-span-text-color; }
     }

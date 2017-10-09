@@ -14289,7 +14289,7 @@ strong {
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 15px;
-  width: 218px;
+  width: 180px;
   text-align: center;
   color: #303034;
   background-color: #ffffff;
@@ -14297,35 +14297,56 @@ strong {
   cursor: pointer;
 }
 
-/* line 104, src/sass/components/_range.scss */
-.rangeicg-card-title {
-  font-size: 20px;
+@media (min-width: 1200px) {
+  /* line 92, src/sass/components/_range.scss */
+  .rangeicg-card {
+    width: 218px;
+  }
 }
 
-/* line 106, src/sass/components/_range.scss */
+/* line 108, src/sass/components/_range.scss */
+.rangeicg-card-title {
+  font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  /* line 108, src/sass/components/_range.scss */
+  .rangeicg-card-title {
+    font-size: 20px;
+  }
+}
+
+/* line 114, src/sass/components/_range.scss */
 .rangeicg-card-title strong {
   display: block;
-  font-size: 22px;
+  font-size: 18px;
 }
 
-/* line 110, src/sass/components/_range.scss */
+@media (min-width: 1200px) {
+  /* line 114, src/sass/components/_range.scss */
+  .rangeicg-card-title strong {
+    font-size: 22px;
+  }
+}
+
+/* line 121, src/sass/components/_range.scss */
 .rangeicg-card-title span {
   color: #bd2c4c;
 }
 
-/* line 113, src/sass/components/_range.scss */
+/* line 124, src/sass/components/_range.scss */
 .rangeicg-card img {
   margin-bottom: 15px;
 }
 
-/* line 115, src/sass/components/_range.scss */
+/* line 126, src/sass/components/_range.scss */
 .rangeicg-card figcaption {
   margin-bottom: 10px;
   font-family: "montserrat_extrabold", Arial, Verdana, Sans-serif;
   font-size: 15px;
 }
 
-/* line 121, src/sass/components/_range.scss */
+/* line 132, src/sass/components/_range.scss */
 .rangeicg-card-btn {
   padding: 5px 15px;
   font-size: 12px;
@@ -14338,18 +14359,18 @@ strong {
   transition-duration: 0.3s;
 }
 
-/* line 133, src/sass/components/_range.scss */
+/* line 144, src/sass/components/_range.scss */
 .rangeicg-card > a {
   color: inherit;
 }
 
-/* line 136, src/sass/components/_range.scss */
+/* line 147, src/sass/components/_range.scss */
 .rangeicg-card > a:hover .rangeicg-card-btn {
   transition-duration: 0.15s;
   background-color: #111214;
 }
 
-/* line 142, src/sass/components/_range.scss */
+/* line 153, src/sass/components/_range.scss */
 .rangeicg-card > a:active .rangeicg-card-btn {
   transition-duration: 0.15s;
   background-color: transparent;
@@ -14357,7 +14378,7 @@ strong {
   border-color: #960c30;
 }
 
-/* line 155, src/sass/components/_range.scss */
+/* line 166, src/sass/components/_range.scss */
 .img-faixaindice {
   display: inherit;
   margin-left: auto;
