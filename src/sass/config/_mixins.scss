@@ -34,3 +34,15 @@
     @content;
   }
 }
+
+@mixin media-min1200 {
+  @media (min-width: 1200px){
+    @content;
+  }
+}
+
+@mixin media-min1800{
+  @media (min-width: 1800px){
+    @content;
+  }
+}

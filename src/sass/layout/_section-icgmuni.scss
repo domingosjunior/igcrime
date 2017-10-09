@@ -10,7 +10,7 @@
     text-align: center;
     height: 760px;
 
-    @include mediamin(1800px){
+    @include media-min1800{
       height: auto;
     }
 
@@ -39,8 +39,8 @@
     width: 950px;
   }
 
-  @include mediamin(1800px){
-    width: 1000px;
+  @include media-min1800{
+      height: auto;
   }
 
   path {

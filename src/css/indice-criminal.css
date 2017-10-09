@@ -13113,44 +13113,76 @@ strong {
   position: relative;
 }
 
-/* line 5, src/sass/plugins/_modal.scss */
-.modal-icg .modal-dialog {
-  width: 1100px;
+/* line 16, src/sass/general/_general.scss */
+.bg-section-violentas,
+.bg-section-seguras {
+  display: none;
 }
 
-/* line 6, src/sass/plugins/_modal.scss */
+@media (min-width: 992px) {
+  /* line 16, src/sass/general/_general.scss */
+  .bg-section-violentas,
+  .bg-section-seguras {
+    display: table;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 5, src/sass/plugins/_modal.scss */
+  .modal-icg .modal-dialog {
+    width: 92%;
+    min-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 5, src/sass/plugins/_modal.scss */
+  .modal-icg .modal-dialog {
+    max-width: 1180px;
+  }
+}
+
+/* line 17, src/sass/plugins/_modal.scss */
 .modal-icg .modal-header {
   padding-bottom: 0;
   border-bottom-color: transparent;
 }
 
-/* line 10, src/sass/plugins/_modal.scss */
+/* line 21, src/sass/plugins/_modal.scss */
 .modal-icg .close {
   color: #303134;
   font-size: 60px;
 }
 
-/* line 15, src/sass/plugins/_modal.scss */
+/* line 26, src/sass/plugins/_modal.scss */
 .modal-icg--title {
   color: #303134;
   font-size: 30px;
 }
 
-/* line 19, src/sass/plugins/_modal.scss */
+/* line 30, src/sass/plugins/_modal.scss */
 .modal-icg--title b {
   font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
 }
 
-/* line 25, src/sass/plugins/_modal.scss */
+/* line 36, src/sass/plugins/_modal.scss */
 .modal-icg--name-municipio {
   color: #bd2c4c;
   font-size: 18px;
   margin-bottom: 0;
 }
 
-/* line 30, src/sass/plugins/_modal.scss */
+/* line 41, src/sass/plugins/_modal.scss */
 .modal-icg--name-municipio b {
   font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
+}
+
+/* line 3, src/sass/plugins/_tableau.scss */
+.tableauPlaceholder,
+.tableauPlaceholder iframe {
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
 /* line 3, src/sass/layout/_topbar.scss */
@@ -13202,7 +13234,6 @@ strong {
   vertical-align: middle;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 42px;
   font-family: "montserrat_semibolditalic", Arial, Verdana, Sans-serif;
 }
 
@@ -13213,27 +13244,41 @@ strong {
   }
 }
 
-/* line 55, src/sass/layout/_topbar.scss */
+@media (min-width: 992px) {
+  /* line 43, src/sass/layout/_topbar.scss */
+  .topbar--logo {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* line 43, src/sass/layout/_topbar.scss */
+  .topbar--logo {
+    font-size: 42px;
+  }
+}
+
+/* line 62, src/sass/layout/_topbar.scss */
 .topbar--logo span {
   font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
 }
 
-/* line 62, src/sass/layout/_topbar.scss */
+/* line 68, src/sass/layout/_topbar.scss */
 .topbar--menu {
   display: none;
-  padding-top: 14px;
+  padding-top: 5px;
   font-size: 14px;
-  float: right;
 }
 
 @media (min-width: 992px) {
-  /* line 62, src/sass/layout/_topbar.scss */
+  /* line 68, src/sass/layout/_topbar.scss */
   .topbar--menu {
-    display: block;
+    display: inline;
+    float: right;
   }
 }
 
-/* line 75, src/sass/layout/_topbar.scss */
+/* line 81, src/sass/layout/_topbar.scss */
 .topbar--menu a {
   position: relative;
   display: block;
@@ -13242,72 +13287,72 @@ strong {
   text-decoration: none;
 }
 
-/* line 91, src/sass/layout/_topbar.scss */
+/* line 97, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor1 .topbar--menu-link:nth-child(1) a {
   color: #bd2c4c;
 }
 
-/* line 93, src/sass/layout/_topbar.scss */
+/* line 99, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor1 .topbar--menu-link:nth-child(1) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 91, src/sass/layout/_topbar.scss */
+/* line 97, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor2 .topbar--menu-link:nth-child(2) a {
   color: #bd2c4c;
 }
 
-/* line 93, src/sass/layout/_topbar.scss */
+/* line 99, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor2 .topbar--menu-link:nth-child(2) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 91, src/sass/layout/_topbar.scss */
+/* line 97, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor3 .topbar--menu-link:nth-child(3) a {
   color: #bd2c4c;
 }
 
-/* line 93, src/sass/layout/_topbar.scss */
+/* line 99, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor3 .topbar--menu-link:nth-child(3) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 91, src/sass/layout/_topbar.scss */
+/* line 97, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor4 .topbar--menu-link:nth-child(4) a {
   color: #bd2c4c;
 }
 
-/* line 93, src/sass/layout/_topbar.scss */
+/* line 99, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor4 .topbar--menu-link:nth-child(4) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 91, src/sass/layout/_topbar.scss */
+/* line 97, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor5 .topbar--menu-link:nth-child(5) a {
   color: #bd2c4c;
 }
 
-/* line 93, src/sass/layout/_topbar.scss */
+/* line 99, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor5 .topbar--menu-link:nth-child(5) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 91, src/sass/layout/_topbar.scss */
+/* line 97, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor6 .topbar--menu-link:nth-child(6) a {
   color: #bd2c4c;
 }
 
-/* line 93, src/sass/layout/_topbar.scss */
+/* line 99, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor6 .topbar--menu-link:nth-child(6) a:after {
   width: 100%;
   opacity: 1;
@@ -13379,6 +13424,7 @@ strong {
 /* line 22, src/sass/layout/_section-intro.scss */
 .bgcolor-section-intro .fp-tableCell:after {
   content: '';
+  display: none;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -13388,6 +13434,13 @@ strong {
   background: url("../img/border-triangle.svg") no-repeat top;
 }
 
+@media (min-width: 1200px) {
+  /* line 22, src/sass/layout/_section-intro.scss */
+  .bgcolor-section-intro .fp-tableCell:after {
+    display: block;
+  }
+}
+
 @media (min-width: 1400px) {
   /* line 22, src/sass/layout/_section-intro.scss */
   .bgcolor-section-intro .fp-tableCell:after {
@@ -13395,7 +13448,7 @@ strong {
   }
 }
 
-/* line 42, src/sass/layout/_section-intro.scss */
+/* line 47, src/sass/layout/_section-intro.scss */
 .section-intro {
   position: relative;
   z-index: 2;
@@ -13404,7 +13457,7 @@ strong {
 }
 
 @media (max-width: 768px) {
-  /* line 42, src/sass/layout/_section-intro.scss */
+  /* line 47, src/sass/layout/_section-intro.scss */
   .section-intro {
     padding-top: 80px;
     padding-bottom: 20px;
@@ -13414,7 +13467,7 @@ strong {
 }
 
 @media (max-width: 480px) {
-  /* line 42, src/sass/layout/_section-intro.scss */
+  /* line 47, src/sass/layout/_section-intro.scss */
   .section-intro {
     padding-top: 60px;
     font-size: 14px;
@@ -13423,7 +13476,7 @@ strong {
 }
 
 @media (min-width: 768px) {
-  /* line 42, src/sass/layout/_section-intro.scss */
+  /* line 47, src/sass/layout/_section-intro.scss */
   .section-intro {
     padding-top: 90px;
     padding-bottom: 30px;
@@ -13432,7 +13485,7 @@ strong {
 }
 
 @media (min-width: 992px) {
-  /* line 42, src/sass/layout/_section-intro.scss */
+  /* line 47, src/sass/layout/_section-intro.scss */
   .section-intro {
     padding-top: 180px;
     padding-bottom: 0;
@@ -13440,51 +13493,51 @@ strong {
 }
 
 @media (min-width: 1400px) {
-  /* line 42, src/sass/layout/_section-intro.scss */
+  /* line 47, src/sass/layout/_section-intro.scss */
   .section-intro {
     font-size: 20px;
     padding-bottom: 120px;
   }
 }
 
-/* line 77, src/sass/layout/_section-intro.scss */
+/* line 82, src/sass/layout/_section-intro.scss */
 .section-intro span {
   color: #000000;
 }
 
-/* line 79, src/sass/layout/_section-intro.scss */
+/* line 84, src/sass/layout/_section-intro.scss */
 .section-intro .section-header {
   margin-bottom: 15px;
 }
 
 @media (min-width: 992px) {
-  /* line 79, src/sass/layout/_section-intro.scss */
+  /* line 84, src/sass/layout/_section-intro.scss */
   .section-intro .section-header {
     margin-bottom: 30px;
   }
 }
 
-/* line 86, src/sass/layout/_section-intro.scss */
+/* line 91, src/sass/layout/_section-intro.scss */
 .section-intro .section-header--title {
   font-size: 7vw;
 }
 
 @media (max-width: 768px) {
-  /* line 86, src/sass/layout/_section-intro.scss */
+  /* line 91, src/sass/layout/_section-intro.scss */
   .section-intro .section-header--title {
     font-size: 5.2vw;
   }
 }
 
 @media (max-width: 480px) {
-  /* line 86, src/sass/layout/_section-intro.scss */
+  /* line 91, src/sass/layout/_section-intro.scss */
   .section-intro .section-header--title {
     font-size: 6.5vw;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 86, src/sass/layout/_section-intro.scss */
+  /* line 91, src/sass/layout/_section-intro.scss */
   .section-intro .section-header--title {
     font-size: 36px;
   }
@@ -13983,7 +14036,7 @@ strong {
 @media (min-width: 1800px) {
   /* line 32, src/sass/layout/_section-icgmuni.scss */
   .maprio {
-    width: 1000px;
+    height: auto;
   }
 }
 
@@ -14131,42 +14184,51 @@ strong {
   text-align: right;
 }
 
-/* line 7, src/sass/components/_range.scss */
+@media (min-width: 992px) {
+  /* line 3, src/sass/components/_range.scss */
+  .rangeslider {
+    margin-right: auto;
+    margin-left: auto;
+    width: 96%;
+  }
+}
+
+/* line 13, src/sass/components/_range.scss */
 .rangeslider .slider {
   z-index: 2;
 }
 
-/* line 8, src/sass/components/_range.scss */
+/* line 14, src/sass/components/_range.scss */
 .rangeslider .slider .slider-selection, .rangeslider .slider .slider-handle {
   box-shadow: none;
 }
 
-/* line 11, src/sass/components/_range.scss */
+/* line 17, src/sass/components/_range.scss */
 .rangeslider .slider.slider-horizontal {
   width: 100%;
 }
 
-/* line 15, src/sass/components/_range.scss */
+/* line 21, src/sass/components/_range.scss */
 .rangeslider .slider-track {
   background: #ffffff;
 }
 
-/* line 19, src/sass/components/_range.scss */
+/* line 25, src/sass/components/_range.scss */
 .rangeslider .slider-selection {
   background-color: #ffffff;
 }
 
-/* line 24, src/sass/components/_range.scss */
+/* line 30, src/sass/components/_range.scss */
 .rangeslider .slider-handle {
   background: #bd2c4c;
 }
 
-/* line 29, src/sass/components/_range.scss */
+/* line 35, src/sass/components/_range.scss */
 .rangeslider .slider:hover {
   cursor: pointer;
 }
 
-/* line 37, src/sass/components/_range.scss */
+/* line 43, src/sass/components/_range.scss */
 .rangeslider-list {
   display: flex;
   justify-content: space-between;
@@ -14174,14 +14236,14 @@ strong {
   list-style: none;
 }
 
-/* line 42, src/sass/components/_range.scss */
+/* line 48, src/sass/components/_range.scss */
 .rangeslider-list li {
   position: relative;
   font-size: 20px;
   font-family: "montserrat_bold", Arial, Verdana, Sans-serif;
 }
 
-/* line 47, src/sass/components/_range.scss */
+/* line 53, src/sass/components/_range.scss */
 .rangeslider-list li:before {
   content: '';
   position: absolute;
@@ -14193,18 +14255,18 @@ strong {
   background-color: #ffffff;
 }
 
-/* line 58, src/sass/components/_range.scss */
+/* line 64, src/sass/components/_range.scss */
 .rangeslider-list li span {
   position: absolute;
   left: -24px;
 }
 
-/* line 67, src/sass/components/_range.scss */
+/* line 73, src/sass/components/_range.scss */
 .rangeicg {
   padding-top: 15px;
 }
 
-/* line 70, src/sass/components/_range.scss */
+/* line 76, src/sass/components/_range.scss */
 .rangeicg-title {
   margin-top: 0;
   margin-bottom: 20px;
@@ -14213,7 +14275,7 @@ strong {
   text-align: center;
 }
 
-/* line 78, src/sass/components/_range.scss */
+/* line 84, src/sass/components/_range.scss */
 .rangeicg-ranking {
   margin-top: 40px;
   padding-left: 0;
@@ -14221,7 +14283,7 @@ strong {
   justify-content: space-between;
 }
 
-/* line 86, src/sass/components/_range.scss */
+/* line 92, src/sass/components/_range.scss */
 .rangeicg-card {
   display: inline-block;
   padding-left: 5px;
@@ -14235,35 +14297,35 @@ strong {
   cursor: pointer;
 }
 
-/* line 98, src/sass/components/_range.scss */
+/* line 104, src/sass/components/_range.scss */
 .rangeicg-card-title {
   font-size: 20px;
 }
 
-/* line 100, src/sass/components/_range.scss */
+/* line 106, src/sass/components/_range.scss */
 .rangeicg-card-title strong {
   display: block;
   font-size: 22px;
 }
 
-/* line 104, src/sass/components/_range.scss */
+/* line 110, src/sass/components/_range.scss */
 .rangeicg-card-title span {
   color: #bd2c4c;
 }
 
-/* line 107, src/sass/components/_range.scss */
+/* line 113, src/sass/components/_range.scss */
 .rangeicg-card img {
   margin-bottom: 15px;
 }
 
-/* line 109, src/sass/components/_range.scss */
+/* line 115, src/sass/components/_range.scss */
 .rangeicg-card figcaption {
   margin-bottom: 10px;
   font-family: "montserrat_extrabold", Arial, Verdana, Sans-serif;
   font-size: 15px;
 }
 
-/* line 115, src/sass/components/_range.scss */
+/* line 121, src/sass/components/_range.scss */
 .rangeicg-card-btn {
   padding: 5px 15px;
   font-size: 12px;
@@ -14276,18 +14338,18 @@ strong {
   transition-duration: 0.3s;
 }
 
-/* line 127, src/sass/components/_range.scss */
+/* line 133, src/sass/components/_range.scss */
 .rangeicg-card > a {
   color: inherit;
 }
 
-/* line 130, src/sass/components/_range.scss */
+/* line 136, src/sass/components/_range.scss */
 .rangeicg-card > a:hover .rangeicg-card-btn {
   transition-duration: 0.15s;
   background-color: #111214;
 }
 
-/* line 136, src/sass/components/_range.scss */
+/* line 142, src/sass/components/_range.scss */
 .rangeicg-card > a:active .rangeicg-card-btn {
   transition-duration: 0.15s;
   background-color: transparent;
@@ -14295,7 +14357,7 @@ strong {
   border-color: #960c30;
 }
 
-/* line 149, src/sass/components/_range.scss */
+/* line 155, src/sass/components/_range.scss */
 .img-faixaindice {
   display: inherit;
   margin-left: auto;

@@ -2,6 +2,12 @@
 
 .rangeslider {
 
+  @include media-min992 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 96%;
+  }
+
   // Slider
 
   .slider {
