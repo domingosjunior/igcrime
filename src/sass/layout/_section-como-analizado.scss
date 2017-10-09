@@ -27,12 +27,15 @@
   padding-top: 30px;
   padding-bottom: 30px;
 
-  @include media-min992 {
-    padding-top: 100px;
+  @include media-min768 {
     padding-bottom: 50px;
   }
 
-  @include mediamin(1400px) {
+  @include media-min992 {
+    padding-top: 100px;
+  }
+
+  @include media-min1400 {
     padding-top: 0;
     height: 620px;
     padding-bottom: 0;
@@ -43,7 +46,12 @@
     margin-bottom: 32px;
     text-align: left;
 
+    @include media-min768{
+      padding-top: 20px;
+    }
+
     @include media-min992{
+      padding-top: 0;
       margin-bottom: 50px;
     }
   }
@@ -53,10 +61,14 @@
     color: $analizado-header-title;
 
     @include media-max768{
-      font-size: 7vw;
+      font-size: 6.2vw;
       text-align: center;
       padding-top: 1.2vw;
       padding-bottom: 1.2vw;
+    }
+
+    @include media-min768{
+      text-align: center;
     }
 
     span {
@@ -126,7 +138,7 @@
         width: 300px;
       }
     }
-    @include mediamin(1400px) {
+    @include media-min1400 {
       width: 740px;
       svg {
         width: auto;
@@ -151,7 +163,7 @@
         width: 245px;
       }
     }
-    @include mediamin(1400px) {
+    @include media-min1400 {
       &:after {
         width: 44%;
       }
@@ -180,7 +192,7 @@
       }
     }
 
-    @include mediamin(1400px) {
+    @include media-min1400 {
       padding-left: 92px;
       &:after {
         width: 49.5%;
@@ -209,7 +221,7 @@
         width: 125px;
       }
     }
-    @include mediamin(1400px) {
+    @include media-min1400 {
       padding-left: 130px;
       &:after {
         width: 54%;
@@ -220,7 +232,7 @@
   &.analisados,
   &.fatores,
   &.indice {
-    @include mediamin(1400px) {
+    @include media-min1400 {
       top: 0;
       left: 0;
       width: 740px;
@@ -275,6 +287,10 @@
 
   @include media-max480{
     width: 80%;
+  }
+
+  @include media-min768{
+    width: 60%;
   }
 
 

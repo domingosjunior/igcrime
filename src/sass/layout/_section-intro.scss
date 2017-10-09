@@ -29,7 +29,7 @@
       left: 0;
       background: url('#{$path-img}border-triangle.svg') no-repeat top;
 
-      @include mediamin(1400px){
+      @include media-min1400{
         margin-top: -93px;
       }
 
@@ -58,12 +58,18 @@
     line-height: 22px;
   }
 
-  @include media-min992{
-    padding-top: 180px;
+  @include media-min768{
+    padding-top: 90px;
+    padding-bottom: 30px;
     font-size: 18px;
   }
 
-  @include mediamin(1400px) {
+  @include media-min992{
+    padding-top: 180px;
+    padding-bottom: 0;
+  }
+
+  @include media-min1400 {
     font-size: 20px;
     padding-bottom: 120px;
   }
@@ -88,6 +94,9 @@
         font-size: 6.5vw;
       }
 
+      @include media-min768{
+        font-size: 36px;
+      }
 
     }
 
