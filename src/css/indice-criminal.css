@@ -13619,6 +13619,7 @@ strong {
 /* line 59, src/sass/layout/_section-como-analizado.scss */
 .section-analizado .section-header--title {
   margin-top: 0;
+  text-align: center;
   color: #000000;
 }
 
@@ -13626,16 +13627,15 @@ strong {
   /* line 59, src/sass/layout/_section-como-analizado.scss */
   .section-analizado .section-header--title {
     font-size: 6.2vw;
-    text-align: center;
     padding-top: 1.2vw;
     padding-bottom: 1.2vw;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 59, src/sass/layout/_section-como-analizado.scss */
   .section-analizado .section-header--title {
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -13709,15 +13709,43 @@ strong {
   }
 }
 
-/* line 133, src/sass/layout/_section-como-analizado.scss */
+/* line 134, src/sass/layout/_section-como-analizado.scss */
 .filter-item.delitos:after {
   width: 36%;
 }
 
+@media (min-width: 1200px) {
+  /* line 134, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.delitos:after {
+    width: 26%;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* line 134, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.delitos:after {
+    width: 36%;
+  }
+}
+
 @media (min-width: 992px) {
-  /* line 136, src/sass/layout/_section-como-analizado.scss */
+  /* line 147, src/sass/layout/_section-como-analizado.scss */
   .filter-item.delitos .svg-filtro {
     width: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 147, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.delitos .svg-filtro {
+    width: 380px;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* line 147, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.delitos .svg-filtro {
+    width: 448px;
   }
 }
 
@@ -13726,163 +13754,267 @@ strong {
   .filter-item.delitos {
     width: 740px;
   }
-  /* line 143, src/sass/layout/_section-como-analizado.scss */
+  /* line 164, src/sass/layout/_section-como-analizado.scss */
   .filter-item.delitos svg {
     width: auto;
   }
 }
 
-/* line 148, src/sass/layout/_section-como-analizado.scss */
-.filter-item.filtrados {
-  left: -22px;
-  padding-left: 50px;
-}
-
 @media (min-width: 992px) {
-  /* line 148, src/sass/layout/_section-como-analizado.scss */
+  /* line 170, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados {
-    top: -36px;
-    width: 560px;
+    top: -32px;
+    padding-left: 39px;
+    width: 538px;
   }
 }
 
-/* line 157, src/sass/layout/_section-como-analizado.scss */
-.filter-item.filtrados:after {
-  width: 39%;
-}
-
-@media (min-width: 992px) {
-  /* line 161, src/sass/layout/_section-como-analizado.scss */
-  .filter-item.filtrados .svg-filtro {
-    width: 245px;
+@media (min-width: 1200px) {
+  /* line 170, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.filtrados {
+    top: -16px;
+    padding-left: 44px;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 167, src/sass/layout/_section-como-analizado.scss */
+  /* line 170, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.filtrados {
+    padding-left: 64px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 187, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.filtrados:after {
+    width: 43%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 187, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.filtrados:after {
+    width: 32%;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* line 187, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.filtrados:after {
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 203, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.filtrados .svg-filtro {
+    width: 225px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 203, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.filtrados .svg-filtro {
+    width: 290px;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* line 203, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.filtrados .svg-filtro {
+    width: 320px;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* line 220, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados:after {
     width: 44%;
   }
 }
 
-/* line 172, src/sass/layout/_section-como-analizado.scss */
+/* line 226, src/sass/layout/_section-como-analizado.scss */
 .filter-item.analisados {
   left: 5px;
 }
 
 @media (min-width: 992px) {
-  /* line 172, src/sass/layout/_section-como-analizado.scss */
+  /* line 226, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados {
     top: -64px;
     left: -60px;
-    padding-left: 118px;
-    width: 598px;
+    padding-left: 130px;
+    width: 596px;
   }
 }
 
-/* line 182, src/sass/layout/_section-como-analizado.scss */
-.filter-item.analisados:after {
-  width: 42%;
+@media (min-width: 1200px) {
+  /* line 226, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.analisados {
+    top: -24px;
+    left: -46px;
+    width: 583px;
+  }
 }
 
 @media (min-width: 992px) {
-  /* line 186, src/sass/layout/_section-como-analizado.scss */
+  /* line 242, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.analisados:after {
+    width: 42.8%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 242, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.analisados:after {
+    width: 36%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 253, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados .svg-filtro {
-    top: -64px;
-    left: -60px;
-    width: 185px;
+    width: 165px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 253, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.analisados .svg-filtro {
+    width: 214px;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 172, src/sass/layout/_section-como-analizado.scss */
+  /* line 253, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.analisados .svg-filtro {
+    width: 264px;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* line 226, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados {
     padding-left: 92px;
   }
-  /* line 197, src/sass/layout/_section-como-analizado.scss */
+  /* line 270, src/sass/layout/_section-como-analizado.scss */
   .filter-item.analisados:after {
     width: 49.5%;
   }
 }
 
-/* line 203, src/sass/layout/_section-como-analizado.scss */
-.filter-item.indice {
-  left: 8px;
-  width: 172px;
-}
-
 @media (min-width: 992px) {
-  /* line 203, src/sass/layout/_section-como-analizado.scss */
+  /* line 276, src/sass/layout/_section-como-analizado.scss */
   .filter-item.indice {
-    left: -65px;
     top: -98px;
+    left: -54px;
     padding-left: 154px;
-    width: 602px;
+    width: 589px;
   }
 }
 
-/* line 214, src/sass/layout/_section-como-analizado.scss */
-.filter-item.indice:after {
-  width: 47%;
+@media (min-width: 1200px) {
+  /* line 276, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.indice {
+    top: -37px;
+    left: -32px;
+    padding-left: 154px;
+    width: 568px;
+  }
 }
 
 @media (min-width: 992px) {
-  /* line 218, src/sass/layout/_section-como-analizado.scss */
-  .filter-item.indice .svg-filtro {
-    width: 125px;
+  /* line 292, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.indice:after {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 292, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.indice:after {
+    width: 44%;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 203, src/sass/layout/_section-como-analizado.scss */
+  /* line 292, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.indice:after {
+    width: 52%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 307, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.indice .svg-filtro {
+    width: 105px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 307, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.indice .svg-filtro {
+    width: 135px;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* line 307, src/sass/layout/_section-como-analizado.scss */
+  .filter-item.indice .svg-filtro {
+    width: 192px;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* line 276, src/sass/layout/_section-como-analizado.scss */
   .filter-item.indice {
     padding-left: 130px;
   }
-  /* line 226, src/sass/layout/_section-como-analizado.scss */
+  /* line 323, src/sass/layout/_section-como-analizado.scss */
   .filter-item.indice:after {
     width: 54%;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 231, src/sass/layout/_section-como-analizado.scss */
+  /* line 329, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados, .filter-item.analisados, .filter-item.fatores, .filter-item.indice {
-    top: 0;
+    top: 10px;
     left: 0;
     width: 740px;
   }
-  /* line 239, src/sass/layout/_section-como-analizado.scss */
+  /* line 337, src/sass/layout/_section-como-analizado.scss */
   .filter-item.filtrados svg, .filter-item.analisados svg, .filter-item.fatores svg, .filter-item.indice svg {
     width: auto;
   }
 }
 
-/* line 244, src/sass/layout/_section-como-analizado.scss */
+/* line 342, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover {
   cursor: help;
 }
 
-/* line 248, src/sass/layout/_section-como-analizado.scss */
+/* line 346, src/sass/layout/_section-como-analizado.scss */
 .filter-item .svg-filtro {
   width: 100%;
 }
 
-/* line 263, src/sass/layout/_section-como-analizado.scss */
+/* line 361, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--path-topo {
   fill: #353535;
 }
 
-/* line 267, src/sass/layout/_section-como-analizado.scss */
+/* line 365, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--path-body {
   fill: #161516;
 }
 
-/* line 271, src/sass/layout/_section-como-analizado.scss */
+/* line 369, src/sass/layout/_section-como-analizado.scss */
 .filter-item:hover .svg-filtro--txt path {
   fill: #ffffff;
 }
 
-/* line 279, src/sass/layout/_section-como-analizado.scss */
+/* line 379, src/sass/layout/_section-como-analizado.scss */
 .analisado-filter-mobile {
   display: block;
   margin-left: auto;
@@ -13890,39 +14022,39 @@ strong {
 }
 
 @media (max-width: 768px) {
-  /* line 279, src/sass/layout/_section-como-analizado.scss */
+  /* line 379, src/sass/layout/_section-como-analizado.scss */
   .analisado-filter-mobile {
     width: 65%;
   }
 }
 
 @media (max-width: 480px) {
-  /* line 279, src/sass/layout/_section-como-analizado.scss */
+  /* line 379, src/sass/layout/_section-como-analizado.scss */
   .analisado-filter-mobile {
     width: 80%;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 279, src/sass/layout/_section-como-analizado.scss */
+  /* line 379, src/sass/layout/_section-como-analizado.scss */
   .analisado-filter-mobile {
     width: 60%;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 279, src/sass/layout/_section-como-analizado.scss */
+  /* line 379, src/sass/layout/_section-como-analizado.scss */
   .analisado-filter-mobile {
     display: none;
   }
 }
 
-/* line 303, src/sass/layout/_section-como-analizado.scss */
+/* line 402, src/sass/layout/_section-como-analizado.scss */
 .tooltip-filtro.in {
   opacity: 1;
 }
 
-/* line 306, src/sass/layout/_section-como-analizado.scss */
+/* line 405, src/sass/layout/_section-como-analizado.scss */
 .tooltip-filtro .tooltip-inner {
   padding: 25px 30px;
   max-width: none;
