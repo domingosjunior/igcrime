@@ -58,17 +58,17 @@
 
   .section-header--title {
     margin-top: 0;
+    text-align: center;
     color: $analizado-header-title;
 
     @include media-max768{
       font-size: 6.2vw;
-      text-align: center;
       padding-top: 1.2vw;
       padding-bottom: 1.2vw;
     }
 
-    @include media-min768{
-      text-align: center;
+    @include media-min992 {
+      text-align: left;
     }
 
     span {
@@ -130,14 +130,35 @@
     @include media-min992{
       width: 540px;
     }
+
     &:after {
       width: 36%;
+
+      @include media-min1200 {
+        width: 26%;
+      }
+
+      @include media-min1400 {
+        width: 36%;
+      }
+
     }
+
     .svg-filtro {
+
       @include media-min992 {
         width: 300px;
       }
+
+      @include media-min1200 {
+        width: 380px;
+      }
+
+      @include media-min1400 {
+        width: 448px;
+      }
     }
+
     @include media-min1400 {
       width: 740px;
       svg {
@@ -145,50 +166,102 @@
       }
     }
   }
+
   &.filtrados {
-    left: -22px;
-    padding-left: 50px;
 
     @include media-min992 {
-      top: -36px;
-      width: 560px;
+      top: -32px;
+      padding-left: 39px;
+      width: 538px;
+    }
+
+    @include media-min1200 {
+      top: -16px;
+      padding-left: 44px;
+    }
+
+    @include media-min1400 {
+      padding-left: 64px;
     }
 
     &:after {
-      width: 39%;
+
+      @include media-min992 {
+        width: 43%;
+      }
+
+      @include media-min1200 {
+        width: 32%;
+      }
+
+      @include media-min1400 {
+        width: 30%;
+      }
+
     }
 
     .svg-filtro {
+
       @include media-min992 {
-        width: 245px;
+        width: 225px;
       }
+
+      @include media-min1200 {
+        width: 290px;
+      }
+
+      @include media-min1400 {
+        width: 320px;
+      }
+
     }
+
     @include media-min1400 {
       &:after {
         width: 44%;
       }
     }
   }
+
   &.analisados {
     left: 5px;
 
     @include media-min992 {
       top: -64px;
       left: -60px;
-      padding-left: 118px;
-      width: 598px;
+      padding-left: 130px;
+      width: 596px;
+    }
+
+    @include media-min1200 {
+      top: -24px;
+      left: -46px;
+      width: 583px;
     }
 
     &:after {
-      width: 42%;
+
+      @include media-min992 {
+        width: 42.8%;
+      }
+
+      @include media-min1200 {
+        width: 36%;
+      }
     }
 
     .svg-filtro {
 
       @include media-min992 {
-        top: -64px;
-        left: -60px;
-        width: 185px;
+        width: 165px;
+      }
+
+      @include media-min1200 {
+        width: 214px;
+      }
+
+      @include media-min1400 {
+        width: 264px;
       }
     }
 
@@ -201,24 +274,48 @@
   }
 
   &.indice {
-    left: 8px;
-    width: 172px;
 
     @include media-min992{
-      left: -65px;
       top: -98px;
+      left: -54px;
       padding-left: 154px;
-      width: 602px;
+      width: 589px;
+    }
+
+    @include media-min1200{
+      top: -37px;
+      left: -32px;
+      padding-left: 154px;
+      width: 568px;
     }
 
     &:after {
-      width: 47%;
+
+      @include media-min992 {
+        width: 48%;
+      }
+
+      @include media-min1200 {
+        width: 44%;
+      }
+
+      @include media-min1400 {
+        width: 52%;
+      }
     }
 
     .svg-filtro {
 
       @include media-min992{
-        width: 125px;
+        width: 105px;
+      }
+
+      @include media-min1200 {
+        width: 135px;
+      }
+
+      @include media-min1400 {
+        width: 192px;
       }
     }
     @include media-min1400 {
@@ -228,12 +325,13 @@
       }
     }
   }
+
   &.filtrados,
   &.analisados,
   &.fatores,
   &.indice {
     @include media-min1400 {
-      top: 0;
+      top: 10px;
       left: 0;
       width: 740px;
       svg {
@@ -276,6 +374,8 @@
   }
 }
 
+// Svg mobile
+
 .analisado-filter-mobile {
   display: block;
   margin-left: auto;
@@ -292,7 +392,6 @@
   @include media-min768{
     width: 60%;
   }
-
 
   @include media-min992 {
     display: none;
