@@ -13113,21 +13113,6 @@ strong {
   position: relative;
 }
 
-/* line 16, src/sass/general/_general.scss */
-.bg-section-violentas,
-.bg-section-seguras {
-  display: none;
-}
-
-@media (min-width: 992px) {
-  /* line 16, src/sass/general/_general.scss */
-  .bg-section-violentas,
-  .bg-section-seguras {
-    display: table;
-    width: 100%;
-  }
-}
-
 @media (min-width: 992px) {
   /* line 5, src/sass/plugins/_modal.scss */
   .modal-icg .modal-dialog {
