@@ -13254,7 +13254,7 @@ strong {
 @media (min-width: 1400px) {
   /* line 43, src/sass/layout/_topbar.scss */
   .topbar--logo {
-    font-size: 42px;
+    font-size: 35px;
   }
 }
 
@@ -13278,7 +13278,14 @@ strong {
   }
 }
 
-/* line 81, src/sass/layout/_topbar.scss */
+@media (min-width: 1400px) {
+  /* line 68, src/sass/layout/_topbar.scss */
+  .topbar--menu {
+    padding-top: 10px;
+  }
+}
+
+/* line 85, src/sass/layout/_topbar.scss */
 .topbar--menu a {
   position: relative;
   display: block;
@@ -13287,72 +13294,72 @@ strong {
   text-decoration: none;
 }
 
-/* line 97, src/sass/layout/_topbar.scss */
+/* line 101, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor1 .topbar--menu-link:nth-child(1) a {
   color: #bd2c4c;
 }
 
-/* line 99, src/sass/layout/_topbar.scss */
+/* line 103, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor1 .topbar--menu-link:nth-child(1) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 97, src/sass/layout/_topbar.scss */
+/* line 101, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor2 .topbar--menu-link:nth-child(2) a {
   color: #bd2c4c;
 }
 
-/* line 99, src/sass/layout/_topbar.scss */
+/* line 103, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor2 .topbar--menu-link:nth-child(2) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 97, src/sass/layout/_topbar.scss */
+/* line 101, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor3 .topbar--menu-link:nth-child(3) a {
   color: #bd2c4c;
 }
 
-/* line 99, src/sass/layout/_topbar.scss */
+/* line 103, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor3 .topbar--menu-link:nth-child(3) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 97, src/sass/layout/_topbar.scss */
+/* line 101, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor4 .topbar--menu-link:nth-child(4) a {
   color: #bd2c4c;
 }
 
-/* line 99, src/sass/layout/_topbar.scss */
+/* line 103, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor4 .topbar--menu-link:nth-child(4) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 97, src/sass/layout/_topbar.scss */
+/* line 101, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor5 .topbar--menu-link:nth-child(5) a {
   color: #bd2c4c;
 }
 
-/* line 99, src/sass/layout/_topbar.scss */
+/* line 103, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor5 .topbar--menu-link:nth-child(5) a:after {
   width: 100%;
   opacity: 1;
   background-color: #bd2c4c;
 }
 
-/* line 97, src/sass/layout/_topbar.scss */
+/* line 101, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor6 .topbar--menu-link:nth-child(6) a {
   color: #bd2c4c;
 }
 
-/* line 99, src/sass/layout/_topbar.scss */
+/* line 103, src/sass/layout/_topbar.scss */
 .fp-viewing-anchor6 .topbar--menu-link:nth-child(6) a:after {
   width: 100%;
   opacity: 1;
