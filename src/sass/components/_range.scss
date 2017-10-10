@@ -70,50 +70,98 @@
 
 }
 
+// Select year mobile
+.select-yearmobile {
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+
+  @include media-min992 {
+    display: none;
+  }
+}
+
 .rangeicg {
   padding-top: 15px;
 
   &-title {
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 22px;
     @include font-family('light');
     text-align: center;
+
+    @include media-min768 {
+      font-size: 24px;
+    }
+
   }
 
   &-ranking {
     margin-top: 40px;
     padding-left: 0;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
+
+    @include media-min992 {
+      display: flex;
+      justify-content: space-between;
+    }
 
   }
 
   &-card {
     display: inline-block;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 15px;
-    width: 180px;
+    width: 75%;
+    min-width: 180px;
+    padding: 5px 5px 5px;
+    margin-bottom: 25px;
     text-align: center;
     color: $range-card-text-color;
     background-color: $range-card-bgcolor;
     border-radius: 5px;
     cursor: pointer;
 
+    @include media-min992 {
+      width: 180px;
+      padding-top: 0;
+      padding-bottom: 15px;
+      margin-bottom: 0;
+    }
+
     @include media-min1200 {
       width: 218px;
     }
 
     &-title {
-      font-size: 16px;
+      font-size: 26px;
+      margin-top: 10px;
+
+      @include media-max480 {
+        font-size: 5vw;
+      }
+
+      @include media-min992 {
+        font-size: 16px;
+        margin-top: 15px;
+      }
+
       @include media-min1200 {
         font-size: 20px;
       }
 
       strong {
         display: block;
-        font-size: 18px;
+        font-size: 28px;
+
+        @include media-max480 {
+          font-size: 5.8vw;
+        }
+
+        @include media-min992 {
+          font-size: 18px;
+        }
+
         @include media-min1200 {
           font-size: 22px;
         }
@@ -125,8 +173,15 @@
 
     figcaption {
       margin-bottom: 10px;
+      font-size: 20px;
+      @include media-max480 {
+        font-size: 5.2vw;
+      }
+
       @include font-family('extrabold');
-      font-size: 15px;
+      @include media-min992 {
+        font-size: 15px;
+      }
     }
 
     &-btn {
@@ -157,6 +212,28 @@
           border-color: $range-card-btn-border-color-active;
         }
       }
+    }
+
+    .card {
+      display: none;
+
+      @include media-min992 {
+        display: block
+      }
+
+    }
+
+   .card-mobile {
+      display: block;
+
+      @include media-min992 {
+        display: none;
+      }
+
+      .rangeicg-card-btn {
+        display: none;
+      }
+
     }
 
   }

@@ -35,7 +35,10 @@ $(function(){
             valueInput: config.valueInput - 1,
             listRange: config.listRange,
             scripCard: $(config.scripCard).html(),
+            effectTranstion: $(config.effectTranstion)
         }
+
+        interactionCards(element.effectTranstion);
 
         var rangeDates = $(element.listRange).map(function (index, item) {
             return $(item).data('rangeyear');
@@ -71,42 +74,62 @@ $(function(){
         }, 50)
     }
 
-    $('#sliderMaisViolentas').on('change', function(value){
+    $('#sliderMaisViolentas').on('change', function(item){
         var $targetRender = $('#cardsMaisViolentas');
-
-        interactionCards($targetRender);
 
         $targetRender.html(
                 showCards({
                     valueInput: this.value,
                     listRange: '#maisViolentas li',
-                    scripCard: '#card-template'
+                    scripCard: '#card-template',
+                    effectTranstion: '#cardsMaisViolentas'
                 })
         );
     });
 
-    $('#sliderMaisSeguras').on('change', function (value) {
-        var $targetRender = $('#cardsMaisSeguras');
-
-        interactionCards($targetRender);
-
-        $targetRender.html(
+    $('#sliderMaisSeguras').on('change', function (item) {
+        $('#cardsMaisSeguras').html(
             showCards({
                 valueInput: this.value,
                 listRange: '#maisSeguras li',
-                scripCard: '#card-template-seguras'
+                scripCard: '#card-template-seguras',
+                effectTranstion: '#cardsMaisSeguras'
             })
         );
     });
 
     $('#sliderMaisViolentas, #sliderMaisSeguras').trigger('change');
 
+
+    // Select Mobile
+
+    $('#selectMaisViolentas').on('change', function(item){
+        $('#cardsMaisViolentas').html(
+            showCards({
+                valueInput: this.value,
+                listRange: '#maisViolentas li',
+                scripCard: '#card-template',
+                effectTranstion: '#cardsMaisViolentas'
+            })
+        );
+    });
+
+    $('#selectMaisSguras').on('change', function (item) {
+        $('#cardsMaisSeguras').html(
+            showCards({
+                valueInput: this.value,
+                listRange: '#maisSeguras li',
+                scripCard: '#card-template-seguras',
+                effectTranstion: '#cardsMaisSeguras'
+            })
+        );
+    });
+
     // Render counties RJ in svg
     var $tagScriptCountiesRj = $('#municipios-rj').html();
     var templateHandleBarsCountiesRJ = Handlebars.compile($tagScriptCountiesRj);
     var htmlHandleBarsCountiesRj = templateHandleBarsCountiesRJ(countiesSvgPathRJ);
     $("#wrap-maprj").html(htmlHandleBarsCountiesRj);
-
 
     function createTableau() {
         var divElement = document.getElementById('viz1504649955104');

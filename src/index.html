@@ -880,8 +880,17 @@
                     <!-- rangeicg  -->
                     <div class="rangeicg">
                         <h2 class="rangeicg-title">Selecione ano que deseja visualizar o&nbsp;<b>&nbsp;IGcrime&nbsp;</b>&nbsp;e clique para detalhar.</h2>
+                        <!-- select mobile  -->
+                        <select id="selectMaisViolentas" class="form-control select-yearmobile">
+                            <option value="5">2016</option>
+                            <option value="4">2015</option>
+                            <option value="3">2014</option>
+                            <option value="2">2013</option>
+                            <option value="1">2012</option>
+                        </select>
+                        <!-- / select mobile  -->
                         <!-- rangeslider  -->
-                        <div class="rangeslider">
+                        <div class="rangeslider visible-md visible-lg">
                             <input id="sliderMaisViolentas" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="5"
                             />
                             <ul id="maisViolentas" class="rangeslider-list">
@@ -906,6 +915,14 @@
                                         </figure>
                                         <span class="rangeicg-card-btn">detalhar índice</span>
                                     </a>
+                                    <div class="card-mobile">
+                                        <h3 class="rangeicg-card-title">{{rank}}&nbsp;{{year}}<strong>IGcrime&nbsp;<span>{{icg}}</span></strong></h3>
+                                        <figure>
+                                            <img src={{imgMunicipio}} alt="Silueta do município {{nameMunicipio}}">
+                                            <figcaption class="rangeicg-card--title-municipio">{{nameMunicipio}}</figcaption>
+                                        </figure>
+                                        <span class="rangeicg-card-btn">detalhar índice</span>
+                                    </div>
                                 </li>
                                 {{/maisViolentas}}
                             </ul>
@@ -914,7 +931,7 @@
                         <!-- / rangeicg ranking  -->
                     </div>
                     <!-- / rangeicg  -->
-                    <img class="img-faixaindice" src="img/faixa-criminalidade.png" alt="Faixas de criminalidade - Como ler o IGcrime | 0 à 0.400 baixo, 0.401 à 0.500 médio, 0.501 à 0.600 alto e 0.601 à 1">
+                    <img class="img-faixaindice visible-md visible-lg" src="img/faixa-criminalidade.png" alt="Faixas de criminalidade - Como ler o IGcrime | 0 à 0.400 baixo, 0.401 à 0.500 médio, 0.501 à 0.600 alto e 0.601 à 1">
                 </section>
             </div>
         </div>
@@ -926,18 +943,27 @@
                     <header class="section-header">
                         <h1 class="section-header--title">OS<span>&nbsp;05&nbsp;</span>MAIS<span>&nbsp;SEGUROS</span></h1>
                     </header>
-                        <p>
-                            Abaixo é apresentado as cinco comarcas mais seguras do Estado do Rio de Janeiro, segundo o IGCrime para os anos de 2012 até 2016. A classificação obedeceu os resultados da metodologia aplicada aos crimes de Homicídio
-                            Doloso, Lesão Corporal Seguida de Morte, Latrocínio, Tentativa de homicídio, Lesão corporal dolosa,
-                            Homicídio Culposo, Lesão Corporal Culposa, Roubo a Coletivo, Roubo Aparelho Celular, Furto de Veículos,
-                            Extorsão, Estelionato, Ameaça e Estupro. O IGCrime mede o nível de criminalidade nas comarcas do
-                            Estado do Rio de Janeiro, onde varia de zero (nenhuma criminalidade) a um (total criminalidade).
-                        </p>
+                    <p>
+                        Abaixo é apresentado as cinco comarcas mais seguras do Estado do Rio de Janeiro, segundo o IGCrime para os anos de 2012 até 2016. A classificação obedeceu os resultados da metodologia aplicada aos crimes de Homicídio
+                        Doloso, Lesão Corporal Seguida de Morte, Latrocínio, Tentativa de homicídio, Lesão corporal dolosa,
+                        Homicídio Culposo, Lesão Corporal Culposa, Roubo a Coletivo, Roubo Aparelho Celular, Furto de Veículos,
+                        Extorsão, Estelionato, Ameaça e Estupro. O IGCrime mede o nível de criminalidade nas comarcas do
+                        Estado do Rio de Janeiro, onde varia de zero (nenhuma criminalidade) a um (total criminalidade).
+                    </p>
                     <!-- rangeicg  -->
                     <div class="rangeicg">
                         <h2 class="rangeicg-title">Selecione ano que deseja visualizar o<b>&nbsp;IGcrime&nbsp;</b>&nbsp;e clique para detalhar.</h2>
+                        <!-- select mobile  -->
+                        <select id="selectMaisViolentas" class="form-control select-yearmobile">
+                            <option value="5">2016</option>
+                            <option value="4">2015</option>
+                            <option value="3">2014</option>
+                            <option value="2">2013</option>
+                            <option value="1">2012</option>
+                        </select>
+                        <!-- / select mobile  -->
                         <!-- rangeslider  -->
-                        <div class="rangeslider">
+                        <div class="rangeslider visible-md visible-lg">
                             <input id="sliderMaisSeguras" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="5"
                             />
                             <ul id="maisSeguras" class="rangeslider-list">
@@ -962,6 +988,14 @@
                                         </figure>
                                         <span class="rangeicg-card-btn">detalhar índice</span>
                                     </a>
+                                    <div class="card-mobile">
+                                        <h3 class="rangeicg-card-title">{{rank}}&nbsp;{{year}}<strong>IGcrime&nbsp;<span>{{icg}}</span></strong></h3>
+                                        <figure>
+                                            <img src={{imgMunicipio}} alt="Silueta do município {{nameMunicipio}}">
+                                            <figcaption class="rangeicg-card--title-municipio">{{nameMunicipio}}</figcaption>
+                                        </figure>
+                                        <span class="rangeicg-card-btn">detalhar índice</span>
+                                    </div>
                                 </li>
                                 {{/maisSeguras}}
                             </ul>
@@ -970,7 +1004,7 @@
                         <!-- / rangeicg ranking  -->
                     </div>
                     <!-- / rangeicg  -->
-                    <img class="img-faixaindice" src="img/faixa-criminalidade-preto.png" alt="Faixas de criminalidade - Como ler o IGcrime | 0 à 0.400 baixo, 0.401 à 0.500 médio, 0.501 à 0.600 alto e 0.601 à 1">
+                    <img class="img-faixaindice visible-md visible-lg" src="img/faixa-criminalidade-preto.png" alt="Faixas de criminalidade - Como ler o IGcrime | 0 à 0.400 baixo, 0.401 à 0.500 médio, 0.501 à 0.600 alto e 0.601 à 1">
                 </section>
             </div>
         </div>

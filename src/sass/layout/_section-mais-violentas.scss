@@ -6,5 +6,15 @@
 
 .section-violentas {
   @extend %sectionsicg;
+
+  .select-yearmobile {
+    color: $select-year-mobile-violentas-color;
+    background-color: $select-year-mobile-violentas-bgcolor;
+  }
+}
+
+
+.section-violentas .section-header--title {
+ @extend %sectionViolentasTitle;
 }
 
