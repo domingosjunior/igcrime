@@ -169,16 +169,24 @@
       span { color: $range-card-title-span-text-color; }
     }
 
-    img { margin-bottom: 15px; }
+    img {
+      margin-bottom: 15px;
+      width: 52%;
+    }
 
     figcaption {
       margin-bottom: 10px;
       font-size: 20px;
+      @include font-family('extrabold');
+
+      @include media-max768 {
+        font-size: 24px;
+      }
+
       @include media-max480 {
         font-size: 5.2vw;
       }
 
-      @include font-family('extrabold');
       @include media-min992 {
         font-size: 15px;
       }
@@ -232,6 +240,13 @@
 
       .rangeicg-card-btn {
         display: none;
+      }
+
+      svg {
+        display: block;
+        margin: 0 auto 15px;
+        width: 50%;
+        height: 50%;
       }
 
     }
