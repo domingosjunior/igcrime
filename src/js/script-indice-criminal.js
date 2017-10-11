@@ -102,6 +102,16 @@ $(function(){
 
     // Select Mobile
 
+    $('.btn-menumb').on('click', function(){
+        $(this).toggleClass('active');
+        $('.menumb').toggleClass('active');
+    });
+
+    $('.menumb a').on('click', function(){
+        $('.menumb').toggleClass('active');
+        $('.btn-menumb').toggleClass('active');
+    })
+
     $('#selectMaisViolentas').on('change', function(item){
         $('#cardsMaisViolentas').html(
             showCards({

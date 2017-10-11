@@ -33,7 +33,6 @@
 .topbar {
   margin-bottom: 0;
   padding-top: 15px;
-  padding-bottom: 5px;
   color: $topbar-text-color;
   border-bottom: solid 6px #000;
   transition: all .15s;
@@ -44,7 +43,7 @@
     display: inline-block;
     vertical-align: middle;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     @include font-family('semibolditalic');
 
     @include media-max480{
@@ -52,6 +51,7 @@
     }
 
     @include media-min992 {
+      margin-bottom: 0;
       font-size: 30px;
     }
 
@@ -69,6 +69,7 @@
     @extend %inline-blockmenu;
     display: none;
     padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 14px;
 
     @include media-min992 {
@@ -109,5 +110,89 @@
     }
   }
 }
+
+// Menu mobile
+
+.btn-menumb {
+
+  position: absolute;
+  top: -12px;
+  right: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+
+  &:after {
+    content:'\f0c9';
+    font-family: 'FontAwesome';
+    text-indent: 0;
+  }
+
+  &.active {
+    &:after {
+      content: '\f00d';
+    }
+  }
+
+  @include media-min992 {
+    display: none;
+  }
+}
+
+
+.menumb {
+  height: 0;
+  overflow: hidden;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+
+  transition: height 0 ease 0.1s;
+
+  @include media-min992 {
+    display: none;
+  }
+
+  &.active{
+    height: auto;
+  }
+
+  ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+  a {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #000000;
+    border-bottom: solid 1px #ffffff;
+
+    &:active,
+    &:focus {
+      color: #ffffff;
+      background-color: #ca090d;
+    }
+
+  }
+
+}
+
+.anchor-mobile {
+  position: absolute;
+  visibility: hidden;
+  margin-top: -50px;
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  @include media-min992 {
+    display: none;
+  }
+}
+
 
 
