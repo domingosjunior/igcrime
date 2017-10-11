@@ -863,7 +863,6 @@
         </div>
         <!-- / como foi analisado  -->
         <!-- mais violentas  -->
-
         <div class="section bg-section-violentas" id="section3">
             <div class="bg-section-violentas">
                 <section class="container section-violentas">
@@ -907,6 +906,7 @@
                             <ul class="rangeicg-ranking">
                                 {{#maisViolentas}}
                                 <li class="rangeicg-card">
+                                    <!-- card destktop -->
                                     <a class="card" data-toggle="modal" data-target="#modalIcg" data-idtableau={{idTableau}}>
                                         <h3 class="rangeicg-card-title">{{rank}}&nbsp;{{year}}<strong>IGcrime&nbsp;<span>{{icg}}</span></strong></h3>
                                         <figure>
@@ -915,14 +915,17 @@
                                         </figure>
                                         <span class="rangeicg-card-btn">detalhar índice</span>
                                     </a>
+                                    <!-- / card destktop  -->
+                                    <!-- card mobile  -->
                                     <div class="card-mobile">
                                         <h3 class="rangeicg-card-title">{{rank}}&nbsp;{{year}}<strong>IGcrime&nbsp;<span>{{icg}}</span></strong></h3>
                                         <figure>
-                                            <img src={{imgMunicipio}} alt="Silueta do município {{nameMunicipio}}">
+                                             <img src={{imgMunicipio}} alt="Silueta do município {{nameMunicipio}}">
                                             <figcaption class="rangeicg-card--title-municipio">{{nameMunicipio}}</figcaption>
                                         </figure>
                                         <span class="rangeicg-card-btn">detalhar índice</span>
                                     </div>
+                                    <!-- / card mobile  -->
                                 </li>
                                 {{/maisViolentas}}
                             </ul>
@@ -954,7 +957,7 @@
                     <div class="rangeicg">
                         <h2 class="rangeicg-title">Selecione ano que deseja visualizar o<b>&nbsp;IGcrime&nbsp;</b>&nbsp;e clique para detalhar.</h2>
                         <!-- select mobile  -->
-                        <select id="selectMaisViolentas" class="form-control select-yearmobile">
+                        <select id="selectMaisSeguras" class="form-control select-yearmobile">
                             <option value="5">2016</option>
                             <option value="4">2015</option>
                             <option value="3">2014</option>

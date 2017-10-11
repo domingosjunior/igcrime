@@ -14565,30 +14565,38 @@ strong {
 /* line 172, src/sass/components/_range.scss */
 .rangeicg-card img {
   margin-bottom: 15px;
+  width: 52%;
 }
 
-/* line 174, src/sass/components/_range.scss */
+/* line 177, src/sass/components/_range.scss */
 .rangeicg-card figcaption {
   margin-bottom: 10px;
   font-size: 20px;
   font-family: "montserrat_extrabold", Arial, Verdana, Sans-serif;
 }
 
+@media (max-width: 768px) {
+  /* line 177, src/sass/components/_range.scss */
+  .rangeicg-card figcaption {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 480px) {
-  /* line 174, src/sass/components/_range.scss */
+  /* line 177, src/sass/components/_range.scss */
   .rangeicg-card figcaption {
     font-size: 5.2vw;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 174, src/sass/components/_range.scss */
+  /* line 177, src/sass/components/_range.scss */
   .rangeicg-card figcaption {
     font-size: 15px;
   }
 }
 
-/* line 187, src/sass/components/_range.scss */
+/* line 195, src/sass/components/_range.scss */
 .rangeicg-card-btn {
   padding: 5px 15px;
   font-size: 12px;
@@ -14601,18 +14609,18 @@ strong {
   transition-duration: 0.3s;
 }
 
-/* line 199, src/sass/components/_range.scss */
+/* line 207, src/sass/components/_range.scss */
 .rangeicg-card > a {
   color: inherit;
 }
 
-/* line 202, src/sass/components/_range.scss */
+/* line 210, src/sass/components/_range.scss */
 .rangeicg-card > a:hover .rangeicg-card-btn {
   transition-duration: 0.15s;
   background-color: #111214;
 }
 
-/* line 208, src/sass/components/_range.scss */
+/* line 216, src/sass/components/_range.scss */
 .rangeicg-card > a:active .rangeicg-card-btn {
   transition-duration: 0.15s;
   background-color: transparent;
@@ -14620,36 +14628,44 @@ strong {
   border-color: #960c30;
 }
 
-/* line 217, src/sass/components/_range.scss */
+/* line 225, src/sass/components/_range.scss */
 .rangeicg-card .card {
   display: none;
 }
 
 @media (min-width: 992px) {
-  /* line 217, src/sass/components/_range.scss */
+  /* line 225, src/sass/components/_range.scss */
   .rangeicg-card .card {
     display: block;
   }
 }
 
-/* line 226, src/sass/components/_range.scss */
+/* line 234, src/sass/components/_range.scss */
 .rangeicg-card .card-mobile {
   display: block;
 }
 
 @media (min-width: 992px) {
-  /* line 226, src/sass/components/_range.scss */
+  /* line 234, src/sass/components/_range.scss */
   .rangeicg-card .card-mobile {
     display: none;
   }
 }
 
-/* line 233, src/sass/components/_range.scss */
+/* line 241, src/sass/components/_range.scss */
 .rangeicg-card .card-mobile .rangeicg-card-btn {
   display: none;
 }
 
-/* line 243, src/sass/components/_range.scss */
+/* line 245, src/sass/components/_range.scss */
+.rangeicg-card .card-mobile svg {
+  display: block;
+  margin: 0 auto 15px;
+  width: 50%;
+  height: 50%;
+}
+
+/* line 258, src/sass/components/_range.scss */
 .img-faixaindice {
   display: inherit;
   margin-left: auto;

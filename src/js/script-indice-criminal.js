@@ -8,7 +8,6 @@ $(function(){
 
     // detect if window is big enough
     if (window.matchMedia("(min-width: 992px)").matches) {
-        console.log('rodou')
         $('#fullpage').fullpage({
             anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6'],
             menu: '#menu',
@@ -114,7 +113,7 @@ $(function(){
         );
     });
 
-    $('#selectMaisSguras').on('change', function (item) {
+    $('#selectMaisSeguras').on('change', function (item) {
         $('#cardsMaisSeguras').html(
             showCards({
                 valueInput: this.value,
