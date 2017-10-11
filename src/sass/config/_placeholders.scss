@@ -7,3 +7,14 @@
     text-align: left;
   }
 }
+
+%sectionViolentasTitle {
+  @include media-max768{
+    margin-top: 0;
+    font-size: 7vw;
+    text-align: center;
+  }
+  @include media-min768 {
+    text-align: left;
+  }
+}

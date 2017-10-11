@@ -8,7 +8,12 @@
   @extend %sectionsicg;
   color: $section-seguras-text-color;
 
+  @include media-min992 {
+    font-size: 14px;
+  }
+
   .section-header--title {
+     @extend %sectionViolentasTitle;
     color: $section-seguras-header-text-color;
 
     span {
@@ -42,6 +47,11 @@
       color: #ffffff;
     }
 
+  }
+
+  .select-yearmobile {
+    color: $select-year-mobile-seguras-color;
+    background-color: $select-year-mobile-seguras-bgcolor;
   }
 }
 
